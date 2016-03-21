@@ -21,5 +21,5 @@
 * Enforcement at server side
 
 <div align="center">
-<img src="accesscontrol.png" width="50%" height="50%">
+<img src="accesscontrol.png" width="350" height="150">
 </div>
