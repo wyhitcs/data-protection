@@ -9,6 +9,6 @@
 * Privacy-aware Access Control Part 1
 * Privacy-aware Access Control Part 2
 * eXtensible Access Control Markup Language (XACML) Part 1
-* eXtensible Access Control Markup Language (XACML) Part 2
+* [eXtensible Access Control Markup Language (XACML) Part 2](extensible_access_control_markup_language_xacml_2.md)
 * Summary
 
