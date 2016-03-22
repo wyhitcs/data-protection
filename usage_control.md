@@ -1,4 +1,4 @@
-~~~~# Usage Control
+# Usage Control
 
 
 
@@ -105,9 +105,7 @@
 
 ###Usage Control Coverage
 
-<div align="center">
-<img src="/Users/wangyu/Desktop/Usage Control Coverage.png" width="350" height="150">
-</div>
+![Usage Control Coverage](UsageControlCoverage.png)
 ##UCON<sub>ABC</sub>
 
 ###UCON<sub>ABC</sub> Model
@@ -157,11 +155,11 @@ How to model them?
 
 ###UCON Model States
 
- ![UCON Model States](UCON Model States.png)
+ ![UCON Model States](UCONModelStates.png)
 
 ###UCON<sub>ABC</sub> Model Components
 
- ![Model Components](Model Components.png)
+ ![Model Components](ModelComponents.png)
 
 ###Subjects (S)
 
@@ -261,7 +259,7 @@ Mutability of attributes: when attributes are updated; never, pre-, ongoing, pos
 
 ###16 Basic Models
 
- ![16 Basic Models](16 Basic Models.png)
+ ![16 Basic Models](16BasicModels.png)
 
 Pre-authorization: evaluate before usage 
 
@@ -356,7 +354,7 @@ UCON<sub>onA<sub>2</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+onUpdate
 
 UCON<sub>onA<sub>3</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+postUpdate
 
- ![Exercise (UCONonA13 )](Exercise (UCONonA13 ).png)
+ ![Exercise (UCONonA13 )](ExerciseUCONonA13.png)
 
 ###UCON<sub>preB</sub>
 
@@ -383,4 +381,4 @@ UCON<sub>onA<sub>3</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+postUpdate
 
 ##Reference
 
-Jaehong Park and Ravi Sandhu. 2004. The UCONABC usagecontrol model. ACM Trans. Inf. Syst. Secur. 7, 1, 128-174.(obligatory)![](16 Basic Models.png)
+Jaehong Park and Ravi Sandhu. 2004. The UCONABC usagecontrol model. ACM Trans. Inf. Syst. Secur. 7, 1, 128-174.(obligatory)!
