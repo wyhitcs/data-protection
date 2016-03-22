@@ -285,7 +285,7 @@ allowed(s,o,r)⇒preA(ATT(s),ATT(o),r)
 * allowed(s,o,r): subject s is allowed to exercise right r on object o 
 * ⇒means "implies" (the righthand-side is necessary but not sufficient condition)
 
-###DAC in UCON<sub>preA<sub>0</sub></sub>
+###DAC in UCON<sub>preA<sub>0</sub>
 
 DAC policies using ACL with an individual ID
 
@@ -297,7 +297,7 @@ DAC policies using ACL with an individual ID
 
 allowed(s,o,r)⇒(id(s),r)∈ACL(o)
 
-###Exercise: MAC in UCON<sub>preA<sub>0
+###Exercise: MAC in UCON<sub>preA<sub>0</sub>
 
 Define Bell-LaPadula model in UCON<sub>preA<sub>0</sub></sub>.
 
@@ -319,7 +319,7 @@ allowed(s,o,write)⇒clearance(s)≤classification(o)
 
  ![UCONpreA](UCONpreA.png)
 
-###Example:UCON<sub>preA<sub>1</sub></sub>
+###Example:UCON<sub>preA<sub>1</sub>
 
 Pay-per-use with a pre-paid credit 
 
@@ -333,7 +333,7 @@ allowed(s,o,r)⇒credit(s)≥value(o,r)
 
 preUpdate(credit(s)):credit(s)=credit(s)-value(o,r)
 
-###UCON<sub>onA<sub>0</sub></sub>
+###UCON<sub>onA<sub>0</sub>
 
 Components:
 
@@ -360,7 +360,7 @@ UCON<sub>onA<sub>3</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+postUpdate
 
  ![UCONpreB0](UCONpreB0.png)
 
-###Example: UCON<sub>preB<sub>1</sub></sub> ![UCONpreB1](UCONpreB1.png)
+###Example: UCON<sub>preB<sub>1</sub> ![UCONpreB1](UCONpreB1.png)
 
 ###UCON<sub>onB</sub>
 
