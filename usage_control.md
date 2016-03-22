@@ -118,7 +118,7 @@
   * Obligations
   * Conditions
 
-    ![Decision properties](Decision properties.png)
+    ![Decision properties](Decisionproperties.png)
 
 * Decision properties
 
@@ -269,7 +269,7 @@ Conditions: no update attributes
 
 Note: With pre-authorizations it is needed pre-update, for instance to check whether the user has enough credit, and post-update to check whether the user has paid the previous month invoice. Unless the decision is made during usage (i.e, onA and onB), ongoing update is notneeded. Indeed, updates can be done at the end as they do not influence the decision (which is made before the use of the service).
 
-###UCON<sub>preA<sub>0</sub></sub>
+###UCON<sub>preA<sub>0</sub>
 
 Components:
 
@@ -297,7 +297,7 @@ DAC policies using ACL with an individual ID
 
 allowed(s,o,r)⇒(id(s),r)∈ACL(o)
 
-###Exercise: MAC in UCON<sub>preA<sub>0</sub></sub> 
+###Exercise: MAC in UCON<sub>preA<sub>0
 
 Define Bell-LaPadula model in UCON<sub>preA<sub>0</sub></sub>.
 
