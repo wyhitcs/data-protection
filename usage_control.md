@@ -23,9 +23,7 @@
 * Access decision at request time
 * Enforcement at server side
 
-<div align="center">
-<img src="/Users/wangyu/Desktop/accesscontrol.png" width="350" height="150">
-</div>
+![Access Control](accesscontrol.png)
 
 ###Trust Management
 
