@@ -453,8 +453,10 @@ Access request
 * Action
   * read
 
+![exercisepolicy](ExercisePolicy.png)
 
 
+![XACML1Solution](xacml1solution.png)
 
 ##Reference
 
