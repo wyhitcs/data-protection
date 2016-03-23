@@ -64,7 +64,8 @@ XACML defines
 * Response
 * Exercise
 
-##Policy Language ![Policy Language](Policy Language.png)
+##Policy Language
+![Policy Language](Policy Language.png)
 
 How to specify a policy?
 
@@ -110,7 +111,9 @@ No fundamental difference between subjects, objects, actionsand other contextual
 
 * Determine which attributes should be provided in a request in order for the request to be applicable
 
-###Attributes, Data Types, Functions ![AttributesDataTypesFunctions](AttributesDataTypesFunctions.png)
+###Attributes, Data Types, Functions
+
+![AttributesDataTypesFunctions](AttributesDataTypesFunctions.png)
 
 ###⟨Rules⟩
 
@@ -182,21 +185,27 @@ Attributes:
 
 ####Example:< Match >
 
-The ⟨Match⟩ element identifies a particular value for an attribute:![Example⟨Match⟩](Example⟨Match⟩.png)
+The ⟨Match⟩ element identifies a particular value for an attribute:
+
+![Example⟨Match⟩](Example⟨Match⟩.png)
 
 ####Example: < Target >
 
-The ⟨Target⟩ element defines which requests are applicable: ![Example<Target>](Example<Target>.png)
+The ⟨Target⟩ element defines which requests are applicable: 
+
+![Example<Target>](Example<Target>.png)
 
 ####Example: Policy
 
-Access is permitted to the printer for members of the staff.![ExamplePolicy](ExamplePolicy.png)
+Access is permitted to the printer for members of the staff.
+![ExamplePolicy](ExamplePolicy.png)
 
 ###Policy Hierarchy
 
 ![PolicyHierarchy](PolicyHierarchy.png)
 
-##Access Request ![AccessRequest](AccessRequest.png)
+##Access Request 
+![AccessRequest](AccessRequest.png)
 
 How to specify access request?
 
@@ -210,11 +219,13 @@ ReturnPolicyIdList [Required]
 
 * Specifies information about attributes of the request context by listing a sequence of ⟨Attribute⟩ elements associated with an attribute category. One or more ⟨Attributes⟩ elements are allowed. Different ⟨Attributes⟩ elements with different categories are used to represent information about the subject, resource, action,environment or other categories of the access request.
 
-####Example: Request ![ExampleRequest](ExampleRequest.png)
+####Example: Request 
+![ExampleRequest](ExampleRequest.png)
 
 Alice, a staff member, wants to access the printer.
 
-##Policy Evaluation ![Policy Evaluation](Policy Evaluation.png)
+##Policy Evaluation 
+![Policy Evaluation](Policy Evaluation.png)
 
 ###Policy Applicability
 
@@ -265,7 +276,9 @@ Record potential effect value when errors occur
 
 Used by some combining algorithms
 
-###Decision Set Projection ![DecisionSetProjection](DecisionSetProjection.png)
+###Decision Set Projection
+
+![DecisionSetProjection](DecisionSetProjection.png)
 
 ###Rule evaluation
 
