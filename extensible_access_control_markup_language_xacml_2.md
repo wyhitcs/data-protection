@@ -29,9 +29,9 @@
 * Access Requests specify a context 
   * Attributes of subject, object, action, environment
 
-
 * A Rule/Policy/PolicySet has a target 
   * Attributes of subject, object, action, environment
+  
 * Rule/Policy/PolicySet is applicable if the attributes in the accessrequest “match” the attributes in the target
 
 ###Access Decision
