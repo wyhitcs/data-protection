@@ -444,6 +444,14 @@ Exercise (Text is in the repository)
 * Response = decision + set of obligations
 
 ###Solution
+Access request
+* Subject
+  * Alice
+  * Nurse
+* Resource
+  * med:record
+* Action
+  * read
 
 
 
