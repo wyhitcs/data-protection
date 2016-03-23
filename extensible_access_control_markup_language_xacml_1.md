@@ -282,7 +282,7 @@ Used by some combining algorithms
 
 ###Rule evaluation
 
-![Ruleevaluation](Ruleevaluation.png)
+![Rule Evaluation](Ruleevaluation.png)
 
 ####Example: Target evaluation
 
@@ -306,22 +306,21 @@ Different rules and policies can be applicable!!
 * Only-one-applicable (only PolicyCombiningAlgorithm)
 
 ###Deny Overrides (Defined over D6)
-
- ![DenyOverrides(DefinedoverD6)](DenyOverrides(DefinedoverD6).png)
+![Deny Overrides (Defined over D6)](DenyOverridesDefinedoverD6.png)
 
 ###Permit Overrides (Defined over D6)
 
- ![PermitOverrides(DefinedoverD6)](PermitOverrides(DefinedoverD6).png)
+![Permit Overrides (Defined over D6)](PermitOverridesDefinedoverD6.png)
 
 ###First Applicable (Defined over D4)
 
+![First Applicable (Defined over D4)](FirstApplicableDefinedoverD4.png)
 
- ![FirstApplicable(DefinedoverD4)](FirstApplicable(DefinedoverD4).png)
 
 ###Only One Applicable (Defined over D4) only for Policies
 
-
- ![OnlyOneApplicable(DefinedoverD4)onlyforPolicies](OnlyOneApplicable(DefinedoverD4)onlyforPolicies.png)
+![Only One Applicable (Defined over D4) only for Policies](OnlyOneApplicableDefinedoverD4onlyforPolicies.png)
+ 
 
 ###Other combining algorithms
 
@@ -372,7 +371,7 @@ When nondeterminism is unacceptable, use deterministic combining algorithms
 * ordered-deny-overrides 
 * ordered-permit-overrides
 
- ![Obligations(Cont.)](Obligations(Cont.).png)
+ ![Obligations(Cont.)](ObligationsCont.png)
 
 ###Obligations: Example
 
@@ -456,4 +455,3 @@ eXtensible Access Control Markup Language (XACML) Version3.0, OASIS Standard, Ja
 
 xacml 简介. http://www.cinlk.com/2015/07/27/xacml/
 
-![![![![![![](PolicyHierarchy.png)](ExamplePolicy.png)](Example<Target>.png)](Example⟨Match⟩.png)](AttributesDataTypesFunctions.png)](AccessRequest.png)
