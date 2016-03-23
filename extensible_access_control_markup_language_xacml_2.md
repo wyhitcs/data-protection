@@ -43,7 +43,7 @@
 
 **REMARK**: Attributes in the target have attribute *MustBePresent*. In case that no matching attribute is present in the request, then the attribute is considered missing. If the attribute is missing, then *MustBePresent* governs the applicability of the Rule/Policy/PolicySet
 
-* If *MustBePresent* is “False” (default value), then a missing attributeresults in “NotApplicable”
+* If *MustBePresent* is “False” (default value), then a missing attribute results in “NotApplicable”
 * If *MustBePresent* is “True”, then a missing attribute results in“Indeterminate”
 
 ###Extended Indeterminate Set
