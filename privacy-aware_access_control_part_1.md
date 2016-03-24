@@ -222,7 +222,7 @@ Given a set of purposes P
 
  ![IntendedPurposeEntailment](IntendedPurposeEntailment.png)
 
-![IntendedPurposeEntailment2](IntendedPurposeEntailment2.png) ![IntendedPurposeEntailment3](IntendedPurposeEntailment3.png)
+ ![IntendedPurposeEntailment3](IntendedPurposeEntailment3.png)
 
  ![IntendedPurposeEntailment4](IntendedPurposeEntailment4.png)
 
