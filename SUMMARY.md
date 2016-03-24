@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Discretionary Access Control
+* [Discretionary Access Control](discretionary_access_control.md)
 * Mandatory Access Control
 * Role Based Access Control
 * [Usage Control](usage_control.md)
