@@ -380,3 +380,6 @@ UCON<sub>onA<sub>3</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+postUpdate
 ##Reference
 
 Jaehong Park and Ravi Sandhu. 2004. The UCONABC usagecontrol model. ACM Trans. Inf. Syst. Secur. 7, 1, 128-174.(obligatory)!
+
+使用控制模型及其应用的分析与研究. http://m.xuehuile.com/thesis/f21c39dc514e4ab796fdbcdbdfbaf216.html
+
