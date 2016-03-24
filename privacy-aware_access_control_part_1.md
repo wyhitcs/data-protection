@@ -110,6 +110,17 @@ Use purpose as the central concept
 
 **Compliance.** A data subject shall be able to verify compliance with the above principles. Similarly, the database shall be able to address a challenge concerning compliance.
 
+1. 目的定义(Purpose Specification )：对收集和存储在数据库中的每一条个人信息都应该给出相应的目的描述。
+2. 提供者同意(Consent)：每一条个人信息的相应目的都应该获得提供者的同意。
+3. 收集限制(Limited Collection)：对个人信息的收集应该限制在满足相应目的最小需求内。
+4. 使用限制(Limited Use)：数据库仅运行与收集信息的目的相一致的查询。
+5. 泄漏限制(Limited Disclosure)：存储在数据库中数据不允许与外界进行与信息提供者同意的目的不符的交流。
+6. 保留限制(Limited Retention)：个人信息只有为完成必要目的的时候才加以保留。
+7. 准确(Accuracy)：存储在数据库中的个人信息必须是准确的，并且是最新的。
+8. 安全(Safety)：个人信息有安全措施保护，以防被盗或挪作他用。
+9. 开放(Openness)：信息拥有者应该能够访问自己存储在数据库中的所有信息。
+10. 遵从(Compliance)：信息拥有者能够验证以上规则的遵从情况，相应地，数据库也应该重视对规则的挑战。具有隐私保护功能的数据库系统能够在保证系统安全性的前提下，有效提高系统的可用性。
+
 ###Privacy Metadata
 
 Purpose associated to each piece of information
@@ -204,7 +215,7 @@ IP = < AIP, PIP >
 ####Ancestors and descendants
 
 Given a set of purposes P
-
+祖先 & 后裔
  ![ancestors&descendants](ancestors&descendants.png)
 
 ####Intended Purpose – Entailment
@@ -337,3 +348,5 @@ Purpose-based access control
 Rakesh Agrawal, Jerry Kiernan, Ramakrishnan Srikant, YirongXu: Hippocratic Databases. VLDB 2002: 143-154 (obligatory)
 
 Ji-Won Byun and Ninghui Li. 2008. Purpose based accesscontrol for privacy protection in relational database systems. TheVLDB Journal 17(4):603-619. 2008. (obligatory)
+
+谈数据库的安全技术. http://www.qb5200.com/content/2016-01-12/117856.html
