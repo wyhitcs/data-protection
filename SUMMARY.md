@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Discretionary Access Control](discretionary_access_control.md)
-* Mandatory Access Control
+* [Mandatory Access Control](mandatory_access_control.md)
 * Role Based Access Control
 * [Usage Control](usage_control.md)
 * [Introduction to Privacy](introduction_to_privacy.md)
