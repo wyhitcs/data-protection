@@ -1,9 +1,9 @@
 #Introduction
 
 ##About
-Data Protection and Privacy
-Access Control
-Policy Languages, Models, and Standards
+- Data Protection and Privacy
+- Access Control
+- Policy Languages, Models, and Standards
 
 ##Course Objectives
 Understand the relevance of data protection
@@ -13,11 +13,11 @@ Ability to specify access control and privacy policies
 Ability to evaluate access control and privacy policies
 
 ##Topics covered
-Access Control
-Usage Control
-Privacy-aware Access Control
-eXtensible Access Control Markup Language(XACML)
-A taste of research
+- Access Control
+- Usage Control
+- Privacy-aware Access Control
+- eXtensible Access Control Markup Language(XACML)
+- A taste of research
 
 ##Outline
 - Defining Privacy
