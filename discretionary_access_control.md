@@ -317,8 +317,9 @@ The problem can be reduced to the halting problem of a Turing machine
 
 ###Safety problem: Good news?
 A **mono-operational system** is a system in which every command consists of a single operation
-
+每个系统请求仅含一个操作的单操作请求系统
 **Theorem:** Verifying the security of an access matrix A with respect to a right r is decidable in a mono-operational system.
+MOS的安全性可判定
 
 Bad news
 - Mono-operational systems are not useful
