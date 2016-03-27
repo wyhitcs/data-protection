@@ -143,7 +143,8 @@ Design mechanisms able to **enforce multiple policies**
     - administration rights: own, control
     - delegation rights: flags"*" and "+"
 
-####Sample Access Matrix 见22
+####Sample Access Matrix 
+
 - “own” can add any rights
 - “control” is the right to remove rights from a subject (in Lampson’s work, in other models ownership includes control)
 - “*” flag can delegate rights to other subjects
@@ -157,12 +158,12 @@ control: S1 can remove any right of S2
 own: S3 can give any right on F2 to every subject
 
 ####Access Matrix: Implementation
-- Matrix is generally large and sparse
+- Matrix is generally **large** and **sparse**
   - Storing the entire matrix is waste of memory space
 - Alternative approaches
-  - Authorization table: store table of non-null triples(s,o,a)-->used in DBMS
-  - Access control lists(ACLs): Stored by column
-  - Capability lists: Stored by row
+  - **Authorization table**: store table of non-null triples(s,o,a)-->used in DBMS
+  - **Access control lists(ACLs)**: Stored by column
+  - **Capability lists**: Stored by row
 
 ####Authorization table
 ![###Authorization table](BA93262851EF6CEA620C3A82825B6BC2.png)
@@ -180,7 +181,8 @@ Access control lists
   The per-object basis usually more convenient
   Most systems based on ACLs
 
-###Harrison-Ruzzo-Ullman (HRU) Model----------------
+###Harrison-Ruzzo-Ullman (HRU) Model
+
 Define authorization system
 - State(S,O,A)
   - S set of subjects
@@ -213,9 +215,31 @@ Delegation of authority by attaching flags to privileges(e.g.,* copy flag, + tra
 - transfer-only flag(+): subject can transfer privilege to others (and the flag on it), but he loses the privilege
   ![+flag](2094561D9AE4E0F8EEFF2D56FCB856DF.png)
 
-###State transitions-------------------------
+###State transitions
 
-###Exercise 见35
+![State transitions](Statetransitions.png)
+
+###Exercise 
+
+Write a command which allows a process p to create a new process q. where parent and child processes can signal (read/write) each other.
+
+**command** spawn_process(p,q)
+
+  create subject q
+
+  enter own into A[p, q]
+
+  enter r into A[p, q]
+
+  enter w into A[p, q]
+
+  enter r into A[q, p]
+
+  enter w into A[q, p]
+
+**end**
+
+
 
 ##Safety Problem
 
@@ -224,11 +248,31 @@ Delegation of authority by attaching flags to privileges(e.g.,* copy flag, + tra
   - Need to define what we mean by a system being “secure”
 - Is there a generic algorithm that allows us to determine whether a computer system is secure?
 
-###Safety and Liveness-------------
+###Safety and Liveness
 
-###Examples: ------------
+**Safety property**: nothing bad happens
+- the program will never produce a wrong result (“partial correctness”)
 
-###When is a systme secure?----------------
+**Liveness property**: something good eventually happens
+- the program will produce a result (“termination”)
+
+###Examples: 
+
+C1: Whenever process P1 wants to enter the critical session, provided process P2 never stays in the critical session forever, P1 gets to enter eventually.
+
+**Liveness**
+
+C2: It cannot happen that both processes are in their critical sessions simultaneously.
+
+**Safety**
+
+###When is a systme secure?
+
+A simple definition
+- A system is secure if it does not allow violations of security policies
+
+Alternative definition based on distribution of rights
+- No leakage of rights
 
 ###Exercise 见46-47
 
