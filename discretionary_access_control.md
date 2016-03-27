@@ -274,6 +274,9 @@ A simple definition
 Alternative definition based on distribution of rights
 - No leakage of rights
 
+###Waht is a secure system?
+![What is a secure system](Whatisasecuresystem.png)
+
 ###Exercise 见46-47
 
 ###HRU: Safety Problem
