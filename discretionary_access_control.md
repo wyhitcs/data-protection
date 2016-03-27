@@ -56,13 +56,45 @@
   - execute, select, insert, update, delete, etc.
 - Advanced Rights: ownership, delegate(代表, 代表团成员;vt. 任命或委派…为代表;托付), remove
 
-###Subjects, Objects, Access Rights in Unix------------------
+###Subjects, Objects, Access Rights in Unix
+Subjects: users, groups
+Objects: files, directories
+Access rights: read, write, execute
 
-###Access Control vs. Authentication---------------------
+- For files
+  - read: reading from a file
+  -  write: writing to a file
+  -   execute: executing a (program) file
+- For directories
+  - read: list the files within the directory
+  - write: create, rename, or delete files within the directory
+  - execute: enter the directory
 
-###Policies, Models, Mechanisms-------------------------
+###Access Control vs. Authentication
+Completely different things
+ 
+Authentication: Establishing who you are(whether a user possesses a certain pseudonym/attribute or not)
 
-###Separation between policies and mechanisms---------------
+Access Control: Establishing if a user has the right of doing a certain operation
+
+Authentication is necessary for access control
+
+###Policies, Models, Mechanisms
+
+**Policy**: define (high-level) guidelines and rules describing the accesses to be authorized by the system
+ 
+**Model**: formally define the access control specification and enforcement
+
+**Mechanism**: implement the policies via low level (software and hardware) functions
+
+
+###Separation between policies and mechanisms
+
+Discuss access requirements **independently** from their implementation
+
+**Compare** different access control policies as well as different mechanisms that enforce the same policy
+
+Design mechanisms able to **enforce multiple policies**
 
 ###Security policies
 - Access control policies: define who can access a resource
