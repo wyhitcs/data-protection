@@ -114,10 +114,12 @@ CCTV monitoring at public places(airports, malls,...)
 
 ###Why now?
 Computers not needed for the invasion of privacy
+
 Digitization of information make it possible to
   - collect and store massive amout of personal information
   - correlate information from different sources
   - access information on the network locally or remotely
+  
     Computers simply make new threats possilbe and old threats more powerful
 
 ##Applications
@@ -126,6 +128,14 @@ Digitization of information make it possible to
 - Social Networks
 
 ###How many ways can we be located today? 见21页
+- cell phone (turned on?)
+- laptop
+- credit card at the gas station
+- bank card in the ATM machine
+- driving through a monitored intersection
+- security camera at the supermarket
+- scan badge to enter a building
+- ...
 
 ###Location Based Service
 - location-based traffic monitoring and emergency services
