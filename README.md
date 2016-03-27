@@ -30,11 +30,13 @@ Ability to evaluate access control and privacy policies
 
 ##Defining Privacy
 Abstract and subjective concept, hard to define-->Dependent on cultural issues, study discipline, stakeholder, context
+
 Popular definitions:
 - (Privacy as Confidentiality)“The right to be let alone” (Brandeis & Warren, 1890)-->Focus on freedom from intrusion
 - (Privacy as Control)“The right of the individual to decide what information about himself should be communicated to others and under what circumstances”(Westin, 1967)-->Focus on control/Focus on information self-determination
 - (Privacy as Practice)“The freedom from unreasonable constraints on the construction of one’s own identity” (Agre, 1999)-->Focus on autonomy
 
+###Privacy Paradigms
 ![Privacy Paradigms](559F56C080793788AE6C795EFF53FE69.jpg)
 
 ###What Privacy is About
@@ -45,10 +47,9 @@ Popular definitions:
   - Autonomy(自治，自治权)
 
 ##Privacy Threats
-
+How much privacy do we have left?
 ###Data Life Cycle
 ![Data Life Cycle](20A82DA950ABB5F7F6A702461DDF7F6D.jpg)
-<!--<img src="quiver-image-url/20A82DA950ABB5F7F6A702461DDF7F6D.jpg" width="50%" height="50%">-->
 
 ###Taxonomy(分类学,分类系统) of Privacy Threats(Solove)
 - Information collection
@@ -74,12 +75,14 @@ Popular definitions:
 
 ###Secondary Usage
 Use information for a purpose other than the one for which it was obtained
+
 - Use of customer information for marketing
 - Sale(or trade) of consumer information to other businesses
 - Government agencies' use of consumer database
 
 ###Aggregation
 Combining and comparing information from more than one database
+
 - Why aggregation is a problem? Data already in the system
 - Individual pieces of data may be not very telling
 - But when combined together, they may reveal(显示; 露出;泄露; 透露) more information about a person
