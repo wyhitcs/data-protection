@@ -128,7 +128,8 @@ Digitization of information make it possible to
 - Social Networks
 
 ###How many ways can we be located today? 见21页
-- cell phone (turned on?)
+
+- - cell phone (turned on?)
 - laptop
 - credit card at the gas station
 - bank card in the ATM machine
