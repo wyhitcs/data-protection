@@ -151,8 +151,14 @@ Digitization of information make it possible to
   - Google Latitude
 
 ####Why is this a problem?
-- do you want to be seen at certain location 例子见23
-- what can be automatically inferred about a person based on location? 见23
+- do you want to be seen at certain location (abortion clinic, AIDS clinic, business
+competitor, or political headquarters)
+- what can be automatically inferred about a person based on location? 
+  - any important location...
+    - desk in a building
+    - home location
+    - future locations
+  - and even identification!
 
 ###RFID Technology
 - Radio Frequency Identification
@@ -165,9 +171,19 @@ Digitization of information make it possible to
 ###RFID Application
 ![01-Intro-2.jpg](730195BBCBAC8FAD789CE44F23A0F300.jpg)
 
-###RFID From the news 见27
+###RFID From the news
+2006: President of Colombia agreed to require Colombian
+citizens to be implanted with RFID chips before they could gain
+entry into the US for seasonal work.
+
+2008: UK jails considering RFID implants for prisoners.
+
+2015: Tenants of a hi-tech office block in Sweden implanted with
+RFID chips in order to gain access to the office and operate
+photocopiers.
 
 ###RFID-Privacy Issues
+
 - Traceability
 - Disclosure of embarrassing information
 - Discrimination
