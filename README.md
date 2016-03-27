@@ -195,6 +195,12 @@ Many people publish their personal information on social networks
 
 ###Social Networks--Privacy Issues 见30,31,32
 
+- Used by professors, parents, and employers
+- Used by law enforcement and college administrators for disciplinary action
+- Used for surveillance and data mining
+- Used by merchants for marketing
+- Use by other members for criminal purposes (e.g., stalking, invasion of privacy)
+
 ##Privacy Enhancing Technologies
 How can we protect privacy?
 
@@ -234,6 +240,7 @@ How can we protect privacy?
   - privacy preference languages, e.g., APPEL, XPref
   - default suites of privacy settings
   - privacy wizard that automate configuration of settings
+  
     NOTE: Enforcement of privacy settings is done by the organizationn
 
 ###Purpose-based Access Control
@@ -243,9 +250,11 @@ How can we protect privacy?
   - Specify the allowed usage of data
 - Policy enforcement
   - Ensure the purpose of data access is complaint with intended purpose
+  
     NOTE: No control after disclosure of data
 
 ####Purpose Control
+
 - Verify whether data have been used for the intended purpose
 - Auditing(查账, 审计, 审核; 审计学) Mechanism
   - log data access and processing operations
@@ -321,6 +330,7 @@ Users has no means to know:
 - which decisions are made based on these profiles
 
 ###Privacy as Practice: Goals
+
 - Focus on user awareness
 - Data collection is made transparent
   - how, why, which data are collected
@@ -332,9 +342,11 @@ Users has no means to know:
 - Allow websites to communicate their privacy policies
 - Provides a standard XML format to encode privacy policies
 - Help users understand privacy policies
+
   NOTE: No enforcement!
 
 ###Transparency Tools
+
 - Give users a better understanding of information flow, state and history
   - Become aware of how they (and others) participate in the socio-technical system
   - Verify whether their personal privacy level fits within the current working of the system
