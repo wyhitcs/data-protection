@@ -134,10 +134,10 @@ Design mechanisms able to **enforce multiple policies**
 - Originator control(1989)
 
 ###Lampson: Access Matrix
-- Set of subjects S
-- Set of objects O
+- Set of **subjects** S
+- Set of **objects** O
   - subjects can be considered as objects, i.e., S ⊆ O
-- Access Matrix A(S × O)
+- **Access Matrix** A(S × O)
   - Entries contain sets of rights
     - access rights: read, write, call, etc.
     - administration rights: own, control
@@ -148,7 +148,13 @@ Design mechanisms able to **enforce multiple policies**
 - “control” is the right to remove rights from a subject (in Lampson’s work, in other models ownership includes control)
 - “*” flag can delegate rights to other subjects
 
-####Q&A 见23-24
+####Q&A 
+![Q&A](DACQ&A.png)
+control: S1 can remove any right of S2
+
+*read: S1 can give any subject the right to read F1
+
+own: S3 can give any right on F2 to every subject
 
 ####Access Matrix: Implementation
 - Matrix is generally large and sparse
