@@ -87,7 +87,12 @@ Combining and comparing information from more than one database
 - Individual pieces of data may be not very telling
 - But when combined together, they may reveal(显示; 露出;泄露; 透露) more information about a person
   ![aggregation](8C07481A0A06E9082FF27EA81B1C5856.png)
-  例子在14页
+ 
+- Aggregated information about a person is often used to judge her
+- Amazon.com uses aggregated data about book-buying history to recommend other books
+- Sharing of government agencies’ databases to detect frauds
+- Insurance companies can make decisions based on information of diseases, lifestyles, etc.
+- Aggregations of credit reports used to evaluate a person’s financial reputation for granting loans
 
 ###Video Surveillance
 CCTV monitoring at public places(airports, malls,...)
