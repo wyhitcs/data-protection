@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Discretionary Access Control](discretionary_access_control.md)
-* [Mandatory Access Control](mandatory_access_control.md)
+* [Discretionary Access Control自主访问控制](discretionary_access_control.md)
+* [Mandatory Access Control强制访问控制](mandatory_access_control.md)
 * [Role Based Access Control](role_based_access_control.md)
 * [Usage Control](usage_control.md)
 * [Introduction to Privacy](introduction_to_privacy.md)
