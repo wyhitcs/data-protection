@@ -10,11 +10,17 @@
 
 ##Access Control
 
-###Computer Security Objectives-----------------------
+###Computer Security Objectives
 - Confidentiality
+  - Information disclosed only to principals authorized to know it
+  - Privacy:
+    - right to be let alone (Warren and Bradeis, 1890)
+    - right of the individual to decide when, what, why and who manage his personal information (Westin, 1970) 
+    - freedom from unreasonable constraints on the construction of one’s own identity (Agre, 1999)
 - Integrity
+  - Information modified only by authorized principals and in the authorized ways
 - Availability
-
+  - Information accessible when it is needed (No denial of service)
 ###Access Control
 - Goal: Protect confidentiality and integrity of information
 - Control what a subject can do to prevent damage to the system
