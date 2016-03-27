@@ -328,18 +328,37 @@ Bad news
 
 ##DAC weaknesses
 
+DAC imposes constraints only on **direct** access
+ 
+No control on the information once released
+=> DAC is vulnerable to **Trojan horses**
+- exploiting access privileges of calling subject
+
+**Trojan horses**: a program (apparently harmless) which contains malicious or harmful code
+###Trojan horses – Example
+
+![Trojan horses – Example](TrojanhorsesExample.png)
 
 
+##Summary
 
+**Access control**: regulates the operations that can be executed on data and resources to be protected
 
+**DAC**: users can regulate the access to their resources
+- Lampson
+- HRU model
 
+**Safety Problem**: Given a configuration Q and a right r , is there any sequence of commands that leaks r?
+ 
+**DAC vulnerabilities**: Trojan horses
 
+##References
 
+B. Lampson. Protection. Proc. 5th Princeton Conf. on Information Sciences and Systems, Princeton, 1971. Reprinted in ACM Operating Systems Rev. 8(1):18–24. 1974. (obligatory)
 
+M. A. Harrison, W. L. Ruzzo and J. D. Ullman. "Protection in Operating Systems". Communications of ACM. 19(8):461–471, 1976. (obligatory)
 
-
-
-
+Pierangela Samarati and Sabrina De Capitani di Vimercati. Access Control: Policies, Models, and Mechanisms. In FOSAD’00. Springer-Verlag, 137-196. 2000. (suggested)
 
 
 
