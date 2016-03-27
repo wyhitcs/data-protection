@@ -277,22 +277,56 @@ Alternative definition based on distribution of rights
 ###Waht is a secure system?
 ![What is a secure system](Whatisasecuresystem.png)
 
-###Exercise 见46-47
+###Exercise 
+
+![](WhatisasecuresystemQ.png)
+![](WhatisasecuresystemA.png)
 
 ###HRU: Safety Problem
 Safety problem: Given an initial state (S,O,A) and a right r , is there any sequence of commands leaking r?
 
-###HRU and Safety: "Desired" leaks-------------------
+###HRU and Safety: "Desired" leaks
 
-###Exercise 见50-59
+Leaks are not necessarily bad
+- A system that allows sharing will of course have many leaks
+- Subjects can intentionally transfer (leak) their rights to other trustworthy subjects
 
-###Safety problem: Decidability-------------------------
+Security for r can be considered by ignoring all trustworthy subjects (i.e., ignoring “desired” leaks)
 
-###Safety problem: Some bad news-------------
 
-###Safety problem: Good news?-----------
+###Exercise 
 
-##DAC weaknesses-----------------
+
+![Exercise](leakexercise.png)
+![](leakexerciseA.png)
+
+###Safety problem: Decidability
+
+**Safety problem**: Given an initial state (S,O,A) and a right r , is there any sequence of commands leaking r?
+
+Or does transfer of r violate security policies of the system?
+
+
+Is there a generic algorithm that allows us to determine whether a computer system is secure?
+
+###Safety problem: Some bad news
+
+Theorem: Verifying the security of an access matrix A with respect to a right r is undecidable.
+
+The problem can be reduced to the halting problem of a Turing machine
+
+###Safety problem: Good news?
+A **mono-operational system** is a system in which every command consists of a single operation
+
+**Theorem:** Verifying the security of an access matrix A with respect to a right r is decidable in a mono-operational system.
+
+Bad news
+- Mono-operational systems are not useful
+- If you create an object you cannot own it => you cannot modify it
+
+**Remark:** Decidability can also be proved for systems with a finite number of subjects and objects, or for systems where it is not possible to create new subjects and objects.
+
+##DAC weaknesses
 
 
 
