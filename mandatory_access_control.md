@@ -45,11 +45,11 @@ The combination of the two introduces a partial order on security classes, calle
 
 ####Security Lattice
 
- 自反性；传递性；反对称性![SecurityLattice](/Users/wangyu/Desktop/SecurityLattice.png)
+ 自反性；传递性；反对称性![SecurityLattice](SecurityLattice.png)
 
 #####Security Lattice: Example
 
- ![SecurityLatticeExample](/Users/wangyu/Desktop/SecurityLatticeExample.png)
+ ![SecurityLatticeExample](SecurityLatticeExample.png)
 
 ####Semantics
 
@@ -80,19 +80,19 @@ Security goal (confidentiality): Prevent information flow to lower or incomparab
 
 ####Hierarchy of Security Levels
 
- ![HierarchyofSecurityLevels](/Users/wangyu/Desktop/HierarchyofSecurityLevels.png)
+ ![HierarchyofSecurityLevels](HierarchyofSecurityLevels.png)
 
 ####BLP Information Flow
 
 Prevent information flow to lower or incomparable security classes
 
- ![BLPInformationFlow](/Users/wangyu/Desktop/BLPInformationFlow.png)
+ ![BLPInformationFlow](BLPInformationFlow.png)
 
 Information flow is bottom up
 
 ####Example
 
- ![exampleBLPInformationFlow](/Users/wangyu/Desktop/exampleBLPInformationFlow.png)
+ ![exampleBLPInformationFlow](exampleBLPInformationFlow.png)
 
 Which files can Alice read? 
 
@@ -116,25 +116,25 @@ Basic Security Theorem (BST): check that all state transitions starting in a ‘
 
 ####The BLP Security Model
 
- ![TheBLPSecurityModel](/Users/wangyu/Desktop/TheBLPSecurityModel.png)
+ ![TheBLPSecurityModel](TheBLPSecurityModel.png)
 
 ####The BLP Security Policy
 
- ![TheBLPSecurityPolicy](/Users/wangyu/Desktop/TheBLPSecurityPolicy.png)
+ ![TheBLPSecurityPolicy](TheBLPSecurityPolicy.png)
 
 ####From BLP to Access Matrix: Exercise
 
- ![FromBLPtoAccessMatrixExercise](/Users/wangyu/Desktop/FromBLPtoAccessMatrixExercise.png)
+ ![FromBLPtoAccessMatrixExercise](FromBLPtoAccessMatrixExercise.png)
 
 ####Problem
 
- ![BLPproblem1](/Users/wangyu/Desktop/BLPproblem1.png)
+ ![BLPproblem1](BLPproblem1.png)
 
- ![BLPproblem2](/Users/wangyu/Desktop/BLPproblem2.png)
+ ![BLPproblem2](BLPproblem2.png)
 
 ####Max/Current Level
 
- ![MaxCurrentLevel](/Users/wangyu/Desktop/MaxCurrentLevel.png)
+ ![MaxCurrentLevel](MaxCurrentLevel.png)
 
 ####Example
 
@@ -221,9 +221,9 @@ This may be too restrictive
 
 Information Flow:
 
- ![BLPInformationFlow](/Users/wangyu/Desktop/BLPInformationFlow.png)
+ ![BLPInformationFlow](BLPInformationFlow.png)
 
- ![BLPInformationFlow2](/Users/wangyu/Desktop/BLPInformationFlow2.png)
+ ![BLPInformationFlow2](BLPInformationFlow2.png)
 
 Policies:
 
@@ -244,7 +244,7 @@ Assign integrity classes to:
 
 ####Biba Information Flow
 
- ![BibaInformationFlow](/Users/wangyu/Desktop/BibaInformationFlow.png)
+ ![BibaInformationFlow](BibaInformationFlow.png)
 
 ####Biba Model: Properties
 
@@ -260,7 +260,7 @@ NO WRITE UP
 
 ####Biba: Alternative policies
 
- ![BibaAlternativepolicies](/Users/wangyu/Desktop/BibaAlternativepolicies.png)
+ ![BibaAlternativepolicies](BibaAlternativepolicies.png)
 
 ###Combining Biba and BLP
 
@@ -278,9 +278,9 @@ Combined access rules are
 
 ###BLP+Biba: Exercise
 
-![BLPBibaExercise](/Users/wangyu/Desktop/BLPBibaExercise.png)
-![BLPBibaExercise2](/Users/wangyu/Desktop/BLPBibaExercise2.png) 
-![BLPBibaExercise3](/Users/wangyu/Desktop/BLPBibaExercise3.png) 
+![BLPBibaExercise](BLPBibaExercise.png)
+![BLPBibaExercise2](BLPBibaExercise2.png) 
+![BLPBibaExercise3](BLPBibaExercise3.png) 
 
 ##Multilateral Security
 
@@ -296,7 +296,7 @@ Information must not leak from one client to its competitors
 
 * consultant’s advice for either company would affect her advices to the other (competitor) companies
 
-  ![exampleConflictsofInterest](/Users/wangyu/Desktop/exampleConflictsofInterest.png)
+  ![exampleConflictsofInterest](exampleConflictsofInterest.png)
 
 ###Chinese Wall
 
@@ -316,7 +316,7 @@ Company information is organized hierarchically in 3 levels:
 * company datasets (CDs): group objects referring to the samecompany 
 * conflict of interest classes (COI): groups all company datasetswhose companies are in competition
 
-  ![chinesewall](/Users/wangyu/Desktop/chinesewall.png)
+  ![chinesewall](chinesewall.png)
 
 #####Simple property:
 
@@ -325,11 +325,11 @@ Subject s can read object o only if:
 * o is in the same company dataset as all the objects that s has already accessed (within the wall) i.e., history-based
 * o belongs to a different conflict of interest class
 
-  ![ChineseWallExample](/Users/wangyu/Desktop/ChineseWallExample.png)
+  ![ChineseWallExample](ChineseWallExample.png)
 
 #####Problem solved?
 
- ![ChinesewallProblemsolved](/Users/wangyu/Desktop/ChinesewallProblemsolved.png)
+ ![ChinesewallProblemsolved](ChinesewallProblemsolved.png)
 
 If Alice could write to ARCO’s CD, Bob can read it
 
