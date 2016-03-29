@@ -85,9 +85,12 @@ Suppose you want to add a photo to your wall. How to set permissions in DAC?
 
 ###Where RBAC is used
 RBAC is currently used in
+
 - Database management systems
 - Enterprise Application for Security Administration and User Management
-  Applicatons(using some form of RBAC)
+  
+Applicatons(using some form of RBAC)
+
 - Microsoft Active Directory
 - Microsoft SQL Server
 - IBM Tivoli
@@ -98,6 +101,7 @@ RBAC is currently used in
 
 ###RBAC:Summary
 Simplify definition and administration of access control policies
+
 - Policies based on duty and responsibility of job functions
 - Assignment of permissions to users
   - Permissions associated with roles
@@ -114,15 +118,15 @@ Simplify definition and administration of access control policies
 - RBAC<sub>3</sub>
 
 ##RBAC<sub>0</sub> concepts
-- User
+- **User**
   - a human being or intelligent autonomous agent
-- Role
+- **Role**
   - job function within the context of organization
   - associated semantics regarding its authority and responsibility
-- Permission
+- **Permission**
   - an *operation* that can be exercised on *objects*
   - objects and operations are *domain dependent*
-- Session
+- **Session**
   - instance of a connection of a user to the system
   - mapping of users to roles/permissions at a given time
   - define set of activated roles
@@ -143,7 +147,8 @@ Simplify definition and administration of access control policies
 - A permission can be assigned to many roles
 
 ###Exercise 见33
-
+![](RBAC0Q.png)
+![](RBAC0A.png)
 ###RBAC<sub>1</sub>: Role Hierarchy
 - Some roles subsume(把……归入；把……包括在内) others见36
 - This suggests a hierarchy of roles
