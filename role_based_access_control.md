@@ -202,28 +202,34 @@ Simplify definition and administration of access control policies
 - Restrict combinations of privileges made available to users
 
 ###Q&A见47-49
+![](RBAC2Q.png)
+
+![](RBAC2A.png)
+
 
 ###Separation of Duty
 Principle: collaboration of multiple users needed to perform sensitive tasks
 - Static Separation of Duty (SSoD): Restrict the permissions that can be **assigned** to a user
 - Dynamic Separation of Duty (DSoD): Restrict the permissions that can be **exercised** by a user
 
-###Static Separation of Duty (SSoD)
+####Static Separation of Duty (SSoD)
 Multiple users together should have the permissions to perform sensitive tasks
 Static Separation of Duty constraint ssod(ps,n)
 - at least n user are needed to cover all permissions in permission set ps
 
-###In our example.. 见52
+#####In our example.. 见52
+![](exampleRBAC2.png)
 
-###Exercise 见54,55
 
-###Static Separation of Duty (SSoD)
+#####Exercise 见54,55
+![](RBAC2exercise.png)
+####Static Separation of Duty (SSoD)
 - SSoD used to place constrains on permissions assigned to users
 - In our example:见56
 - SSoD can be too restrictive
 - In our example: 见56
 
-###Dynamic Separation of Duty (DSoD)
+####Dynamic Separation of Duty (DSoD)
 Dynamic Separation of Duty
 - Object-based Separation of Duty: no user may act upon an object that that user has previously acted upon
 - History-based Separatio of Duty: no user is allowed to perform all the actions in a business task on a (collection of) objects
