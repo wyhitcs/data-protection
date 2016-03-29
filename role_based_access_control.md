@@ -146,7 +146,7 @@ Simplify definition and administration of access control policies
 - A role can have many permissions
 - A permission can be assigned to many roles
 
-###Exercise 见33
+###Exercise
 ![](RBAC0Q.png)
 ![](RBAC0A.png)
 ###RBAC<sub>1</sub>: Role Hierarchy
