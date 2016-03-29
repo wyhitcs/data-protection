@@ -67,8 +67,10 @@ Suppose you want to add a photo to your wall. How to set permissions in DAC?
 - **Separation of duties**: Pervent users from abusing their position
 
 ####Least Privilege
-Problem: users can hve ability to perform potentially harmful actions as a side effect of granting ability to perform desired functions
-Least Privilege: User is given no more permission than it is necessary to perform her job functionn
+**Problem**: users can have ability to perform potentially harmful actions as a side effect of granting ability to perform desired functions
+
+**Least Privilege**: User is given no more permission than it is necessary to perform her job function
+
 - Roles engineered based on teh principle of least privilege 
   - Identify user's job functions
   - Determine minimum set of privileges required to perform them
@@ -76,8 +78,9 @@ Least Privilege: User is given no more permission than it is necessary to perfor
 - Users assigned to the same roles have same permissions
 
 ####Separation of duties
-Problem: users can abuse their position within an organization
-Separation of duties: Require more than one user to perform critical tasks
+**Problem**: users can abuse their position within an organization
+
+**Separation of duties**: Require more than one user to perform critical tasks
 - e.g., two distinct clerks are needed to issue a check
 
 ###Where RBAC is used
