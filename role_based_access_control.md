@@ -17,9 +17,9 @@
 - Organizations are constantly changing
   - Changes in the organizational structure
   - Users change job function within the organization
-- Required flexible solution to meet changing needs
+- Required **flexible** solution to meet changing needs
 - Number of users and applications is increasing within most organizations
-- Required scalable solution to manage accesses
+- Required **scalable** solution to manage accesses
 
 ###Q&A
 Suppose you want to add a photo to your wall. How to set permissions in DAC?
