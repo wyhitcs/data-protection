@@ -150,7 +150,7 @@ Simplify definition and administration of access control policies
 ![](RBAC0Q.png)
 ![](RBAC0A.png)
 ###RBAC<sub>1</sub>: Role Hierarchy
-- Some roles subsume(把……归入；把……包括在内) others见36
+- Some roles **subsume**(把……归入；把……包括在内) others见36
 - This suggests a hierarchy of roles
 - Reflect an organizaiton's role structure
 - Inheritance among roles
@@ -175,7 +175,9 @@ Simplify definition and administration of access control policies
 ![model](DF2E75A74B854F50FA12DC16AC94003D.png)
 
 ###Exercise 见40-43
+![](RBAC1Q.png)
 
+![](RBAC1A.png)
 ###Remark
 - Sometimes, used reversed role hierarchical
 - Dominance(优势;支配地位;控制力) relation instead of specialization
