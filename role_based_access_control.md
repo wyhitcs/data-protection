@@ -253,6 +253,9 @@ Static Mutually Exclusive Roles constraint smer(rs,n)
 ![RBAC<sub>2 Model with SMER](83F588CA5A4145799236FF042413D1CB.png)
 
 ###Exercise 见61-62
+![](SMERQ.png)
+
+![](SMERA.png)
 
 ###Dynamic Mutually Exclusive Roles（DMER）
 - User can activate multiple roles in one session
