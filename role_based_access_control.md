@@ -44,7 +44,7 @@ Suppose you want to add a photo to your wall. How to set permissions in DAC?
 - Idea: associate access rights with job functions within an organization
 
 ###Role Based Access Control (RBAC)
-Goals:
+**Goals**:
 - Describe organizational access control policies
 - Based on job function:
   - A user's permissions are determined by her roles
@@ -63,8 +63,8 @@ Goals:
 - **Users** have access to objects based on the assigned role, e.g., Sally is the bookkeeper
 
 ###RBAC Security Principles
-- Least privilege: No more privileges than necessary to perform assigned job
-- Separation of duties: Pervent users from abusing their position
+- **Least privilege**: No more privileges than necessary to perform assigned job
+- **Separation of duties**: Pervent users from abusing their position
 
 ###Least Privilege
 Problem: users can hve ability to perform potentially harmful actions as a side effect of granting ability to perform desired functions
