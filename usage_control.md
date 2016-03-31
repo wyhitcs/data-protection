@@ -265,7 +265,7 @@ Pre-obligation: verified before usage
 
 Conditions: no update attributes
 
-Note: With pre-authorizations it is needed pre-update, for instance to check whether the user has enough credit, and post-update to check whether the user has paid the previous month invoice. Unless the decision is made during usage (i.e, onA and onB), ongoing update is notneeded. Indeed, updates can be done at the end as they do not influence the decision (which is made before the use of the service).
+Note: With pre-authorizations it is needed pre-update, for instance to check whether the user has enough credit, and post-update to check whether the user has paid the previous month invoice. Unless the decision is made during usage (i.e, onA and onB), ongoing update is not needed. Indeed, updates can be done at the end as they do not influence the decision (which is made before the use of the service).
 
 ###UCON<sub>preA<sub>0</sub>
 
