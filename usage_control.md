@@ -346,11 +346,11 @@ allowed(s,o,r)⇒true
 
 stopped(s,o,r)⇐¬onA(ATT(s),ATT(o),r)
 
-UCON<sub>onA<sub>1</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+preUpdate
+UCON<sub>onA<sub>1</sub>:UCON<sub>onA<sub>0</sub>+preUpdate
 
-UCON<sub>onA<sub>2</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+onUpdate
+UCON<sub>onA<sub>2</sub>:UCON<sub>onA<sub>0</sub>+onUpdate
 
-UCON<sub>onA<sub>3</sub></sub>:UCON<sub>onA<sub>0</sub></sub>+postUpdate
+UCON<sub>onA<sub>3</sub>:UCON<sub>onA<sub>0</sub>+postUpdate
 
  ![Exercise (UCONonA13 )](ExerciseUCONonA13.png)
 
