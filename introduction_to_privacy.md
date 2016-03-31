@@ -92,7 +92,7 @@ Right to privacy has to be **balanced** against the necessary flow of informatio
 
 ###Privacy and Data Protection in Europe
 
-In the ’50, the Council of Europe recognized privacy as afundamental right 
+In the ’50, the Council of Europe recognized privacy as a fundamental right 
 
 * Article 8 of the European Convention of Human Rights and Fundamental Freedoms (Council of Europe, Rome, 1950) **Everyone has the right to respect for his private and family life, hishome and his correspondence**
 
