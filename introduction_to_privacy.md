@@ -70,7 +70,7 @@ Privacy is user-centric
 
 ###Context for privacy laws
 
-> Technological advances are rapidly changing the wayinformation is collected and processed
+> Technological advances are rapidly changing the way information is collected and processed
 
 **Huge increase in the amount of** information collected and stored 
 
