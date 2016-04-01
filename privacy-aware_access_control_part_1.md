@@ -176,7 +176,7 @@ Difficult policy refinement (Minimality)
 * Decompose purposes into sub-purposes and store them in DB 
 * No logical relation between purposes
 
-Information relevant and complete wrt purpose? (InformationQuality)
+Information relevant and complete wrt purpose? (Information Quality)
 
 * Purpose P decomposed in P1 and P2 (both needed to fulfill P) 
 * Customer allows P1, but not P2 
