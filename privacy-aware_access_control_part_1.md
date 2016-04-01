@@ -45,7 +45,7 @@ Privacy is more than confidentiality and integrity of data
 
 Privacy policies are concerned with which data object is used for which purposes
 
-> “We will collect and use customer identifiable information for billingpurposes and to anticipate and resolve problems with your service.”
+> “We will collect and use customer identifiable information for billing purposes and to anticipate and resolve problems with your service.”
 
 Notion of purpose must play a major role in access control: Access decisions should be made based on purpose
 
