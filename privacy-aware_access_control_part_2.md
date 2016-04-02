@@ -49,7 +49,7 @@ Enterprises need to
 
 ###EPAL Goals (and Non-Goals)
 
- ![EPALGoals(andNon-Goals)](EPALGoals(andNon-Goals).png)
+ ![EPALGoalsandNon-Goals](EPALGoalsandNon-Goals.png)
 
 ###EPAL Framework
 
