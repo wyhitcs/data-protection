@@ -251,6 +251,7 @@ What does it mean that r1 refines r2 (r1 < r2) ?
 
  ![ExercisePolicyRefinement1](ExercisePolicyRefinement1.png)
 
+
 ##### Exercise: Policy Refinement (2)
 
 ![ExercisePolicyRefinement2](ExercisePolicyRefinement2.png)
