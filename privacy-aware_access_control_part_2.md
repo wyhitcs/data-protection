@@ -257,7 +257,7 @@ No, consider default ruling.
 ##### Exercise: Policy Refinement (2)
 
 ![ExercisePolicyRefinement2](ExercisePolicyRefinement2.png)
-
+No, u5 + or -
 
 #####Policy Refinement: Algorithm
 
