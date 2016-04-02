@@ -251,10 +251,13 @@ What does it mean that r1 refines r2 (r1 < r2) ?
 
  ![ExercisePolicyRefinement1](ExercisePolicyRefinement1.png)
 
-
+u5 not covered, + 
+Yes
+No, consider default ruling.
 ##### Exercise: Policy Refinement (2)
 
 ![ExercisePolicyRefinement2](ExercisePolicyRefinement2.png)
+
 
 #####Policy Refinement: Algorithm
 
