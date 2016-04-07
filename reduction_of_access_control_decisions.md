@@ -123,7 +123,7 @@ Example: Only one applicable
 
  ![ExampleOnlyoneapplicable](ExampleOnlyoneapplicable.png)
 
-Safety Analysis of XACML v3 (2,3) ![SafetyAnalysisofXACMLv3(2,3)](SafetyAnalysisofXACMLv3(2,3).png)
+Safety Analysis of XACML v3 (2,3) ![SafetyAnalysisofXACMLv3(2,3)](SafetyAnalysisofXACMLv32,3.png)
 
 ## Conclusion
 
