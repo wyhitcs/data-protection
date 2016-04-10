@@ -16,7 +16,8 @@ Search in the news an article about privacy violations. Describe briey the repor
 
 ## Discretionary Access Control
 
-Homework-DAC ![DACHomework](DACHomework.png)
+Homework-DAC 
+![](DACHomework.png)
 
 2016-AS1-2-HUR
 
