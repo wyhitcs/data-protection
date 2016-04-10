@@ -88,3 +88,104 @@ Homework-DAC
 2012-EX1-1-HUR
 
  ![2012-EX1-1](2012-EX1-1.png)
+ 
+ 
+
+
+
+## Mandatory Access Control
+
+homework
+
+ ![MAChomework](MAChomework.png)
+
+2016-AS1-3-Biba-low-watermark
+
+ ![2016-AS1-3-1](2016-AS1-3-1.png)
+
+ ![2016-AS1-3-2](2016-AS1-3-2.png)
+
+2016-AS1-4-ChineseWall
+
+* Show how the principles underlying Chinese Wall can be modeled in multilevel security.
+
+2015-AS1-3-BLP
+
+ ![2015-AS1-3-1](2015-AS1-3-1.png)
+
+ ![2015-AS1-3-2](2015-AS1-3-2.png)
+
+2015-s-AS1-3
+
+ ![2015-s-AS1-3-1.png](2015-s-AS1-3-1.png.png)
+
+ ![2015-s-AS1-3-2.png](2015-s-AS1-3-2.png.png)
+
+2015-AS1-4-ChineseWall-BLP
+
+* Discuss the possibility of defining a Chinese Wall policy in the BLP Model.
+
+2015-S-AS1-6
+
+* Describe the access control system used in FreeBSD.
+* https://www.freebsd.org/doc/handbook/mac.html
+
+
+2015-AS1-6-ClarkWilson-Biba
+
+* Describe the Clark-Wilson integrity model. Discuss the main differences between this model and theBiba model.
+* http://security1.win.tue.nl/~zannone/teaching/CS4080/Material/sam-fosad.pdf
+
+2015-EX2-1-Biba-low-watermark
+
+ ![2015-EX2-1](2015-EX2-1.png)
+
+2015-EX2-2-ChineseWall
+
+* Explain the goal of the Chinese Wall model and describe the main concepts and properties of the model.
+
+2014-AS1-3-lattice-lub-glb
+
+ ![2014-AS1-3](2014-AS1-3.png)
+
+2014-AS1-4-ChineseWall
+
+ ![2014-AS1-4](2014-AS1-4.png)
+
+2014-EX1-2-BLP-Biba
+
+ ![2014-EX1-2](2014-EX1-2.png)
+
+2013-AS1-3-BLP
+
+ ![2013-AS1-3-1](2013-AS1-3-1.png)
+
+ ![2013-AS1-3-2](2013-AS1-3-2.png)
+
+2013-AS1-4-ChineseWall-BLP
+
+* Define a construction to emulate the Chinese Wall model using BLP model. Discuss the limitations(if any) of the construction.
+
+2013-EX1-2-Biba
+
+ ![2013-EX1-2](2013-EX1-2.png)
+
+2013-EX2-2-BLP-Biba
+
+ ![2013-EX2-2](2013-EX2-2.png)
+
+2012-AS1-4-ChineseWall-BLP
+
+* Define a construction to show that a system implementing the Chinese Wall model can support the BLP Model.
+
+2012-EX1-2-ChineseWall-BLP
+
+* Describe the main differences between the Bell-LaPadula model and the Chinese Wall model.
+
+2012-EX2-1-BLP
+
+ ![2012-EX2-1](2012-EX2-1.png)
+
+2012-EX2-2-BLP-Biba
+
+* Describe the Bell-LaPadula and Biba models and how these two models can be combined.
