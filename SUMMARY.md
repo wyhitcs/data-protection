@@ -11,5 +11,5 @@
 * [eXtensible Access Control Markup Language (XACML) Part 1](extensible_access_control_markup_language_xacml_1.md)
 * [eXtensible Access Control Markup Language (XACML) Part 2](extensible_access_control_markup_language_xacml_2.md)
 * [Reduction of access control decisions](reduction_of_access_control_decisions.md)
-* Summary
+* Assignment and Exam
 
