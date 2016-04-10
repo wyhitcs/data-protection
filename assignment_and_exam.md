@@ -18,9 +18,10 @@ Search in the news an article about privacy violations. Describe briey the repor
 
 Homework-DAC
 
-![homework](DACHomework.png)
+![](DAChomework.png)
 
 2016-AS1-2-HUR
+
 
  ![2016-AS1-2](2016-AS1-2.png)
 
