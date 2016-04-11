@@ -246,3 +246,47 @@ no
 2012-EX2-3-RBAC3
 
  ![2012-EX2-3](2012-EX2-3.png)
+ 
+ 
+ 
+ 
+ ## Privacy-aware Access Control 1
+
+Purpose-based Access Control
+
+Homework
+
+  ![HomeworkPurposebasedAccessControl](HomeworkPurposebasedAccessControl.png)
+
+2016-AS2-2
+
+ ![2016-AS2-2](2016-AS2-2.png)
+
+2015-AS2-2
+
+ ![2015-AS2-2](2015-AS2-2.png)
+
+2014-AS2-2
+
+ ![2014-AS2-2](2014-AS2-2.png)
+
+2014-EX2-5
+
+ ![2014-EX2-5](2014-EX2-5.png)
+
+2013-AS2-2
+
+ ![2013-AS2-2](2013-AS2-2.png)
+
+2013-EX1-5
+
+ ![2013-EX1-5](2013-EX1-5.png)
+
+2012-AS2-2
+
+ ![2012-AS2-2](2012-AS2-2.png)
+
+2012-EX1-5-accesspurposeverification
+
+* Describe the access purpose verification in Purpose-based Access Control.
+
