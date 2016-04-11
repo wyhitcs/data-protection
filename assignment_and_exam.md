@@ -283,11 +283,13 @@ Homework
 
 2012-EX2-3
 
-
+![](2012-EX2-3.png)
  
 ## Introduction to Privacy
 
 2015-EX1-3-ReputationBasedTrustManagement-RuleBasedTrustManagement
+
+
 
 2014-EX1-4-TrustNegotiation
 
@@ -346,11 +348,18 @@ Homework
 
 
 ## Privacy-aware Access Control 2
+Homework
+![](EPALHomework.png)
 
 2016-AS2-3-EPAL
-
+![](2016-AS2-3-1.png)
+![](2016-AS2-3-2.png)
 2015-AS2-3-EPAL
-
+![](2015-AS2-3-1.png)
+![](2015-AS2-3-2.png)
+2015-s-AS2-3
+![](2015-s-AS2-3-1.png)
+![](2015-s-AS2-3-2.png)
 2015-EX1-4-EPAL
 
 2015-EX2-5-EPAL
