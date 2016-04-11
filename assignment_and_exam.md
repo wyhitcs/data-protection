@@ -373,14 +373,22 @@ Homework
 
 ![](2014-EX1-6-1.png)
 ![](2014-EX1-6-2.png)
+
 2013-AS2-3-EPAL
 
 ![](2013-AS2-3.png)
+
 2013-EX1-6-EPAL
 
+* Explain the notion of policy refinement in Enterprise Privacy Authorization Language (EPAL). Describe the scope-based policy comparison algorithm for policy refinement.
+
 2012-AS2-3-EPAL
+![](2012-AS2-3.png)
 
 2012-EX2-4-EPAL
+
+* Describe the EPAL policy model.
+
 ## eXtensible Access Control Markup Language(XACML) 1
 
 ## eXtensible Access Control Markup Language(XACML) 2
