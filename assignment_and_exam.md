@@ -190,3 +190,59 @@ homework
 2012-EX2-2-BLP-Biba
 
 * Describe the Bell-LaPadula and Biba models and how these two models can be combined.
+
+## Role Based Access Control
+
+Homework
+
+no
+
+2016-AS1-5-RBAC3
+
+ ![2016-AS1-5](2016-AS1-5.png)
+
+2015-s-AS1-4
+
+ ![2015-s-AS1-4](2015-s-AS1-4.png)
+
+2015-s-AS1-5
+
+ ![2015-s-AS1-5](2015-s-AS1-5.png)
+
+2015-AS1-5-RBAC3
+
+ ![2015-AS1-5](2015-AS1-5.png)
+
+2015-EX2-3-RBAC3
+
+ ![2015-EX2-3](2015-EX2-3.png)
+
+2014-AS1-5-RBAC3
+
+ ![2014-AS1-5](2014-AS1-5.png)
+
+2014-EX2-2-RBAC3
+
+ ![2014-EX2-2](2014-EX2-2.png)
+
+2013-AS1-5-RBAC3
+
+ ![2013-AS1-5](2013-AS1-5.png)
+
+2012-AS1-5-RBAC3
+
+ ![2012-AS1-5-1](2012-AS1-5-1.png)
+
+ ![2012-AS1-5-2](2012-AS1-5-2.png)
+
+2012-AS1-6-SSD-dsd
+
+ ![2012-AS1-6](2012-AS1-6.png)
+
+2012-AS1-7-DAC_MAC_RBAC
+
+ ![2012-AS1-7](2012-AS1-7.png)
+
+2012-EX2-3-RBAC3
+
+ ![2012-EX2-3](2012-EX2-3.png)
