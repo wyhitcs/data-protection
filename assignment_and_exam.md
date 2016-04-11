@@ -246,8 +246,43 @@ no
 2012-EX2-3-RBAC3
 
  ![2012-EX2-3](2012-EX2-3.png)
+ ## Usage Control
+
+Homework
+
+
+
+2016-AS2-1
+
+
+
+2015-AS2-1
+
+2014-AS2-1
+
+2014-EX1-5-UCON-Bibalowwatermark
+
+2014-EX2-4
+
+2013-AS2-1
+
+2013-EX2-4
+
+2012-AS2-2
+
+2012-EX2-3
  
- 
+## Introduction to Privacy
+
+2015-EX1-3-ReputationBasedTrustManagement-RuleBasedTrustManagement
+
+2014-EX1-4-TrustNegotiation
+
+2013-EX1-4-ReputationBasedTrustManagement-RuleBasedTrustManagement
+
+2013-EX2-5-datacentric-linkcentricprotection
+
+2012-EX2-6-confidentialityattransport
  
  
  ## Privacy-aware Access Control 1
@@ -292,11 +327,68 @@ Homework
 2012-EX1-5-accesspurposeverification
 
 * Describe the access purpose verification in Purpose-based Access Control.
+* 
 
 
 
 
+## Privacy-aware Access Control 2
 
+2016-AS2-3-EPAL
+
+2015-AS2-3-EPAL
+
+2015-EX1-4-EPAL
+
+2015-EX2-5-EPAL
+
+2014-AS2-3-EPAL
+
+2014-EX1-6-EPAL
+
+2013-AS2-3-EPAL
+
+2013-EX1-6-EPAL
+
+2012-AS2-3-EPAL
+
+2012-EX2-4-EPAL
+## eXtensible Access Control Markup Language(XACML) 1
+
+## eXtensible Access Control Markup Language(XACML) 2
+
+2016-AS2-4
+
+2015-AS2-4
+
+2015-EX1-6
+
+2015-EX2-6
+
+2014-AS2-4
+
+2014-EX1-7
+
+2014-EX2-6
+
+2013-AS2-4
+
+2013-EX1-7
+
+2013-EX2-6
+
+2012-AS2-4
+
+2012-EX1-6
+
+2012-EX1-7-RABC1-XACML
+
+2012-EX2-7
+
+## Reduction of Access Control Decisionss
+
+2015-EX1-5-D3-D7
+![2015EX1-5](2015-EX1-5.png)
 
 
 ## RT
