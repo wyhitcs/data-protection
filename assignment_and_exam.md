@@ -289,16 +289,22 @@ Homework
 
 2015-EX1-3-ReputationBasedTrustManagement-RuleBasedTrustManagement
 
-
+* Explain briefly how the concept of risk plays a role in reputation-based trust man- agement and rule-based trust management.
 
 2014-EX1-4-TrustNegotiation
 
+![](2014-EX1-4.png)
+
 2013-EX1-4-ReputationBasedTrustManagement-RuleBasedTrustManagement
+
+* Explain briefly the main differences between a rule-based trust management system and a reputation system. Give also two scenarios in which the first one is more suitable for a reputation system and the second one is more suitable for a rule-based system.
 
 2013-EX2-5-datacentric-linkcentricprotection
 
+![](2013-EX2-5.png)
+
 2012-EX2-6-confidentialityattransport
- 
+ ![](2012-EX2-6.png)
  
  ## Privacy-aware Access Control 1
 
