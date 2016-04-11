@@ -243,34 +243,47 @@ no
 
  ![2012-AS1-7](2012-AS1-7.png)
 
-2012-EX2-3-RBAC3
+2012-EX1-3-RBAC3
 
- ![2012-EX2-3](2012-EX2-3.png)
+ ![2012-EX1-3](2012-EX1-3.png)
  ## Usage Control
 
 Homework
 
-
+![](hwucon.png)
 
 2016-AS2-1
 
-
+![](2016-AS2-1.png)
 
 2015-AS2-1
+![](2015-AS2-1.png)
 
 2014-AS2-1
+![](2014-AS2-1.png)
 
 2014-EX1-5-UCON-Bibalowwatermark
 
+* Represent the Biba model with low-water mark for subjects in the UCON model.
+
 2014-EX2-4
+
+* List and explain the decision properties in UCON. Decribe how they are modeled in the language.
 
 2013-AS2-1
 
-2013-EX2-4
+![](2013-AS2-1.png)
 
-2012-AS2-2
+2013-EX2-4
+![](2013-EX2-4.png)
+
+2012-AS2-1
+
+![](2012-AS2-1.png)
 
 2012-EX2-3
+
+
  
 ## Introduction to Privacy
 
