@@ -383,8 +383,9 @@ Homework
 * Explain the notion of policy refinement in Enterprise Privacy Authorization Language (EPAL). Describe the scope-based policy comparison algorithm for policy refinement.
 
 2012-AS2-3-EPAL
-![](2012-AS2-3.png)
 
+
+![](2012-AS2-3.png)
 2012-EX2-4-EPAL
 
 * Describe the EPAL policy model.
