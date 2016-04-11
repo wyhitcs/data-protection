@@ -256,7 +256,7 @@ Purpose-based Access Control
 
 Homework
 
-![](HomeworkPurposebasedAccessControl.png)
+![hwpbac](hwpbac.png)
 
 2016-AS2-2
 
