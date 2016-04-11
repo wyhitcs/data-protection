@@ -293,3 +293,27 @@ Homework
 
 * Describe the access purpose verification in Purpose-based Access Control.
 
+
+
+
+
+
+
+## RT
+
+2015-EX1-2-RT0
+
+2015-EX2-4-RT0
+
+2014-EX1-3-RT0
+
+2014-EX2-3-RT0
+
+2013-EX1-3-RT0
+
+2013-EX2-3-trustmanagementlanguageRT
+
+2012-EX1-4-RT0
+
+2012-EX2-5-RT
+
