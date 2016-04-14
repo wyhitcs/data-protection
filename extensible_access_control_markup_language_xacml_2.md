@@ -16,22 +16,22 @@
 
 ###XACML Architecture
 
-![XACMLArchitecture](XACMLArchitecture.png)
+![XACMLArchitecture](image/XACMLArchitecture.png)
 
 ###XACML Policy Model
 
- ![XACMLPolicyModel](XACMLPolicyModel.png)
+ ![XACMLPolicyModel](image/XACMLPolicyModel.png)
 
 ###Access Request & Policy Applicability
 
- ![accessrequestpolicyapplicability](accessrequestpolicyapplicability.png)
+ ![accessrequestpolicyapplicability](image/accessrequestpolicyapplicability.png)
 
 * Access Requests specify a context 
   * Attributes of subject, object, action, environment
 
 * A Rule/Policy/PolicySet has a target 
   * Attributes of subject, object, action, environment
-  
+
 * Rule/Policy/PolicySet is applicable if the attributes in the accessrequest “match” the attributes in the target
 
 ###Access Decision
@@ -58,7 +58,7 @@ Used by some combining algorithms
 
 ###Decision Set Projection
 
- ![DecisionSetProjection](DecisionSetProjection.png)
+ ![DecisionSetProjection](image/DecisionSetProjection.png)
 
 ###Combining Algorithms
 
@@ -78,7 +78,7 @@ Used by some combining algorithms
 
 * Only-one-applicable
 
-   ![CombiningAlgorithms](CombiningAlgorithms.png)
+   ![CombiningAlgorithms](image/CombiningAlgorithms.png)
 
 ###Obligations
 
@@ -92,7 +92,7 @@ Used by some combining algorithms
 
 ###Response
 
-![xacmlResponse](xacmlResponse.png)
+![xacmlResponse](image/xacmlResponse.png)
 
 * Access Decision
 * Obligations
@@ -107,7 +107,7 @@ Used by some combining algorithms
 
 ###RBAC
 
-![RBAC](RBAC.png)
+![RBAC](image/RBAC.png)
 
 Facilitate policy specification and management
 
@@ -122,11 +122,11 @@ Facilitate policy specification and management
 
 ###RBAC0
 
- ![RBAC0](RBAC0.png)
+ ![RBAC0](image/RBAC0.png)
 
 ###RBAC1
 
- ![RBAC1](RBAC1.png)
+ ![RBAC1](image/RBAC1.png)
 
 ###RBAC Profile - Scope
 
@@ -181,7 +181,7 @@ Determine whether a subject holds a certain role
 * Each Role < PolicySet > references a single Permission < PolicySet > 
   * No contain or reference any other < Policy >or < PolicySet >
 
-![Role<PolicySet>](Role<PolicySet>.png)
+![Role<PolicySet>](image/Role<PolicySet>.png)
 
 ###Permission < PolicySet >
 
@@ -192,17 +192,17 @@ Define the permissions associated to a certain role
 * < Target > MUST NOT limit the subjects to which the < PolicySet > is applicable 
   * including contained or referenced PolicySet/Policy/Rule
 
-  ![Permission<PolicySet>](Permission<PolicySet>.png)
+  ![Permission<PolicySet>](image/Permission<PolicySet>.png)
 
 
 ###Example
 
-![RBACProfileExample](RBACProfileExample.png)
+![RBACProfileExample](image/RBACProfileExample.png)
 
 Role < PolicySet > for employees
-![Role<PolicySet>foremployees](Role<PolicySet>foremployees.png)
+![Role<PolicySet>foremployees](image/Role<PolicySet>foremployees.png)
 
-Permission < PolicySet > for employees ![Permission<PolicySet>foremployees](Permission<PolicySet>foremployees.png)
+Permission < PolicySet > for employees ![Permission<PolicySet>foremployees](image/Permission<PolicySet>foremployees.png)
 
 ###Evaluation
 
@@ -231,7 +231,7 @@ Define the permissions associated to a certain role
 
 ###Example
 
- ![RBAC1XACMLExample](RBAC1XACMLExample.png)
+ ![RBAC1XACMLExample](image/RBAC1XACMLExample.png)
 
 ###Multi-Role Permissions
 
@@ -256,15 +256,15 @@ Included in a Permission < PolicySet >
 
 If this type of request is to be supported, then a HasPrivilegesOfRole < Policy > MUST be included in each Permission < PolicySet >
 
- ![HasPrivilegesOfRole<Policy>](HasPrivilegesOfRole<Policy>.png)
+ ![HasPrivilegesOfRole<Policy>](image/HasPrivilegesOfRole<Policy>.png)
 
 ###HasPrivilegesOfRole < Policy > for managers
 
- ![HasPrivilegesOfRole<Policy>formanagers](HasPrivilegesOfRole<Policy>formanagers.png)
+ ![HasPrivilegesOfRole<Policy>formanagers](image/HasPrivilegesOfRole<Policy>formanagers.png)
 
 ###HasPrivilegesOfRole < Request > 
 
- ![HasPrivilegesOfRole<Request>](HasPrivilegesOfRole<Request>.png)
+ ![HasPrivilegesOfRole<Request>](image/HasPrivilegesOfRole<Request>.png)
 
 
 ##Privacy Profile
@@ -294,7 +294,7 @@ No purpose hierarchy
 
 ###Matching purpose
 
- ![Matchingpurpose](Matchingpurpose.png)
+ ![Matchingpurpose](image/Matchingpurpose.png)
 
 ###XSPA Profile
 
