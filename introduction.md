@@ -37,7 +37,7 @@ Popular definitions:
 - (Privacy as Practice)“The freedom from unreasonable constraints on the construction of one’s own identity” (Agre, 1999)-->Focus on autonomy
 
 ###Privacy Paradigms
-![Privacy Paradigms](559F56C080793788AE6C795EFF53FE69.jpg)
+![Privacy Paradigms](image/559F56C080793788AE6C795EFF53FE69.jpg)
 
 ###What Privacy is About
 - Privacy concerns personal information
