@@ -88,7 +88,7 @@ Homework-DAC
 2012-EX1-1-HUR
 
  ![2012-EX1-1](2012-EX1-1.png)
- 
+
  
 
 
@@ -284,7 +284,7 @@ Homework
 2012-EX2-3
 
 ![](2012-EX2-3.png)
- 
+
 ## Introduction to Privacy
 
 2015-EX1-3-ReputationBasedTrustManagement-RuleBasedTrustManagement
@@ -305,7 +305,7 @@ Homework
 
 2012-EX2-6-confidentialityattransport
  ![](2012-EX2-6.png)
- 
+
  ## Privacy-aware Access Control 1
 
 Purpose-based Access Control
