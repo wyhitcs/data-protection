@@ -63,8 +63,8 @@ Access rights: read, write, execute
 
 - For files
   - read: reading from a file
-  -  write: writing to a file
-  -   execute: executing a (program) file
+  - write: writing to a file
+  - execute: executing a (program) file
 - For directories
   - read: list the files within the directory
   - write: create, rename, or delete files within the directory
@@ -72,7 +72,7 @@ Access rights: read, write, execute
 
 ###Access Control vs. Authentication
 Completely different things
- 
+
 Authentication: Establishing who you are(whether a user possesses a certain pseudonym/attribute or not)
 
 Access Control: Establishing if a user has the right of doing a certain operation
@@ -82,7 +82,7 @@ Authentication is necessary for access control
 ###Policies, Models, Mechanisms
 
 **Policy**: define (high-level) guidelines and rules describing the accesses to be authorized by the system
- 
+
 **Model**: formally define the access control specification and enforcement
 
 **Mechanism**: implement the policies via low level (software and hardware) functions
@@ -330,7 +330,7 @@ Bad news
 ##DAC weaknesses
 
 DAC imposes constraints only on **direct** access
- 
+
 No control on the information once released
 => DAC is vulnerable to **Trojan horses**
 - exploiting access privileges of calling subject
@@ -350,7 +350,7 @@ No control on the information once released
 - HRU model
 
 **Safety Problem**: Given a configuration Q and a right r , is there any sequence of commands that leaks r?
- 
+
 **DAC vulnerabilities**: Trojan horses
 
 ##References
