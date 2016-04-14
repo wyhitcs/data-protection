@@ -49,7 +49,7 @@ Popular definitions:
 ##Privacy Threats
 How much privacy do we have left?
 ###Data Life Cycle
-![Data Life Cycle](20A82DA950ABB5F7F6A702461DDF7F6D.jpg)
+![Data Life Cycle](image/20A82DA950ABB5F7F6A702461DDF7F6D.jpg)
 
 ###Taxonomy(分类学,分类系统) of Privacy Threats(Solove)
 - Information collection
@@ -86,7 +86,7 @@ Combining and comparing information from more than one database
 - Why aggregation is a problem? Data already in the system
 - Individual pieces of data may be not very telling
 - But when combined together, they may reveal(显示; 露出;泄露; 透露) more information about a person
-  ![aggregation](8C07481A0A06E9082FF27EA81B1C5856.png)
+  ![aggregation](image/8C07481A0A06E9082FF27EA81B1C5856.png)
 
 - Aggregated information about a person is often used to judge her
 - Amazon.com uses aggregated data about book-buying history to recommend other books
@@ -166,10 +166,10 @@ Digitization of information make it possible to
 - Conceptually similar to bar code-->used to identify and track objects of interest
 
 ###RFID Data Collection Process
-![01-Intro-2.jpg](7870E50E4AC8C684032666E0B769CE26.jpg)
+![01-Intro-2.jpg](image/7870E50E4AC8C684032666E0B769CE26.jpg)
 
 ###RFID Application
-![01-Intro-2.jpg](730195BBCBAC8FAD789CE44F23A0F300.jpg)
+![01-Intro-2.jpg](image/730195BBCBAC8FAD789CE44F23A0F300.jpg)
 
 ###RFID From the news
 2006: President of Colombia agreed to require Colombian
@@ -205,8 +205,8 @@ Many people publish their personal information on social networks
 How can we protect privacy?
 
 ###Scenario
-![01-Intro-2.jpg](B093076E9293A72127E41F48D3478DA3.jpg)
-![01-Intro-2.jpg](D8F94E33F98CC22027FB06219A84FDC0.jpg)
+![01-Intro-2.jpg](image/B093076E9293A72127E41F48D3478DA3.jpg)
+![01-Intro-2.jpg](image/D8F94E33F98CC22027FB06219A84FDC0.jpg)
 
 ###Privacy as Control: Assumptions
 - Collection and Processing of personal information is useful and necessary
@@ -309,7 +309,7 @@ How can we protect privacy?
 - Storage:
   - Hide the existence of files
   - Under coercion(强迫；强制；高压政治；威压) can deny there are any files to decrypt
-    ![01-Intro-2.jpg](8995275BEE68C2277B2D4FB2F2FAD318.jpg)
+    ![01-Intro-2.jpg](image/8995275BEE68C2277B2D4FB2F2FAD318.jpg)
 
 ###Privacy as Confidentiality: Main Characteristics
 - Privacy is defined as properities hard-coded in the technology itself

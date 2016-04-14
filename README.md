@@ -8,7 +8,7 @@ All rights belong to the professor, here just make some note.
 
 
 
-* [Introduction](README.md)
+* [Introduction](introduction.md)
 * [Discretionary Access Control自主访问控制](discretionary_access_control.md)
 * [Mandatory Access Control强制访问控制](mandatory_access_control.md)
 * [Role Based Access Control](role_based_access_control.md)
