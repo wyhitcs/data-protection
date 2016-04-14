@@ -55,7 +55,7 @@ Suppose you want to add a photo to your wall. How to set permissions in DAC?
   - Reduce cost of administration
 
 ###RBAC:Intuition
-![RBAC:Intuition](11896783812C3F74641B680935246566.jpg)
+![RBAC:Intuition](image/11896783812C3F74641B680935246566.jpg)
 
 ###RBAC
 - **Roles** defined based on job function, e.g.,bookkeeper
@@ -88,7 +88,7 @@ RBAC is currently used in
 
 - Database management systems
 - Enterprise Application for Security Administration and User Management
-  
+
 Applicatons(using some form of RBAC)
 
 - Microsoft Active Directory
@@ -111,7 +111,7 @@ Simplify definition and administration of access control policies
   - Add/Remove permission for a job function?
 
 ###Four Reference Models
-![Four Reference Models](C41F57201138BED394D6A8006F81D9A4.png)
+![Four Reference Models](image/C41F57201138BED394D6A8006F81D9A4.png)
 - RBAC<sub>0</sub>: Core Model
 - RBAC<sub>1</sub>: Role Hierarchy
 - RBAC<sub>2</sub>: Constraints
@@ -132,7 +132,7 @@ Simplify definition and administration of access control policies
   - define set of activated roles
 
 ##RBAC<sub>0</sub> Model
-![RBAC<sub>0 Model](CE6790669F5875E7F457C042496EF88D.png)
+![RBAC<sub>0 Model](image/CE6790669F5875E7F457C042496EF88D.png)
 - U Users
 - R Roles 
 - OPS Operations
@@ -147,8 +147,8 @@ Simplify definition and administration of access control policies
 - A permission can be assigned to many roles
 
 ###Exercise
-![](RBAC0Q.png)
-![](RBAC0A.png)
+![](image/RBAC0Q.png)
+![](image/RBAC0A.png)
 ###RBAC<sub>1</sub>: Role Hierarchy
 - Some roles **subsume**(把……归入；把……包括在内) others见36
 - This suggests a hierarchy of roles
@@ -169,21 +169,21 @@ Simplify definition and administration of access control policies
   - Antisymmetry(i.e., x ≤ y and y ≤ x then x= y)反对称性
 
 ###Role Hierarchy-Examples
-![Role Hierarchy-Examples](F4836B9F9F365444F57926C10FD0B1DD.png)
+![Role Hierarchy-Examples](image/F4836B9F9F365444F57926C10FD0B1DD.png)
 
 ###RBAC<sub>1</sub> Model
-![model](DF2E75A74B854F50FA12DC16AC94003D.png)
+![model](image/DF2E75A74B854F50FA12DC16AC94003D.png)
 
 ###Exercise 见40-43
-![](RBAC1Q.png)
+![](image/RBAC1Q.png)
 
-![](RBAC1A.png)
+![](image/RBAC1A.png)
 ###Remark
 - Sometimes, used reversed role hierarchical
 - Dominance(优势;支配地位;控制力) relation instead of specialization
 - Inheritance from bottom to top
 - What is the problem of inheritance with respect to dominance?
-  ![reverse](DCB8CAFCC863FAB9FF188B55FD4830B4.png)
+  ![reverse](image/DCB8CAFCC863FAB9FF188B55FD4830B4.png)
 
 ###RBAC<sub>2</sub>
 - Mutually Exclusive Roles
@@ -202,9 +202,9 @@ Simplify definition and administration of access control policies
 - Restrict combinations of privileges made available to users
 
 ###Q&A见47-49
-![](RBAC2Q.png)
+![](image/RBAC2Q.png)
 
-![](RBAC2A.png)
+![](image/RBAC2A.png)
 
 
 ###Separation of Duty
@@ -218,13 +218,13 @@ Static Separation of Duty constraint ssod(ps,n)
 - at least n user are needed to cover all permissions in permission set ps
 
 #####In our example.. 见52
-![](exampleRBAC2.png)
+![](image/exampleRBAC2.png)
 
 
 #####Exercise 见54,55
-![](RBAC2exercise.png)
+![](image/RBAC2exercise.png)
 1. inconstraint r3 both p2 and p3
-2. 
+2. ​
 ####Static Separation of Duty (SSoD)
 - SSoD used to place constrains on permissions assigned to users
 - In our example:见56
@@ -250,12 +250,12 @@ Static Mutually Exclusive Roles constraint smer(rs,n)
 - Any user cannot be assigned to n or more roles in role set rs
 
 ###RBAC<sub>2</sub> Model with SMER
-![RBAC<sub>2 Model with SMER](83F588CA5A4145799236FF042413D1CB.png)
+![RBAC<sub>2 Model with SMER](image/83F588CA5A4145799236FF042413D1CB.png)
 
 ###Exercise 见61-62
-![](SMERQ.png)
+![](image/SMERQ.png)
 
-![](SMERA.png)
+![](image/SMERA.png)
 
 ###Dynamic Mutually Exclusive Roles（DMER）
 - User can activate multiple roles in one session
@@ -264,7 +264,7 @@ Static Mutually Exclusive Roles constraint smer(rs,n)
   - user cannot simultaneously activate n or more roles from role set rs in one session
 
 ###RBAC<sub>2</sub> Model with DMER
-![RBAC<sub>2 Model with DMER](DD281A739D2255DE971CC165DBD65E09.png)
+![RBAC<sub>2 Model with DMER](image/DD281A739D2255DE971CC165DBD65E09.png)
 DMER place constraints on the roles that can be activated in a user’s session. If one role that takes part in a DMER is activated, the user cannot activate the related (conflicting) role in the same session
 
 ###Other Constraints

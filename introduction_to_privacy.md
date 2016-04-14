@@ -12,7 +12,9 @@
 > The right to be let alone.	--L. Brandeis, S. Warren 1890
 
 
+
 > Claim of individuals, groups and institutions to determine forthemselves, when, how and to what extent information about them iscommunicated to others	--Westin 1967
+
 
 
 > Freedom from unreasonable constraints on the construction of one’sown identity	--Agre 1999
@@ -164,7 +166,7 @@ General Data Protection Regulation (GDPR)
 
 ####Personal Data-Example
 
-![PersonalDataExample](PersonalDataExample.png)
+![PersonalDataExample](image/PersonalDataExample.png)
 
 ####Data Processing
 
@@ -174,11 +176,11 @@ Who is involved in data processing?
 
 ###Main Actors
 
- ![MainActors](MainActors.png)
+ ![MainActors](image/MainActors.png)
 
 ####Other Actors
 
- ![OtherActors](OtherActors.png)
+ ![OtherActors](image/OtherActors.png)
 
 ###Purpose
 
@@ -188,7 +190,7 @@ Purpose specifies the reason for which data can be collected and processed
 
 Why do you want to process the data?
 
- ![Purpose](Purpose.png)
+ ![Purpose](image/Purpose.png)
 
 ####Open questions
 

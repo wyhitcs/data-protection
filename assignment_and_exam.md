@@ -18,12 +18,12 @@ Search in the news an article about privacy violations. Describe briey the repor
 
 Homework-DAC
 
-![](DAChomework.png)
+![](image/DAChomework.png)
 
 2016-AS1-2-HUR
 
 
- ![2016-AS1-2](2016-AS1-2.png)
+ ![2016-AS1-2](image/2016-AS1-2.png)
 
 2016-AS1-6-Take-grant-HRU
 
@@ -32,19 +32,19 @@ Homework-DAC
 
 2015-AS1-2-HUR
 
- ![2015-AS1-2](2015-AS1-2.png)
+ ![2015-AS1-2](image/2015-AS1-2.png)
 
 2015-s-AS1-2
 
- ![2015-s-AS1-2](2015-s-AS1-2.png)
+ ![2015-s-AS1-2](image/2015-s-AS1-2.png)
 
 2015-EX1-1-HUR
 
- ![2015-EX1-1](2015-EX1-1.png)
+ ![2015-EX1-1](image/2015-EX1-1.png)
 
 2014-AS1-2-HUR
 
- ![2014-AS1-2](2014-AS1-2.png)
+ ![2014-AS1-2](image/2014-AS1-2.png)
 
 
 
@@ -54,15 +54,15 @@ Homework-DAC
 
 2014-EX1-1-Take-grant-HRU
 
- ![2014-EX1-1](2014-EX1-1.png)
+ ![2014-EX1-1](image/2014-EX1-1.png)
 
 2014-EX2-1-command
 
- ![2014-EX2-1](2014-EX2-1.png)
+ ![2014-EX2-1](image/2014-EX2-1.png)
 
 2013-AS1-2-command
 
- ![2013-AS1-2](2013-AS1-2.png)
+ ![2013-AS1-2](image/2013-AS1-2.png)
 
 2013-AS1-6-accesscontrol-SELinux
 
@@ -75,20 +75,20 @@ Homework-DAC
 
 2013-EX2-1-command
 
- ![2013-EX2-1](2013-EX2-1.png)
+ ![2013-EX2-1](image/2013-EX2-1.png)
 
 2012-AS1-2-HUR
 
- ![2012-AS1-2](2012-AS1-2.png)
+ ![2012-AS1-2](image/2012-AS1-2.png)
 
 2012-AS1-3-accessmatrix
 
- ![2012-AS1-3](2012-AS1-3.png)
+ ![2012-AS1-3](image/2012-AS1-3.png)
 
 2012-EX1-1-HUR
 
- ![2012-EX1-1](2012-EX1-1.png)
- 
+ ![2012-EX1-1](image/2012-EX1-1.png)
+
  
 
 
@@ -97,13 +97,13 @@ Homework-DAC
 
 homework
 
- ![MAChomework](MAChomework.png)
+ ![MAChomework](image/MAChomework.png)
 
 2016-AS1-3-Biba-low-watermark
 
- ![2016-AS1-3-1](2016-AS1-3-1.png)
+ ![2016-AS1-3-1](image/2016-AS1-3-1.png)
 
- ![2016-AS1-3-2](2016-AS1-3-2.png)
+ ![2016-AS1-3-2](image/2016-AS1-3-2.png)
 
 2016-AS1-4-ChineseWall
 
@@ -111,15 +111,15 @@ homework
 
 2015-AS1-3-BLP
 
- ![2015-AS1-3-1](2015-AS1-3-1.png)
+ ![2015-AS1-3-1](image/2015-AS1-3-1.png)
 
- ![2015-AS1-3-2](2015-AS1-3-2.png)
+ ![2015-AS1-3-2](image/2015-AS1-3-2.png)
 
 2015-s-AS1-3
 
- ![2015-s-AS1-3-1.png](2015-s-AS1-3-1.png.png)
+ ![2015-s-AS1-3-1.png](image/2015-s-AS1-3-1.png.png)
 
- ![2015-s-AS1-3-2.png](2015-s-AS1-3-2.png.png)
+ ![2015-s-AS1-3-2.png](image/2015-s-AS1-3-2.png.png)
 
 2015-AS1-4-ChineseWall-BLP
 
@@ -139,7 +139,7 @@ homework
 
 2015-EX2-1-Biba-low-watermark
 
- ![2015-EX2-1](2015-EX2-1.png)
+ ![2015-EX2-1](image/2015-EX2-1.png)
 
 2015-EX2-2-ChineseWall
 
@@ -147,21 +147,21 @@ homework
 
 2014-AS1-3-lattice-lub-glb
 
- ![2014-AS1-3](2014-AS1-3.png)
+ ![2014-AS1-3](image/2014-AS1-3.png)
 
 2014-AS1-4-ChineseWall
 
- ![2014-AS1-4](2014-AS1-4.png)
+ ![2014-AS1-4](image/2014-AS1-4.png)
 
 2014-EX1-2-BLP-Biba
 
- ![2014-EX1-2](2014-EX1-2.png)
+ ![2014-EX1-2](image/2014-EX1-2.png)
 
 2013-AS1-3-BLP
 
- ![2013-AS1-3-1](2013-AS1-3-1.png)
+ ![2013-AS1-3-1](image/2013-AS1-3-1.png)
 
- ![2013-AS1-3-2](2013-AS1-3-2.png)
+ ![2013-AS1-3-2](image/2013-AS1-3-2.png)
 
 2013-AS1-4-ChineseWall-BLP
 
@@ -169,11 +169,11 @@ homework
 
 2013-EX1-2-Biba
 
- ![2013-EX1-2](2013-EX1-2.png)
+ ![2013-EX1-2](image/2013-EX1-2.png)
 
 2013-EX2-2-BLP-Biba
 
- ![2013-EX2-2](2013-EX2-2.png)
+ ![2013-EX2-2](image/2013-EX2-2.png)
 
 2012-AS1-4-ChineseWall-BLP
 
@@ -185,7 +185,7 @@ homework
 
 2012-EX2-1-BLP
 
- ![2012-EX2-1](2012-EX2-1.png)
+ ![2012-EX2-1](image/2012-EX2-1.png)
 
 2012-EX2-2-BLP-Biba
 
@@ -199,68 +199,68 @@ no
 
 2016-AS1-5-RBAC3
 
- ![2016-AS1-5](2016-AS1-5.png)
+ ![2016-AS1-5](image/2016-AS1-5.png)
 
 2015-s-AS1-4
 
- ![2015-s-AS1-4](2015-s-AS1-4.png)
+ ![2015-s-AS1-4](image/2015-s-AS1-4.png)
 
 2015-s-AS1-5
 
- ![2015-s-AS1-5](2015-s-AS1-5.png)
+ ![2015-s-AS1-5](image/2015-s-AS1-5.png)
 
 2015-AS1-5-RBAC3
 
- ![2015-AS1-5](2015-AS1-5.png)
+ ![2015-AS1-5](image/2015-AS1-5.png)
 
 2015-EX2-3-RBAC3
 
- ![2015-EX2-3](2015-EX2-3.png)
+ ![2015-EX2-3](image/2015-EX2-3.png)
 
 2014-AS1-5-RBAC3
 
- ![2014-AS1-5](2014-AS1-5.png)
+ ![2014-AS1-5](image/2014-AS1-5.png)
 
 2014-EX2-2-RBAC3
 
- ![2014-EX2-2](2014-EX2-2.png)
+ ![2014-EX2-2](image/2014-EX2-2.png)
 
 2013-AS1-5-RBAC3
 
- ![2013-AS1-5](2013-AS1-5.png)
+ ![2013-AS1-5](image/2013-AS1-5.png)
 
 2012-AS1-5-RBAC3
 
- ![2012-AS1-5-1](2012-AS1-5-1.png)
+ ![2012-AS1-5-1](image/2012-AS1-5-1.png)
 
- ![2012-AS1-5-2](2012-AS1-5-2.png)
+ ![2012-AS1-5-2](image/2012-AS1-5-2.png)
 
 2012-AS1-6-SSD-dsd
 
- ![2012-AS1-6](2012-AS1-6.png)
+ ![2012-AS1-6](image/2012-AS1-6.png)
 
 2012-AS1-7-DAC_MAC_RBAC
 
- ![2012-AS1-7](2012-AS1-7.png)
+ ![2012-AS1-7](image/2012-AS1-7.png)
 
 2012-EX1-3-RBAC3
 
- ![2012-EX1-3](2012-EX1-3.png)
+ ![2012-EX1-3](image/2012-EX1-3.png)
  ## Usage Control
 
 Homework
 
-![](hwucon.png)
+![](image/hwucon.png)
 
 2016-AS2-1
 
-![](2016-AS2-1.png)
+![](image/2016-AS2-1.png)
 
 2015-AS2-1
-![](2015-AS2-1.png)
+![](image/2015-AS2-1.png)
 
 2014-AS2-1
-![](2014-AS2-1.png)
+![](image/2014-AS2-1.png)
 
 2014-EX1-5-UCON-Bibalowwatermark
 
@@ -272,19 +272,19 @@ Homework
 
 2013-AS2-1
 
-![](2013-AS2-1.png)
+![](image/2013-AS2-1.png)
 
 2013-EX2-4
-![](2013-EX2-4.png)
+![](image/2013-EX2-4.png)
 
 2012-AS2-1
 
-![](2012-AS2-1.png)
+![](image/2012-AS2-1.png)
 
 2012-EX2-3
 
-![](2012-EX2-3.png)
- 
+![](image/2012-EX2-3.png)
+
 ## Introduction to Privacy
 
 2015-EX1-3-ReputationBasedTrustManagement-RuleBasedTrustManagement
@@ -293,7 +293,7 @@ Homework
 
 2014-EX1-4-TrustNegotiation
 
-![](2014-EX1-4.png)
+![](image/2014-EX1-4.png)
 
 2013-EX1-4-ReputationBasedTrustManagement-RuleBasedTrustManagement
 
@@ -301,49 +301,49 @@ Homework
 
 2013-EX2-5-datacentric-linkcentricprotection
 
-![](2013-EX2-5.png)
+![](image/2013-EX2-5.png)
 
 2012-EX2-6-confidentialityattransport
- ![](2012-EX2-6.png)
- 
+ ![](image/2012-EX2-6.png)
+
  ## Privacy-aware Access Control 1
 
 Purpose-based Access Control
 
 Homework
 
-![hwpbac](hwpbac.png)
+![hwpbac](image/hwpbac.png)
 
 2016-AS2-2
 
- ![2016-AS2-2](2016-AS2-2.png)
+ ![2016-AS2-2](image/2016-AS2-2.png)
 
 2015-s-AS2-2
-![2015SAS2](2015-s-AS2-2.png)
+![2015SAS2](image/2015-s-AS2-2.png)
 
 2015-AS2-2
 
- ![2015-AS2-2](2015-AS2-2.png)
+ ![2015-AS2-2](image/2015-AS2-2.png)
 
 2014-AS2-2
 
- ![2014-AS2-2](2014-AS2-2.png)
+ ![2014-AS2-2](image/2014-AS2-2.png)
 
 2014-EX2-5
 
- ![2014-EX2-5](2014-EX2-5.png)
+ ![2014-EX2-5](image/2014-EX2-5.png)
 
 2013-AS2-2
 
- ![2013-AS2-2](2013-AS2-2.png)
+ ![2013-AS2-2](image/2013-AS2-2.png)
 
 2013-EX1-5
 
- ![2013-EX1-5](2013-EX1-5.png)
+ ![2013-EX1-5](image/2013-EX1-5.png)
 
 2012-AS2-2
 
- ![2012-AS2-2](2012-AS2-2.png)
+ ![2012-AS2-2](image/2012-AS2-2.png)
 
 2012-EX1-5-accesspurposeverification
 
@@ -355,34 +355,34 @@ Homework
 
 ## Privacy-aware Access Control 2
 Homework
-![](EPALHomework.png)
+![](image/EPALHomework.png)
 
 2016-AS2-3-EPAL
-![](2016-AS2-3-1.png)
-![](2016-AS2-3-2.png)
+![](image/2016-AS2-3-1.png)
+![](image/2016-AS2-3-2.png)
 2015-AS2-3-EPAL
-![](2015-AS2-3-1.png)
-![](2015-AS2-3-2.png)
+![](image/2015-AS2-3-1.png)
+![](image/2015-AS2-3-2.png)
 2015-s-AS2-3
-![](2015-s-AS2-3-1.png)
-![](2015-s-AS2-3-2.png)
+![](image/2015-s-AS2-3-1.png)
+![](image/2015-s-AS2-3-2.png)
 2015-EX1-4-EPAL
-![](2015-EX1-4.png)
+![](image/2015-EX1-4.png)
 2015-EX2-5-EPAL
 
 * Explain the notion of policy refinement in Enterprise Privacy Authorization Language (EPAL) and give a scenario in which policy refinement is needed. Describe the main steps of the scope- based policy comparison algorithm for policy refinement.
 
 2014-AS2-3-EPAL
-![](2014-AS2-3.png)
+![](image/2014-AS2-3.png)
 
 2014-EX1-6-EPAL
 
-![](2014-EX1-6-1.png)
-![](2014-EX1-6-2.png)
+![](image/2014-EX1-6-1.png)
+![](image/2014-EX1-6-2.png)
 
 2013-AS2-3-EPAL
 
-![](2013-AS2-3.png)
+![](image/2013-AS2-3.png)
 
 2013-EX1-6-EPAL
 
@@ -391,7 +391,7 @@ Homework
 2012-AS2-3-EPAL
 
 
-![](2012-AS2-3.png)
+![](image/2012-AS2-3.png)
 2012-EX2-4-EPAL
 
 * Describe the EPAL policy model.
@@ -431,7 +431,7 @@ Homework
 ## Reduction of Access Control Decisionss
 
 2015-EX1-5-D3-D7
-![2015EX1-5](2015-EX1-5.png)
+![2015EX1-5](image/2015-EX1-5.png)
 
 
 ## RT

@@ -26,7 +26,7 @@
 - Control what a subject can do to prevent damage to the system
 - Regulate the **operations** that can be executed by a **subject** on **data and resources**
 - Typically provided as part of operating systems and of database management systems
-  ![Access Control](C0A1990DB2C97F0BB28DA255824641B9.png)
+  ![Access Control](image/C0A1990DB2C97F0BB28DA255824641B9.png)
 - The basic idea of access control is that there is an _active_ subject requiring access to a _passive_ object to perform some specific access operation
 - A _reference monitor_ grants or denies access
 
@@ -63,8 +63,8 @@ Access rights: read, write, execute
 
 - For files
   - read: reading from a file
-  -  write: writing to a file
-  -   execute: executing a (program) file
+  - write: writing to a file
+  - execute: executing a (program) file
 - For directories
   - read: list the files within the directory
   - write: create, rename, or delete files within the directory
@@ -72,7 +72,7 @@ Access rights: read, write, execute
 
 ###Access Control vs. Authentication
 Completely different things
- 
+
 Authentication: Establishing who you are(whether a user possesses a certain pseudonym/attribute or not)
 
 Access Control: Establishing if a user has the right of doing a certain operation
@@ -82,7 +82,7 @@ Authentication is necessary for access control
 ###Policies, Models, Mechanisms
 
 **Policy**: define (high-level) guidelines and rules describing the accesses to be authorized by the system
- 
+
 **Model**: formally define the access control specification and enforcement
 
 **Mechanism**: implement the policies via low level (software and hardware) functions
@@ -150,7 +150,7 @@ Design mechanisms able to **enforce multiple policies**
 - “*” flag can delegate rights to other subjects
 
 ####Q&A 
-![Q&A](DACQ&A.png)
+![Q&A](image/DACQ&A.png)
 control: S1 can remove any right of S2
 
 *read: S1 can give any subject the right to read F1
@@ -166,10 +166,10 @@ own: S3 can give any right on F2 to every subject
   - **Capability lists**: Stored by row
 
 ####Authorization table
-![###Authorization table](BA93262851EF6CEA620C3A82825B6BC2.png)
+![###Authorization table](image/BA93262851EF6CEA620C3A82825B6BC2.png)
 
 ####Access control lists vs. Capability lists
-![Access control lists vs. Capability lists](53E04535F20C42DBBAE2EC9F376F4526.png)
+![Access control lists vs. Capability lists](image/53E04535F20C42DBBAE2EC9F376F4526.png)
 Access control lists 
 - Objects are the starting point (per-object basis)
 - Require authentication of subjects
@@ -198,26 +198,26 @@ Define authorization system
     **destroy subject** s<sup>'</sup> , **create object** o<sup>'</sup> , **destroy object** o<sup>'</sup>
 
 ###Primitive operations
-![Primitive operations1](847AF5E6E879C86E215C4E6986FCFEC7.png)
-![Primitive operations2](7E70E2B5F93928A7FA9D9FAF431BAD7A.png)
+![Primitive operations1](image/847AF5E6E879C86E215C4E6986FCFEC7.png)
+![Primitive operations2](image/7E70E2B5F93928A7FA9D9FAF431BAD7A.png)
 
 ###Commands
 Changes to the system state modeled by commands of the form
-![commands](E15316BADEC9EBFA3092E53DF56B6178.png)
+![commands](image/E15316BADEC9EBFA3092E53DF56B6178.png)
 with r<sub>1</sub>,...,r<sub>m</sub> rights and op<sub>1</sub>,...,op<sub>n</sub> primitive operations
 Examples:
-![command examples](C87FD6FC8CBF9434DA7F3F05EEBD3850.png)
+![command examples](image/C87FD6FC8CBF9434DA7F3F05EEBD3850.png)
 
 ###Transfer of privileges
 Delegation of authority by attaching flags to privileges(e.g.,* copy flag, + transfer-only flag)
 - copy flag(*): subject can transfer privilege to others
-  ![flag](56B57524F092898516163CD89498C15E.png)
+  ![flag](image/56B57524F092898516163CD89498C15E.png)
 - transfer-only flag(+): subject can transfer privilege to others (and the flag on it), but he loses the privilege
-  ![+flag](2094561D9AE4E0F8EEFF2D56FCB856DF.png)
+  ![+flag](image/2094561D9AE4E0F8EEFF2D56FCB856DF.png)
 
 ###State transitions
 
-![State transitions](Statetransitions.png)
+![State transitions](image/Statetransitions.png)
 
 ###Exercise 
 
@@ -275,12 +275,12 @@ Alternative definition based on distribution of rights
 - No leakage of rights
 
 ###Waht is a secure system?
-![What is a secure system](Whatisasecuresystem.png)
+![What is a secure system](image/Whatisasecuresystem.png)
 
 ###Exercise 
 
-![](WhatisasecuresystemQ.png)
-![](WhatisasecuresystemA.png)
+![](image/WhatisasecuresystemQ.png)
+![](image/WhatisasecuresystemA.png)
 
 ###HRU: Safety Problem
 Safety problem: Given an initial state (S,O,A) and a right r , is there any sequence of commands leaking r?
@@ -297,8 +297,8 @@ Security for r can be considered by ignoring all trustworthy subjects (i.e., ign
 ###Exercise 
 
 
-![Exercise](leakexercise.png)
-![](leakexerciseA.png)
+![Exercise](image/leakexercise.png)
+![](image/leakexerciseA.png)
 
 ###Safety problem: Decidability
 
@@ -330,7 +330,7 @@ Bad news
 ##DAC weaknesses
 
 DAC imposes constraints only on **direct** access
- 
+
 No control on the information once released
 => DAC is vulnerable to **Trojan horses**
 - exploiting access privileges of calling subject
@@ -338,7 +338,7 @@ No control on the information once released
 **Trojan horses**: a program (apparently harmless) which contains malicious or harmful code
 ###Trojan horses – Example
 
-![Trojan horses – Example](TrojanhorsesExample.png)
+![Trojan horses – Example](image/TrojanhorsesExample.png)
 
 
 ##Summary
@@ -350,7 +350,7 @@ No control on the information once released
 - HRU model
 
 **Safety Problem**: Given a configuration Q and a right r , is there any sequence of commands that leaks r?
- 
+
 **DAC vulnerabilities**: Trojan horses
 
 ##References

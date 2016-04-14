@@ -49,11 +49,11 @@ Enterprises need to
 
 ###EPAL Goals (and Non-Goals)
 
- ![EPALGoalsandNon-Goals](EPALGoalsandNon-Goals.png)
+ ![EPALGoalsandNon-Goals](image/EPALGoalsandNon-Goals.png)
 
 ###EPAL Framework
 
- ![EPALFramework](EPALFramework.png)
+ ![EPALFramework](image/EPALFramework.png)
 
 ##EPAL: Privacy Policy Specification
 
@@ -80,7 +80,7 @@ Sticky policy paradigm
 
 ###Enterprise Privacy Policies
 
- ![EnterprisePrivacyPolicies](EnterprisePrivacyPolicies.png)
+ ![EnterprisePrivacyPolicies](image/EnterprisePrivacyPolicies.png)
 
 Data transmitted along with the policy regulating access to it 
 
@@ -90,7 +90,7 @@ Rules allow/deny privacy relevant actions, depending on purpose
 
 ###EPAL Policy Model
 
- ![EPALPolicyModel](EPALPolicyModel.png)
+ ![EPALPolicyModel](image/EPALPolicyModel.png)
 
 ###Hierarchy
 
@@ -103,7 +103,7 @@ H = {User, Data, Purpose, Action}
 
 User hierarchy
 
- ![Userhierarchy](Userhierarchy.png)
+ ![Userhierarchy](image/Userhierarchy.png)
 
 employee > manager
 
@@ -111,7 +111,7 @@ employee > clerk
 
 ###Obligation Model
 
- ![ObligationModel](ObligationModel.png)
+ ![ObligationModel](image/ObligationModel.png)
 
 ###EPAL Privacy Policies
 
@@ -146,11 +146,11 @@ A vocabulary is a tuple (UH, DH, PH, AH, Var, OM)
 
 ####Ruleset
 
- ![Ruleset](Ruleset.png)
+ ![Ruleset](image/Ruleset.png)
 
 ####Privacy Policy
 
- ![PrivacyPolicyDef](PrivacyPolicyDef.png)
+ ![PrivacyPolicyDef](image/PrivacyPolicyDef.png)
 
 ####Access request
 
@@ -165,7 +165,7 @@ Remark: A request is **valid** for a vocabulary Voc if u, d, p, a ∈ Voc
 
 ##EPAL: Policy Enforcement
 
- ![EPALPolicyEnforcement](EPALPolicyEnforcement.png)
+ ![EPALPolicyEnforcement](image/EPALPolicyEnforcement.png)
 
 ###EPAL Semantics
 
@@ -186,11 +186,11 @@ Decision
 
 ###Matching Rules
 
- ![MatchingRules](MatchingRules.png)
+ ![MatchingRules](image/MatchingRules.png)
 
 ####Example
 
- ![ExampleMatchingrule](ExampleMatchingrule.png)
+ ![ExampleMatchingrule](image/ExampleMatchingrule.png)
 
 Which rules (if any) apply to the following authorization requests?
 
@@ -209,11 +209,11 @@ Decision
 
 * First applicable deny/allow-rule decides + rule’s obligation(s)
 
-  ![PolicyEvaluation](PolicyEvaluation.png)
+  ![PolicyEvaluation](image/PolicyEvaluation.png)
 
 ####Example
 
- ![examplePolicyEvaluation](examplePolicyEvaluation.png)
+ ![examplePolicyEvaluation](image/examplePolicyEvaluation.png)
 
 ##EPAL: Policy Management
 
@@ -245,18 +245,18 @@ What does it mean that r1 refines r2 (r1 < r2) ?
 
 #####Policy Refinement: Obligation
 
- ![PolicyRefinementObligation](PolicyRefinementObligation.png)
+ ![PolicyRefinementObligation](image/PolicyRefinementObligation.png)
 
 #####Exercise: Policy Refinement (1)
 
- ![ExercisePolicyRefinement1](ExercisePolicyRefinement1.png)
+ ![ExercisePolicyRefinement1](image/ExercisePolicyRefinement1.png)
 
 u5 not covered, + 
 Yes
 No, consider default ruling.
 ##### Exercise: Policy Refinement (2)
 
-![ExercisePolicyRefinement2](ExercisePolicyRefinement2.png)
+![ExercisePolicyRefinement2](image/ExercisePolicyRefinement2.png)
 No, u5 + or -
 
 #####Policy Refinement: Algorithm
@@ -288,19 +288,19 @@ See details and example on the paper (see reference at the end)
 
 #####Scope-based expansion
 
- ![Scope-basedexpansion](Scope-basedexpansion.png)
+ ![Scope-basedexpansion](image/Scope-basedexpansion.png)
 
- ![Scope-basedexpansion2](Scope-basedexpansion2.png)
+ ![Scope-basedexpansion2](image/Scope-basedexpansion2.png)
 
- ![Scope-basedexpansion3](Scope-basedexpansion3.png)
+ ![Scope-basedexpansion3](image/Scope-basedexpansion3.png)
 
 #####Normalization of qualifier sequences
 
- ![Normalizationofqualifiersequences](Normalizationofqualifiersequences.png)
+ ![Normalizationofqualifiersequences](image/Normalizationofqualifiersequences.png)
 
 #####Comparison
 
- ![Comparison](Comparison.png)
+ ![Comparison](image/Comparison.png)
 
 ##Summary
 

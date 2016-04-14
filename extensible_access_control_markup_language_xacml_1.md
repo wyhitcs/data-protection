@@ -35,7 +35,7 @@ XACML defines
 
 ###XACML Data Flow
 
-![XACMLArchitecture](XACMLArchitecture.png)
+![XACMLArchitecture](image/XACMLArchitecture.png)
 
 **Policy administration point (PAP)** creates a policy or policy set 策略管理点
 
@@ -47,7 +47,7 @@ XACML defines
 
 **Policy information point (PIP)** that acts as a source of attribute values 访问控制策略信息点
 
-![xacml](xacml.png)
+![xacml](image/xacml.png)
 
 1. 访问请求发送给PEP，PEP获取请求中的主体、客体、环境、操作行为的属性，这些请求的信息传给上下文处理器Handler。
 2. 上下文处理器Handler将请求转化封装成XML文本转发给PDP，PDP向Handler发送查询属性请求。
@@ -65,7 +65,7 @@ XACML defines
 * Exercise
 
 ##Policy Language
-![Policy Language](Policy Language.png)
+![Policy Language](image/Policy Language.png)
 
 How to specify a policy?
 
@@ -81,13 +81,13 @@ No fundamental difference between subjects, objects, actionsand other contextual
 
 ###XACML Policy Language Model
 
-![XACMLPolicyModel](XACMLPolicyModel.png)
+![XACMLPolicyModel](image/XACMLPolicyModel.png)
 
 * **Target**: identifies which requests are applicable 目标：请求文件和策略文件都有，它由实体的属性构成。确定请求文件和策略文件匹配关系，如果匹配用该策略评估请求。
 * **Effect**: Permit or Deny
 
-​		属性: 用于描述实体(主体、客体、环境)的特性。
-​		动作：主体对客体访问的操作
+  ​	属性: 用于描述实体(主体、客体、环境)的特性。
+  ​	动作：主体对客体访问的操作
 * **Rule**: returns an effect if the target matches 规则：进行授权判断，包含目标、动作、条件、结果。规则属于策略中的一部分，策略可以拥有多个规则。不同规则的判断结果可能不一致，需要规则组合算法协调最终的判断结果。
 * **Policy**: composes several rules together 策略：策略由规则组合算法、目标，规则，义务等部分组成
 
@@ -95,7 +95,7 @@ No fundamental difference between subjects, objects, actionsand other contextual
 * **Condition**: defines additional constraints on the applicability of requests 条件：属于规则的一部分，用集合逻辑表达式描述授权条件。规则具有多个条件。
 * **Obligation**: mandatory requirements to be satisfied 义务：策略判断后需要执行的操作。需要执行完所有的义务职责才能授权，执行义务职责出错就不会授权。
 
- ![policySetzhcn](policySetzhcn.png)
+ ![policySetzhcn](image/policySetzhcn.png)
 
 ###⟨Target⟩, ⟨AnyOf⟩, ⟨AllOf⟩, ⟨Match⟩
 
@@ -113,7 +113,7 @@ No fundamental difference between subjects, objects, actionsand other contextual
 
 ###Attributes, Data Types, Functions
 
-![AttributesDataTypesFunctions](AttributesDataTypesFunctions.png)
+![AttributesDataTypesFunctions](image/AttributesDataTypesFunctions.png)
 
 ###⟨Rules⟩
 
@@ -187,25 +187,25 @@ Attributes:
 
 The ⟨Match⟩ element identifies a particular value for an attribute:
 
-![Example⟨Match⟩](Example⟨Match⟩.png)
+![Example⟨Match⟩](image/Example⟨Match⟩.png)
 
 ####Example: < Target >
 
 The ⟨Target⟩ element defines which requests are applicable: 
 
-![Example<Target>](Example<Target>.png)
+![Example<Target>](image/Example<Target>.png)
 
 ####Example: Policy
 
 Access is permitted to the printer for members of the staff.
-![ExamplePolicy](ExamplePolicy.png)
+![ExamplePolicy](image/ExamplePolicy.png)
 
 ###Policy Hierarchy
 
-![PolicyHierarchy](PolicyHierarchy.png)
+![PolicyHierarchy](image/PolicyHierarchy.png)
 
 ##Access Request 
-![AccessRequest](AccessRequest.png)
+![AccessRequest](image/AccessRequest.png)
 
 How to specify access request?
 
@@ -220,12 +220,12 @@ ReturnPolicyIdList [Required]
 * Specifies information about attributes of the request context by listing a sequence of ⟨Attribute⟩ elements associated with an attribute category. One or more ⟨Attributes⟩ elements are allowed. Different ⟨Attributes⟩ elements with different categories are used to represent information about the subject, resource, action,environment or other categories of the access request.
 
 ####Example: Request 
-![ExampleRequest](ExampleRequest.png)
+![ExampleRequest](image/ExampleRequest.png)
 
 Alice, a staff member, wants to access the printer.
 
 ##Policy Evaluation 
-![Policy Evaluation](Policy Evaluation.png)
+![Policy Evaluation](image/Policy Evaluation.png)
 
 ###Policy Applicability
 
@@ -246,13 +246,13 @@ Alice, a staff member, wants to access the printer.
 
 ###Target evaluation
 
-![Targetevaluation](Targetevaluation.png)
+![Targetevaluation](image/Targetevaluation.png)
 
 ####Example: Target evaluation
 
-![ExampleTargetevaluation1](ExampleTargetevaluation1.png)
+![ExampleTargetevaluation1](image/ExampleTargetevaluation1.png)
 
-![ExampleTargetevaluation2](ExampleTargetevaluation2.png)
+![ExampleTargetevaluation2](image/ExampleTargetevaluation2.png)
 
 ###Access Decision Set
 
@@ -278,19 +278,19 @@ Used by some combining algorithms
 
 ###Decision Set Projection
 
-![DecisionSetProjection](DecisionSetProjection.png)
+![DecisionSetProjection](image/DecisionSetProjection.png)
 
 ###Rule evaluation
 
-![Rule Evaluation](Ruleevaluation.png)
+![Rule Evaluation](image/Ruleevaluation.png)
 
 ####Example: Target evaluation
 
-![ExampleTargetevaluation3](ExampleTargetevaluation3.png)
+![ExampleTargetevaluation3](image/ExampleTargetevaluation3.png)
 
-![ExampleTargetevaluation4](ExampleTargetevaluation4.png)
+![ExampleTargetevaluation4](image/ExampleTargetevaluation4.png)
 
-![Policy Evaluation](Policy Evaluation.png)
+![Policy Evaluation](image/Policy Evaluation.png)
 
 Different rules and policies can be applicable!!
 
@@ -306,21 +306,21 @@ Different rules and policies can be applicable!!
 * Only-one-applicable (only PolicyCombiningAlgorithm)
 
 ###Deny Overrides (Defined over D6)
-![Deny Overrides (Defined over D6)](DenyOverridesDefinedoverD6.png)
+![Deny Overrides (Defined over D6)](image/DenyOverridesDefinedoverD6.png)
 
 ###Permit Overrides (Defined over D6)
 
-![Permit Overrides (Defined over D6)](PermitOverridesDefinedoverD6.png)
+![Permit Overrides (Defined over D6)](image/PermitOverridesDefinedoverD6.png)
 
 ###First Applicable (Defined over D4)
 
-![First Applicable (Defined over D4)](FirstApplicableDefinedoverD4.png)
+![First Applicable (Defined over D4)](image/FirstApplicableDefinedoverD4.png)
 
 
 ###Only One Applicable (Defined over D4) only for Policies
 
-![Only One Applicable (Defined over D4) only for Policies](OnlyOneApplicableDefinedoverD4onlyforPolicies.png)
- 
+![Only One Applicable (Defined over D4) only for Policies](image/OnlyOneApplicableDefinedoverD4onlyforPolicies.png)
+
 
 ###Other combining algorithms
 
@@ -335,10 +335,10 @@ Different rules and policies can be applicable!!
 
 ###Combining Algorithms: Example
 
- ![CombiningAlgorithmsExample](CombiningAlgorithmsExample.png)
+ ![CombiningAlgorithmsExample](image/CombiningAlgorithmsExample.png)
 
 
-![CombiningAlgorithmsExample2](CombiningAlgorithmsExample2.png)
+![CombiningAlgorithmsExample2](image/CombiningAlgorithmsExample2.png)
 
 
 看课件
@@ -371,20 +371,20 @@ When nondeterminism is unacceptable, use deterministic combining algorithms
 * ordered-deny-overrides 
 * ordered-permit-overrides
 
- ![Obligations(Cont.)](ObligationsCont.png)
+ ![Obligations(Cont.)](image/ObligationsCont.png)
 
 ###Obligations: Example
 
- ![ObligationsExample](ObligationsExample.png)
+ ![ObligationsExample](image/ObligationsExample.png)
 
 
- ![ObligationsExample2](ObligationsExample2.png)
+ ![ObligationsExample2](image/ObligationsExample2.png)
 
 
- ![ObligationsExample3](ObligationsExample3.png)
+ ![ObligationsExample3](image/ObligationsExample3.png)
 
 
- ![ObligationsExample4](ObligationsExample4.png)
+ ![ObligationsExample4](image/ObligationsExample4.png)
 
 ##Response
 
@@ -453,10 +453,10 @@ Access request
 * Action
   * read
 
-![exercisepolicy](ExercisePolicy.png)
+![exercisepolicy](image/ExercisePolicy.png)
 
 
-![XACML1Solution](xacml1solution.png)
+![XACML1Solution](image/xacml1solution.png)
 
 ##Reference
 

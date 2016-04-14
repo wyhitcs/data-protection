@@ -45,11 +45,11 @@ The combination of the two introduces a partial order on security classes, calle
 
 ####Security Lattice
 
- 自反性；传递性；反对称性![SecurityLattice](SecurityLattice.png)
+ 自反性；传递性；反对称性![SecurityLattice](image/SecurityLattice.png)
 
 #####Security Lattice: Example
 
- ![SecurityLatticeExample](SecurityLatticeExample.png)
+ ![SecurityLatticeExample](image/SecurityLatticeExample.png)
 
 ####Semantics
 
@@ -80,19 +80,19 @@ Security goal (confidentiality): Prevent information flow to lower or incomparab
 
 ####Hierarchy of Security Levels
 
- ![HierarchyofSecurityLevels](HierarchyofSecurityLevels.png)
+ ![HierarchyofSecurityLevels](image/HierarchyofSecurityLevels.png)
 
 ####BLP Information Flow
 
 Prevent information flow to lower or incomparable security classes
 
- ![BLPInformationFlow](BLPInformationFlow.png)
+ ![BLPInformationFlow](image/BLPInformationFlow.png)
 
 Information flow is bottom up
 
 ####Example
 
- ![exampleBLPInformationFlow](exampleBLPInformationFlow.png)
+ ![exampleBLPInformationFlow](image/exampleBLPInformationFlow.png)
 
 Which files can Alice read? 
 
@@ -116,25 +116,25 @@ Basic Security Theorem (BST): check that all state transitions starting in a ‘
 
 ####The BLP Security Model
 
- ![TheBLPSecurityModel](TheBLPSecurityModel.png)
+ ![TheBLPSecurityModel](image/TheBLPSecurityModel.png)
 
 ####The BLP Security Policy
 
- ![TheBLPSecurityPolicy](TheBLPSecurityPolicy.png)
+ ![TheBLPSecurityPolicy](image/TheBLPSecurityPolicy.png)
 
 ####From BLP to Access Matrix: Exercise
 
- ![FromBLPtoAccessMatrixExercise](FromBLPtoAccessMatrixExercise.png)
+ ![FromBLPtoAccessMatrixExercise](image/FromBLPtoAccessMatrixExercise.png)
 
 ####Problem
 
- ![BLPproblem1](BLPproblem1.png)
+ ![BLPproblem1](image/BLPproblem1.png)
 
- ![BLPproblem2](BLPproblem2.png)
+ ![BLPproblem2](image/BLPproblem2.png)
 
 ####Max/Current Level
 
- ![MaxCurrentLevel](MaxCurrentLevel.png)
+ ![MaxCurrentLevel](image/MaxCurrentLevel.png)
 
 ####Example
 
@@ -221,9 +221,9 @@ This may be too restrictive
 
 Information Flow:
 
- ![BLPInformationFlow](BLPInformationFlow.png)
+ ![BLPInformationFlow](image/BLPInformationFlow.png)
 
- ![BLPInformationFlow2](BLPInformationFlow2.png)
+ ![BLPInformationFlow2](image/BLPInformationFlow2.png)
 
 Policies:
 
@@ -244,7 +244,7 @@ Assign integrity classes to:
 
 ####Biba Information Flow
 
- ![BibaInformationFlow](BibaInformationFlow.png)
+ ![BibaInformationFlow](image/BibaInformationFlow.png)
 
 ####Biba Model: Properties
 
@@ -260,7 +260,7 @@ NO WRITE UP
 
 ####Biba: Alternative policies
 
- ![BibaAlternativepolicies](BibaAlternativepolicies.png)
+ ![BibaAlternativepolicies](image/BibaAlternativepolicies.png)
 
 ###Combining Biba and BLP
 
@@ -278,9 +278,9 @@ Combined access rules are
 
 ###BLP+Biba: Exercise
 
-![BLPBibaExercise](BLPBibaExercise.png)
-![BLPBibaExercise2](BLPBibaExercise2.png) 
-![BLPBibaExercise3](BLPBibaExercise3.png) 
+![BLPBibaExercise](image/BLPBibaExercise.png)
+![BLPBibaExercise2](image/BLPBibaExercise2.png) 
+![BLPBibaExercise3](image/BLPBibaExercise3.png) 
 
 ##Multilateral Security
 
@@ -296,7 +296,7 @@ Information must not leak from one client to its competitors
 
 * consultant’s advice for either company would affect her advices to the other (competitor) companies
 
-  ![exampleConflictsofInterest](exampleConflictsofInterest.png)
+  ![exampleConflictsofInterest](image/exampleConflictsofInterest.png)
 
 ###Chinese Wall
 
@@ -316,7 +316,7 @@ Company information is organized hierarchically in 3 levels:
 * company datasets (CDs): group objects referring to the samecompany 
 * conflict of interest classes (COI): groups all company datasetswhose companies are in competition
 
-  ![chinesewall](chinesewall.png)
+  ![chinesewall](image/chinesewall.png)
 
 #####Simple property:
 
@@ -325,11 +325,11 @@ Subject s can read object o only if:
 * o is in the same company dataset as all the objects that s has already accessed (within the wall) i.e., history-based
 * o belongs to a different conflict of interest class
 
-  ![ChineseWallExample](ChineseWallExample.png)
+  ![ChineseWallExample](image/ChineseWallExample.png)
 
 #####Problem solved?
 
- ![ChinesewallProblemsolved](ChinesewallProblemsolved.png)
+ ![ChinesewallProblemsolved](image/ChinesewallProblemsolved.png)
 
 If Alice could write to ARCO’s CD, Bob can read it
 
