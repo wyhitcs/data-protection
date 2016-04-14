@@ -12,7 +12,9 @@
 > The right to be let alone.	--L. Brandeis, S. Warren 1890
 
 
+
 > Claim of individuals, groups and institutions to determine forthemselves, when, how and to what extent information about them iscommunicated to others	--Westin 1967
+
 
 
 > Freedom from unreasonable constraints on the construction of one’sown identity	--Agre 1999
