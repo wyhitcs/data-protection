@@ -166,7 +166,7 @@ General Data Protection Regulation (GDPR)
 
 ####Personal Data-Example
 
-![PersonalDataExample](PersonalDataExample.png)
+![PersonalDataExample](image/PersonalDataExample.png)
 
 ####Data Processing
 
@@ -176,11 +176,11 @@ Who is involved in data processing?
 
 ###Main Actors
 
- ![MainActors](MainActors.png)
+ ![MainActors](image/MainActors.png)
 
 ####Other Actors
 
- ![OtherActors](OtherActors.png)
+ ![OtherActors](image/OtherActors.png)
 
 ###Purpose
 
@@ -190,7 +190,7 @@ Purpose specifies the reason for which data can be collected and processed
 
 Why do you want to process the data?
 
- ![Purpose](Purpose.png)
+ ![Purpose](image/Purpose.png)
 
 ####Open questions
 
