@@ -15,21 +15,21 @@ Conclusion
 ## Access Decision Sets
 
 ###Access Control
-![AccessControl](AccessControl.png)
+![AccessControl](image/AccessControl.png)
 
 ## Decision Sets
 
- ![DecisionSets](DecisionSets.png)
+ ![DecisionSets](image/DecisionSets.png)
 
 ## Combining Operators
 
- ![CombiningOperators](CombiningOperators.png)
+ ![CombiningOperators](image/CombiningOperators.png)
 
- ![CombiningOperators2](CombiningOperators2.png)
+ ![CombiningOperators2](image/CombiningOperators2.png)
 
 #### Exercise
 
- ![exercisestrongdisjunctions](exercisestrongdisjunctions.png)
+ ![exercisestrongdisjunctions](image/exercisestrongdisjunctions.png)
 
 ## Decision Reduction
 
@@ -49,81 +49,81 @@ Enable interoperability between systems
 
 A **decision reduction** maps a decision set into a smaller decision set by mapping all decisions of a set to decisions of a subset, while leaving the decisions in the subset unchanged
 
- ![DecisionReduction](DecisionReduction.png)
+ ![DecisionReduction](image/DecisionReduction.png)
 
 ###Sample Reduction
 
- ![SampleReduction](SampleReduction.png)
+ ![SampleReduction](image/SampleReduction.png)
 
 #### Example
 
- ![ReductionExample](ReductionExample.png)
+ ![ReductionExample](image/ReductionExample.png)
 
 Example 1: XACML v3
 
- ![1ReductionXAMCL](1ReductionXAMCL.png)
+ ![1ReductionXAMCL](image/1ReductionXAMCL.png)
 
- ![2ReductionXAMCL](2ReductionXAMCL.png)
+ ![2ReductionXAMCL](image/2ReductionXAMCL.png)
 
- ![3ReductionXAMCL](3ReductionXAMCL.png)
+ ![3ReductionXAMCL](image/3ReductionXAMCL.png)
 
- ![4ReductionXAMCL](4ReductionXAMCL.png)
+ ![4ReductionXAMCL](image/4ReductionXAMCL.png)
 
- ![5ReductionXAMCL](5ReductionXAMCL.png)
+ ![5ReductionXAMCL](image/5ReductionXAMCL.png)
 
- ![6ReductionXAMCL](6ReductionXAMCL.png)
+ ![6ReductionXAMCL](image/6ReductionXAMCL.png)
 
- ![7ReductionXAMCL](7ReductionXAMCL.png)
+ ![7ReductionXAMCL](image/7ReductionXAMCL.png)
 
- ![8ReductionXAMCL](8ReductionXAMCL.png)
+ ![8ReductionXAMCL](image/8ReductionXAMCL.png)
 
- ![9ReductionXAMCL](9ReductionXAMCL.png)
+ ![9ReductionXAMCL](image/9ReductionXAMCL.png)
 
- ![10ReductionXAMCL](10ReductionXAMCL.png)
+ ![10ReductionXAMCL](image/10ReductionXAMCL.png)
 
 Example 2: From XACML v3 to XACML v2
 
- ![ReductionXAMCLv3tov2](ReductionXAMCLv3tov2.png)
+ ![ReductionXAMCLv3tov2](image/ReductionXAMCLv3tov2.png)
 
- ![2ReductionXAMCLv3tov2](2ReductionXAMCLv3tov2.png)
+ ![2ReductionXAMCLv3tov2](image/2ReductionXAMCLv3tov2.png)
 
 Example 3: From PTaCL to XACML v3
 
- ![PTaCL](PTaCL.png)
+ ![PTaCL](image/PTaCL.png)
 
 ## Safe Reduction
 
 How to ensure that a reduction can be performed at any level of policy composition without changing the final decision?
 
- ![SafeReduction](SafeReduction.png)
+ ![SafeReduction](image/SafeReduction.png)
 
 ### Safety of Operator Composition
 
- ![SafetyofOperatorComposition](SafetyofOperatorComposition.png)
+ ![SafetyofOperatorComposition](image/SafetyofOperatorComposition.png)
 
- ![SafetyofOperatorComposition2](SafetyofOperatorComposition2.png)
+ ![SafetyofOperatorComposition2](image/SafetyofOperatorComposition2.png)
 
 ### Safety Analysis of XACML v3
 
- ![SafetyAnalysisofXACMLv3](SafetyAnalysisofXACMLv3.png)
+ ![SafetyAnalysisofXACMLv3](image/SafetyAnalysisofXACMLv3.png)
 
- ![2SafetyAnalysisofXACMLv3](2SafetyAnalysisofXACMLv3.png)
+ ![2SafetyAnalysisofXACMLv3](image/2SafetyAnalysisofXACMLv3.png)
 
- ![3SafetyAnalysisofXACMLv3](3SafetyAnalysisofXACMLv3.png)
+ ![3SafetyAnalysisofXACMLv3](image/3SafetyAnalysisofXACMLv3.png)
 
 ### Redefine operators
 
- ![Redefineoperator](Redefineoperator.png)
+ ![Redefineoperator](image/Redefineoperator.png)
 
 Example: First applicable
 
- ![ExampleFirstapplicable](ExampleFirstapplicable.png)
+ ![ExampleFirstapplicable](image/ExampleFirstapplicable.png)
 
 Example: Only one applicable
 
- ![ExampleOnlyoneapplicable](ExampleOnlyoneapplicable.png)
+ ![ExampleOnlyoneapplicable](image/ExampleOnlyoneapplicable.png)
 
-Safety Analysis of XACML v3 (2,3) ![SafetyAnalysisofXACMLv3(2,3)](SafetyAnalysisofXACMLv32,3.png)
+Safety Analysis of XACML v3 (2,3) ![SafetyAnalysisofXACMLv3(2,3)](image/SafetyAnalysisofXACMLv32,3.png)
 
 ## Conclusion
 
