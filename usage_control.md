@@ -23,7 +23,7 @@
 * Access decision at request time
 * Enforcement at server side
 
-![Access Control](accesscontrol.png)
+![Access Control](image/accesscontrol.png)
 
 ###Trust Management
 
@@ -103,12 +103,12 @@
 
 ###Usage Control Coverage
 
-![Usage Control Coverage](UsageControlCoverage.png)
+![Usage Control Coverage](image/UsageControlCoverage.png)
 ##UCON<sub>ABC</sub>
 
 ###UCON<sub>ABC</sub> Model
 
- ![Decision factors](Decisionfactors.png)
+ ![Decision factors](image/Decisionfactors.png)
 
 * Decision factors
 
@@ -116,7 +116,7 @@
   * Obligations
   * Conditions
 
-    ![Decision properties](Decisionproperties.png)
+    ![Decision properties](image/Decisionproperties.png)
 
 * Decision properties
 
@@ -153,11 +153,11 @@ How to model them?
 
 ###UCON Model States
 
- ![UCON Model States](UCONModelStates.png)
+ ![UCON Model States](image/UCONModelStates.png)
 
 ###UCON<sub>ABC</sub> Model Components
 
- ![Model Components](ModelComponents.png)
+ ![Model Components](image/ModelComponents.png)
 
 ###Subjects (S)
 
@@ -247,7 +247,7 @@ No attribute update
 
 ###UCON<sub>ABC</sub> Family
 
- ![UCONABC Family](UCONABC Family.png)
+ ![UCONABC Family](image/UCONABC Family.png)
 
 Decision factors: authorization, obligations,conditions
 
@@ -257,7 +257,7 @@ Mutability of attributes: when attributes are updated; never, pre-, ongoing, pos
 
 ###16 Basic Models
 
- ![16 Basic Models](16BasicModels.png)
+ ![16 Basic Models](image/16BasicModels.png)
 
 Pre-authorization: evaluate before usage 
 
@@ -311,11 +311,11 @@ allowed(s,o,write)⇒clearance(s)≤classification(o)
 
 ###Semantics
 
- ![Semantics](Semantics.png)
+ ![Semantics](image/Semantics.png)
 
 ###UCON<sub>preA</sub>
 
- ![UCONpreA](UCONpreA.png)
+ ![UCONpreA](image/UCONpreA.png)
 
 ###Example:UCON<sub>preA<sub>1</sub>
 
@@ -352,21 +352,21 @@ UCON<sub>onA<sub>2</sub>:UCON<sub>onA<sub>0</sub>+onUpdate
 
 UCON<sub>onA<sub>3</sub>:UCON<sub>onA<sub>0</sub>+postUpdate
 
- ![Exercise (UCONonA13 )](ExerciseUCONonA13.png)
+ ![Exercise (UCONonA13 )](image/ExerciseUCONonA13.png)
 
 ###UCON<sub>preB</sub>
 
- ![UCONpreB0](UCONpreB0.png)
+ ![UCONpreB0](image/UCONpreB0.png)
 
-###Example: UCON<sub>preB<sub>1</sub> ![UCONpreB1](UCONpreB1.png)
+###Example: UCON<sub>preB<sub>1</sub> ![UCONpreB1](image/UCONpreB1.png)
 
 ###UCON<sub>onB</sub>
 
- ![UCONonB0](UCONonB0.png)
+ ![UCONonB0](image/UCONonB0.png)
 
 ###Exercise
 
- ![onBexercise](onBexercise.png)
+ ![onBexercise](image/onBexercise.png)
 
 ##Summary
 
