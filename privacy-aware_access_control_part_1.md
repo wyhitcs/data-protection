@@ -60,19 +60,19 @@ Notion of purpose must play a major role in access control: Access decisions sho
 
 ####Example
 
- ![PrivacyPolicyExample](PrivacyPolicyExample.png)
+ ![PrivacyPolicyExample](image/PrivacyPolicyExample.png)
 
 ###Access control
 
- ![7Accesscontrol](7Accesscontrol.png)
+ ![7Accesscontrol](image/7Accesscontrol.png)
 
 ###Usage control
 
- ![7usagecontrol](7usagecontrol.png)
+ ![7usagecontrol](image/7usagecontrol.png)
 
 ###Privacy-Aware Access Control
 
- ![7privacyawareaccesscontrol](7privacyawareaccesscontrol.png)
+ ![7privacyawareaccesscontrol](image/7privacyawareaccesscontrol.png)
 
 ##Hippocratic Databases
 
@@ -142,11 +142,11 @@ For each piece of information collected for that purpose:
 
 ####Privacy-policies table
 
- ![Privacy-policiestable](Privacy-policiestable.png)
+ ![Privacy-policiestable](image/Privacy-policiestable.png)
 
 ####Privacy-authorization table
 
- ![Privacy-authorizationtable](Privacy-authorizationtable.png)
+ ![Privacy-authorizationtable](image/Privacy-authorizationtable.png)
 
 ###Data Collection
 
@@ -190,7 +190,7 @@ Describe the reason(s) for data collection and processing
 
 Organized in a tree structure
 
- ![DefinitionofPurpose](DefinitionofPurpose.png)
+ ![DefinitionofPurpose](image/DefinitionofPurpose.png)
 
 * **Intended Purpose** (IP)
   * Regulate access to data
@@ -216,15 +216,15 @@ IP = < AIP, PIP >
 
 Given a set of purposes P
 祖先 & 后裔
- ![ancestors&descendants](ancestors&descendants.png)
+ ![ancestors&descendants](image/ancestors&descendants.png)
 
 ####Intended Purpose – Entailment
 
- ![IntendedPurposeEntailment](IntendedPurposeEntailment.png)
+ ![IntendedPurposeEntailment](image/IntendedPurposeEntailment.png)
 
- ![IntendedPurposeEntailment3](IntendedPurposeEntailment3.png)
+ ![IntendedPurposeEntailment3](image/IntendedPurposeEntailment3.png)
 
- ![IntendedPurposeEntailment4](IntendedPurposeEntailment4.png)
+ ![IntendedPurposeEntailment4](image/IntendedPurposeEntailment4.png)
 
 
 
@@ -236,10 +236,10 @@ Access purpose tells how data will be used
 
 Purpose Compliance:
 
- ![AccessPurposeCompliance](AccessPurposeCompliance.png)
+ ![AccessPurposeCompliance](image/AccessPurposeCompliance.png)
 
 ####Exercise
- ![PurposeComplianceExercise](PurposeComplianceExercise.png)
+ ![PurposeComplianceExercise](image/PurposeComplianceExercise.png)
 
 ###Access Purpose Determination
 
@@ -293,7 +293,7 @@ Role attributes
 * When a user is assigned to a role r , the values  for the role attributes of r are specified for the user
 * Values of role attributes available to access control system
 
-  ![Role AttributesExample](Role AttributesExample.png)
+  ![Role AttributesExample](image/Role AttributesExample.png)
 
 ####System Attributes
 
@@ -305,21 +305,21 @@ Available to access control system at all times
 
 ####Conditional Roles
 
- ![ConditionalRoles](ConditionalRoles.png)
+ ![ConditionalRoles](image/ConditionalRoles.png)
 
 ####Access Purpose Verification
 
- ![AccessPurposeVerification](AccessPurposeVerification.png)
+ ![AccessPurposeVerification](image/AccessPurposeVerification.png)
 
 ####Access Decision
 
- ![AccessDecision](AccessDecision.png)
+ ![AccessDecision](image/AccessDecision.png)
 
 ####Exercise
 
-![Exercisepurpose](Exercisepurpose.png)
+![Exercisepurpose](image/Exercisepurpose.png)
 
-![Exercisepurposesolution](Exercisepurposesolution.png) 
+![Exercisepurposesolution](image/Exercisepurposesolution.png) 
 
 ##Summary
 
