@@ -88,7 +88,7 @@ RBAC is currently used in
 
 - Database management systems
 - Enterprise Application for Security Administration and User Management
-  
+
 Applicatons(using some form of RBAC)
 
 - Microsoft Active Directory
@@ -224,7 +224,7 @@ Static Separation of Duty constraint ssod(ps,n)
 #####Exercise 见54,55
 ![](RBAC2exercise.png)
 1. inconstraint r3 both p2 and p3
-2. 
+2. ​
 ####Static Separation of Duty (SSoD)
 - SSoD used to place constrains on permissions assigned to users
 - In our example:见56

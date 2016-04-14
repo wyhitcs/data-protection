@@ -324,7 +324,7 @@ Pay-per-use with a pre-paid credit
 * M amount of money 
 * credit : S → M 
 * value : O ×  R → M
-*  ATT(S) = {credit}
+* ATT(S) = {credit}
 * ATT(O) = {value}
 
 allowed(s,o,r)⇒credit(s)≥value(o,r)
