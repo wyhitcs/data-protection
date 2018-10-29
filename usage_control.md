@@ -3,9 +3,9 @@
 
 
 
-##Review
+## Review
 
-###Data Protection Mechanisms
+### Data Protection Mechanisms
 
 * Access Control
   * Discretionary Access Control (DAC)
@@ -15,7 +15,7 @@
   * access control paradigm for decentralized systems
 * Digital Right Management (DRM)
 
-###Access Control
+### Access Control
 
 * Identity-based authorization
 * Rights pre-defined and granted to subjects
@@ -25,7 +25,7 @@
 
 ![Access Control](image/accesscontrol.png)
 
-###Trust Management
+### Trust Management
 
 * Credentials-based authorization
   * Credential: certified attribute of the subject
@@ -34,7 +34,7 @@
 * Access decision at request time
 * Enforcement at server side
 
-###Digital Right Management (DRM)
+### Digital Right Management (DRM)
 
 * Control use of digital media
 * Focus on intellectual property rights 
@@ -50,7 +50,7 @@
   * Server side
   * Client side
 
-###Sample policies
+### Sample policies
 
 * A user can use a service as long he has sufficient credit (servicecost is 10$/hour)
 
@@ -61,7 +61,7 @@
 * In emergency, any doctor can access patient medical data
 
 
-###Problems
+### Problems
 * Access Control
   * Close system environment
   * No control on already disclosed object
@@ -76,12 +76,12 @@
   * Lack of access control
   * No adaptability wrt context
 
-##Outline
+## Outline
 
 * Usage Control
 * UCON<sub>ABC</sub>
 
-##Usage Control
+## Usage Control
 
 * Unify(统一) and extend
   * Access Control
@@ -101,12 +101,12 @@
   * Client side
 
 
-###Usage Control Coverage
+### Usage Control Coverage
 
 ![Usage Control Coverage](image/UsageControlCoverage.png)
-##UCON<sub>ABC</sub>
+## UCON<sub>ABC</sub>
 
-###UCON<sub>ABC</sub> Model
+### UCON<sub>ABC</sub> Model
 
  ![Decision factors](image/Decisionfactors.png)
 
@@ -123,13 +123,13 @@
   * Continuity(连续性) of decisions
   * Mutability(易变性, 可突变性, 可突变型) of attributes
 
-###Continuity of decisions
+### Continuity of decisions
 * pre-dicision<-access control
   * Decide approval or denial of request
 * ongoing-decision
   * Revoke or continue to allow exercise of usage(e.g., user has still credit?)
 
-###Mutability of attributes
+### Mutability of attributes
 
 Changes as consequence of access
 
@@ -137,7 +137,7 @@ Changes as consequence of access
 * ongoing-update: update during usage
 * post-update: update after usage
 
-####Example
+#### Example
 
 Let consider three payment methods
 
@@ -151,15 +151,15 @@ How to model them?
 2. ongoing-update: the credit of the user should be regularly updated (in the example every minute) and the service stopped when the user does not have credit anymore.
 3. post-update: the credit is updated after the user used the service(e.g., an invoice is sent at the end of the month).
 
-###UCON Model States
+### UCON Model States
 
  ![UCON Model States](image/UCONModelStates.png)
 
-###UCON<sub>ABC</sub> Model Components
+### UCON<sub>ABC</sub> Model Components
 
  ![Model Components](image/ModelComponents.png)
 
-###Subjects (S)
+### Subjects (S)
 
 Entities that have rights on objects(e.g., human beings, software agents) 
 
@@ -167,7 +167,7 @@ Entities that have rights on objects(e.g., human beings, software agents)
 * Data provider
 * Data subject (for privacy)
 
-###Subject Attributes (ATT(S))
+### Subject Attributes (ATT(S))
 
 * Subjects characterized by attributes 
 * Properties of a subject used for usage decision(e.g., identity, role, membership, security level)
@@ -180,7 +180,7 @@ Entities that have rights on objects(e.g., human beings, software agents)
   * Modified as a side effect of access 
   * e.g., credit, access time
 
-###Objects (O)
+### Objects (O)
 
 * Resources to be protected 
 * Privacy sensitive vs. non-sensitive objects 
@@ -188,7 +188,7 @@ Entities that have rights on objects(e.g., human beings, software agents)
   * Derived object created in consequence of obtaining/exercising rights on an original object
   * e.g., usage log, payment information
 
-###Object Attributes (ATT(O))
+### Object Attributes (ATT(O))
 
 * Objects characterized by attributes
 * Properties of the object that can be used for usage decision (e.g., security level, type, value) 
@@ -200,14 +200,14 @@ Entities that have rights on objects(e.g., human beings, software agents)
   * Modified as a side effect of access
     * e.g., number of times file is played
 
-###Rights (R)
+### Rights (R)
 
 * Subject’s privilege on an object(e.g., read, write, execute)
 * Existence of rights determined at usage time
   * Rights can be consumed
   * Access Control: rights predefined in access matrix
 
-###Authorizations (A)
+### Authorizations (A)
 
 Usage decision based on subject/object attributes and rights
 
@@ -220,7 +220,7 @@ Attribute update
 * onUpdate
 * postUpdate
 
-###Obligations (B)
+### Obligations (B)
 
 Mandatory requirements a subject has to perform
 
@@ -234,7 +234,7 @@ Attribute update
 * onUpdate
 * postUpdate
 
-###Conditions (C)
+### Conditions (C)
 
 Evaluate current environmental and system status for usage decision
 
@@ -245,7 +245,7 @@ Time period (office hour), location (area code, IP address),system status (norma
 
 No attribute update
 
-###UCON<sub>ABC</sub> Family
+### UCON<sub>ABC</sub> Family
 
  ![UCONABC Family](image/UCONABC Family.png)
 
@@ -255,7 +255,7 @@ Continuity of decision: when decision is made; pre-decision, ongoing-decision
 
 Mutability of attributes: when attributes are updated; never, pre-, ongoing, post
 
-###16 Basic Models
+### 16 Basic Models
 
  ![16 Basic Models](image/16BasicModels.png)
 
@@ -267,7 +267,7 @@ Conditions: no update attributes
 
 Note: With pre-authorizations it is needed pre-update, for instance to check whether the user has enough credit, and post-update to check whether the user has paid the previous month invoice. Unless the decision is made during usage (i.e, onA and onB), ongoing update is not needed. Indeed, updates can be done at the end as they do not influence the decision (which is made before the use of the service).
 
-###UCON<sub>preA<sub>0</sub>
+### UCON<sub>preA<sub>0</sub>
 
 Components:
 
@@ -283,7 +283,7 @@ allowed(s,o,r)⇒preA(ATT(s),ATT(o),r)
 * allowed(s,o,r): subject s is allowed to exercise right r on object o 
 * ⇒means "implies" (the righthand-side is necessary but not sufficient condition)
 
-###DAC in UCON<sub>preA<sub>0</sub>
+### DAC in UCON<sub>preA<sub>0</sub>
 
 DAC policies using ACL with an individual ID
 
@@ -295,7 +295,7 @@ DAC policies using ACL with an individual ID
 
 allowed(s,o,r)⇒(id(s),r)∈ACL(o)
 
-###Exercise: MAC in UCON<sub>preA<sub>0</sub>
+### Exercise: MAC in UCON<sub>preA<sub>0</sub>
 
 Define Bell-LaPadula model in UCON<sub>preA<sub>0</sub></sub>.
 
@@ -309,15 +309,15 @@ allowed(s,o,read)⇒clearance(s)≥classification(o)
 
 allowed(s,o,write)⇒clearance(s)≤classification(o)
 
-###Semantics
+### Semantics
 
  ![Semantics](image/Semantics.png)
 
-###UCON<sub>preA</sub>
+### UCON<sub>preA</sub>
 
  ![UCONpreA](image/UCONpreA.png)
 
-###Example:UCON<sub>preA<sub>1</sub>
+### Example:UCON<sub>preA<sub>1</sub>
 
 Pay-per-use with a pre-paid credit 
 
@@ -331,7 +331,7 @@ allowed(s,o,r)⇒credit(s)≥value(o,r)
 
 preUpdate(credit(s)):credit(s)=credit(s)-value(o,r)
 
-###UCON<sub>onA<sub>0</sub>
+### UCON<sub>onA<sub>0</sub>
 
 Components:
 
@@ -354,21 +354,21 @@ UCON<sub>onA<sub>3</sub>:UCON<sub>onA<sub>0</sub>+postUpdate
 
  ![Exercise (UCONonA13 )](image/ExerciseUCONonA13.png)
 
-###UCON<sub>preB</sub>
+### UCON<sub>preB</sub>
 
  ![UCONpreB0](image/UCONpreB0.png)
 
-###Example: UCON<sub>preB<sub>1</sub> ![UCONpreB1](image/UCONpreB1.png)
+### Example: UCON<sub>preB<sub>1</sub> ![UCONpreB1](image/UCONpreB1.png)
 
-###UCON<sub>onB</sub>
+### UCON<sub>onB</sub>
 
  ![UCONonB0](image/UCONonB0.png)
 
-###Exercise
+### Exercise
 
  ![onBexercise](image/onBexercise.png)
 
-##Summary
+## Summary
 
 * Usage Control 
 * UCON<sub>ABC</sub> Model 
@@ -377,7 +377,7 @@ UCON<sub>onA<sub>3</sub>:UCON<sub>onA<sub>0</sub>+postUpdate
 * (some) Basic Models
 * Applications
 
-##Reference
+## Reference
 
 Jaehong Park and Ravi Sandhu. 2004. The UCONABC usagecontrol model. ACM Trans. Inf. Syst. Secur. 7, 1, 128-174.(obligatory)!
 
