@@ -1,13 +1,13 @@
 # Introduction to Privacy
 
-##Outline
+## Outline
 
 * What is privacy 
 * European Data Protection Legislation 
 * Basic Concepts 
 * Privacy Principles & Data Subject’s Rights
 
-##What is privacy
+## What is privacy
 
 > The right to be let alone.	--L. Brandeis, S. Warren 1890
 
@@ -19,7 +19,7 @@
 
 > Freedom from unreasonable constraints on the construction of one’sown identity	--Agre 1999
 
-###Privacy is About...
+### Privacy is About...
 
 Privacy concerns personal information 
 
@@ -31,7 +31,7 @@ Privacy is more than confidentiality
 
 Privacy is user-centric
 
-###Why do we need to know about privacy?
+### Why do we need to know about privacy?
 
 * Subject of this course
 * Privacy is a basic human right 
@@ -39,7 +39,7 @@ Privacy is user-centric
 * Breaches can be costly – in $ and reputation 
 * We all expect our privacy to be protected
 
-###Taxonomy(分类学,分类系统) of Privacy Threats(Solove)
+### Taxonomy(分类学,分类系统) of Privacy Threats(Solove)
 - Information collection
   - surveillance(监视)
   - interrogation(讯问(审问)的行为实例;讯问(审问)过程，疑问句;问题)
@@ -61,16 +61,16 @@ Privacy is user-centric
   - intrusion
   - decision interference(干涉, 介入;阻碍, 干扰)
 
-###Other Privacy Threats
+### Other Privacy Threats
 
 * Invisible Information Gathering 
 * Profiling
 * Monitoring and Tracking
 * Identity Theft
 
-##European Data Protection Legislation
+## European Data Protection Legislation
 
-###Context for privacy laws
+### Context for privacy laws
 
 > Technological advances are rapidly changing the way information is collected and processed
 
@@ -84,7 +84,7 @@ Privacy is user-centric
 
 Collection and use of information is **less transparent**
 
-###Goal of privacy laws
+### Goal of privacy laws
 
 Provide citizens with more **control** over how organizations handle their personal information
 
@@ -92,7 +92,7 @@ Encourage **openness** and **transparency**
 
 Right to privacy has to be **balanced** against the necessary flow of information for provision of services
 
-###Privacy and Data Protection in Europe
+### Privacy and Data Protection in Europe
 
 In the ’50, the Council of Europe recognized privacy as a fundamental right 
 
@@ -107,7 +107,7 @@ Need to harmonize data protection laws across Europe
 * Protection of citizens’ privacy 
 * Maintenance of free flows of personal data across Member States
 
-###European Data Protection Legislation
+### European Data Protection Legislation
 
 **Directive 95/46/EC** of the European Parliament and the Council of 24 October 1995 on the Protection of individuals with regard to the processing of personal data and on the free movement of such data. 
 
@@ -117,7 +117,7 @@ Need to harmonize data protection laws across Europe
 
 **General Data Protection Regulation** aiming to strengthen and unify data protection for individuals within the European Union. Replace Directive 95/46/EC. Formal adoption in early 2016 (??).
 
-###Directive 95/46/EC
+### Directive 95/46/EC
 
 * Set guidelines for processing personal information
 * Implemented by Member states in national law 
@@ -128,7 +128,7 @@ Need to harmonize data protection laws across Europe
 * Restricts export of personal data to “unsafe” non-EU countries 
   * Safe Harbor agreement with US Department of Commerce
 
-##Coming...
+## Coming...
 
 General Data Protection Regulation (GDPR) 
 
@@ -141,9 +141,9 @@ General Data Protection Regulation (GDPR)
   * Responsibility and accountability 
   * Data breach notification
 
-##Basic Concepts
+## Basic Concepts
 
-###Basic Concepts for Privacy
+### Basic Concepts for Privacy
 
 * Data
 * Actors
@@ -152,37 +152,37 @@ General Data Protection Regulation (GDPR)
 * Obligations
 * Retention period
 
-###Data
+### Data
 
 **personal data:** any data that can beused to identify a person
 
 **anonymous data:** any data that cannot be associated to any identified or identifiable data subject
 
-####Personal Data
+#### Personal Data
 
 **identification data:** personal data that permit the direct identification of the data subject
 
 **sensitive data:** any data that disclose information about racial or ethnic origin, religious, philosophical or other beliefs, political opinions, membership of parties, trade unions, associations or organizations of a religious, philosophical, political or trade-unionis tcharacter, as well as personal data disclosing health and sex life. An important subcategory of sensitive data are medical data
 
-####Personal Data-Example
+#### Personal Data-Example
 
 ![PersonalDataExample](image/PersonalDataExample.png)
 
-####Data Processing
+#### Data Processing
 
 **Data Processing** encompasses activities such as the collection, recording, organization, storage, use, transmission, and destruction of personal data.
 
 Who is involved in data processing?
 
-###Main Actors
+### Main Actors
 
  ![MainActors](image/MainActors.png)
 
-####Other Actors
+#### Other Actors
 
  ![OtherActors](image/OtherActors.png)
 
-###Purpose
+### Purpose
 
 The **purpose** is the rationale of the processing, on the basis of which all the actions and treatments have to be performed
 
@@ -192,7 +192,7 @@ Why do you want to process the data?
 
  ![Purpose](image/Purpose.png)
 
-####Open questions
+#### Open questions
 
 Purpose Management
 
@@ -200,7 +200,7 @@ Purpose Determination
 
 Purpose Control (Verification)
 
-###Consent
+### Consent
 
 The **consent** is a unilateral action producing effects upon receipt that manifests the data subject’s volition to allow the data controller to process his data.
 
@@ -211,7 +211,7 @@ I authorize you to process my data
 * True consent requires true choice
   * More than “take it or leave it”
 
-####Opt-in vs. Opt-out
+#### Opt-in vs. Opt-out
 
 **Opt-out**: Actively refusing to authorize to collect, use, or disclose personal information
 
@@ -219,13 +219,13 @@ I authorize you to process my data
 
 **Double Opt-in**: Confirmation is sent after subscription; Subscriber must respond to the confirmation
 
-###Retention period
+### Retention period
 
 The r**etention period** defines how long data shall be kept.
 
 Personal data shall be deleted when retention period expires
 
-###Obligations
+### Obligations
 
 An obligation is a mandatory requirement to be fulfilled
 
@@ -244,9 +244,9 @@ Integrated into access control (UCON model)
 * ongoing-obligations
 * post-obligations(e.g., delete data once retention period expires)
 
-##Privacy Principles & Data Subject’s Rights
+## Privacy Principles & Data Subject’s Rights
 
-###Privacy Principles
+### Privacy Principles
 
 * Fair and lawful processing
 * Purpose specification
@@ -284,7 +284,7 @@ Integrated into access control (UCON model)
 
 **Information Security:** personal data shall be processed in a way that guarantees a level of security appropriate to the risks presented by the processing and the nature of the data
 
-###Data Subject’s Rights
+### Data Subject’s Rights
 
 * right to **know** why personal information is collected, used ordisclosed
 * right to **know who is responsible** for protecting information
@@ -295,7 +295,7 @@ Integrated into access control (UCON model)
   * when no longer required for the intended original purpose 
 * right to revoke consent at any time
 
-##Summary
+## Summary
 
 * Privacy is a fundamental human right
 * Privacy protected by law
@@ -303,7 +303,7 @@ Integrated into access control (UCON model)
 * Basic concepts for reasoning about privacy
 * Privacy principles & data subject’s rights
 
-##References
+## References
 
 Rakesh Agrawal, Jerry Kiernan, Ramakrishnan Srikant, YirongXu: Hippocratic Databases. VLDB 2002: 143-154 (Obligatory) 
 
