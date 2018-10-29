@@ -1,15 +1,15 @@
 # Privacy-aware Access Control Part 1
 
-##Outline
+## Outline
 
 * Privacy-aware Access Control 
 * Hippocratic Databases (Agrawal, 2002) 
 * Purpose-based Access Control (Byun and Li, 2008) 
 * Enterprise Privacy Authorization Language (IBM 2003)
 
-##Privacy-aware Access Control
+## Privacy-aware Access Control
 
-###Privacy
+### Privacy
 
 Privacy is an important issue today 
 
@@ -21,7 +21,7 @@ Privacy is an important issue today
   * Protect themselves from any legal dispute 
   * Maintain good reputations
 
-###Privacy Regulations
+### Privacy Regulations
 
 Impose stringent requirements on the collection, processing and disclosure of personal data
 
@@ -37,7 +37,7 @@ Impose stringent requirements on the collection, processing and disclosure of pe
 
 **Purpose Specification**: Personal data should be collected for specified, lawful and legitimate purposes and not processed in ways that are incompatible with the purposes for which data have been collected.
 
-###Beyond Access Control
+### Beyond Access Control
 
 Traditional access controls focus on which users perform which actions on which data objects 
 
@@ -49,7 +49,7 @@ Privacy policies are concerned with which data object is used for which purposes
 
 Notion of purpose must play a major role in access control: Access decisions should be made based on purpose
 
-###Privacy Policy
+### Privacy Policy
 
 * Who: user identities or roles 
 * What: resources or data
@@ -58,23 +58,23 @@ Notion of purpose must play a major role in access control: Access decisions sho
 * Conditions: under which the access is granted/denied 
 * Obligations: mandatory requirements to be fulfilled
 
-####Example
+#### Example
 
  ![PrivacyPolicyExample](image/PrivacyPolicyExample.png)
 
-###Access control
+### Access control
 
  ![7Accesscontrol](image/7Accesscontrol.png)
 
-###Usage control
+### Usage control
 
  ![7usagecontrol](image/7usagecontrol.png)
 
-###Privacy-Aware Access Control
+### Privacy-Aware Access Control
 
  ![7privacyawareaccesscontrol](image/7privacyawareaccesscontrol.png)
 
-##Hippocratic Databases
+## Hippocratic Databases
 
 **Goal:** Incorporate privacy protection within DB systems
 
@@ -88,7 +88,7 @@ Encompass an architecture that uses privacy metadata
 
 Use purpose as the central concept
 
-###The 10 Principles
+### The 10 Principles
 
 **Purpose Specification**. For personal information stored in the database, the purposes for which the information has been collected shall be associated with the information. 
 
@@ -121,7 +121,7 @@ Use purpose as the central concept
 9. 开放(Openness)：信息拥有者应该能够访问自己存储在数据库中的所有信息。
 10. 遵从(Compliance)：信息拥有者能够验证以上规则的遵从情况，相应地，数据库也应该重视对规则的挑战。具有隐私保护功能的数据库系统能够在保证系统安全性的前提下，有效提高系统的可用性。
 
-###Privacy Metadata
+### Privacy Metadata
 
 Purpose associated to each piece of information
 
@@ -140,15 +140,15 @@ For each piece of information collected for that purpose:
 | privacy-policies       | purpose, table, attribute, {external-recipients}, retention |
 | privacy-authorizations | purpose, table, attribute, {authorized-users} |
 
-####Privacy-policies table
+#### Privacy-policies table
 
  ![Privacy-policiestable](image/Privacy-policiestable.png)
 
-####Privacy-authorization table
+#### Privacy-authorization table
 
  ![Privacy-authorizationtable](image/Privacy-authorizationtable.png)
 
-###Data Collection
+### Data Collection
 
 Matching privacy policy with user preferences
 
@@ -161,7 +161,7 @@ Data insertion
 
 * Data inserted with the purpose for which it may be used
 
-###Data Processing
+### Data Processing
 
 Queries submitted to the database along with their purpose(e.g. SELECT name FROM customer FOR Marketing) 
 
@@ -169,7 +169,7 @@ Before query execution: check privacy-authorizations table for a match on purpos
 
 During query execution: ensure that only records whose purpose attribute includes the query’s purpose will be visible to the query
 
-###Purpose Management
+### Purpose Management
 
 Difficult policy refinement (Minimality) 
 
@@ -182,9 +182,9 @@ Information relevant and complete wrt purpose? (Information Quality)
 * Customer allows P1, but not P2 
 * Cannot specify alternatives
 
-##Purpose-based Access Control 
+## Purpose-based Access Control 
 
-###Definition of Purpose
+### Definition of Purpose
 
 Describe the reason(s) for data collection and processing 
 
@@ -199,7 +199,7 @@ Organized in a tree structure
   * Purpose for accessing a particular data item 
   * Associated with access requests
 
-####Intended Purpose(IP)
+#### Intended Purpose(IP)
 
 Associated with data and regulate data processing 
 
@@ -212,13 +212,13 @@ IP = < AIP, PIP >
   * Data access for purposes in PIP is never allowed
   * Restriction by organizational requirements or privacy laws
 
-####Ancestors and descendants
+#### Ancestors and descendants
 
 Given a set of purposes P
 祖先 & 后裔
  ![ancestors&descendants](image/ancestors&descendants.png)
 
-####Intended Purpose – Entailment
+#### Intended Purpose – Entailment
 
  ![IntendedPurposeEntailment](image/IntendedPurposeEntailment.png)
 
@@ -228,7 +228,7 @@ Given a set of purposes P
 
 
 
-###Purpose Compliance
+### Purpose Compliance
 
 Intended purposes tell how data should be used 
 
@@ -238,12 +238,12 @@ Purpose Compliance:
 
  ![AccessPurposeCompliance](image/AccessPurposeCompliance.png)
 
-####Exercise
+#### Exercise
  ![PurposeComplianceExercise](image/PurposeComplianceExercise.png)
 
-###Access Purpose Determination
+### Access Purpose Determination
 
-####Access Purpose – Definition
+#### Access Purpose – Definition
 
 Access Purpose
 
@@ -255,7 +255,7 @@ How do we determine access purposes?
 
 * That is, how does the access control system determine with what purpose a particular user is trying to access a particular data item?
 
-####Access Purpose Determination
+#### Access Purpose Determination
 
 Users explicitly state their access purposes in access request 
 
@@ -269,7 +269,7 @@ Dynamically determined from the current context of the systemI
 
 * Difficult to capture all possibilities
 
-####Access Purpose Verification
+#### Access Purpose Verification
 
 Users explicitly state the access purpose when querying 
 
@@ -281,7 +281,7 @@ Then, the system verifies if the stated access purpose is valid
 
 Verification done through roles (RBAC model)
 
-####Role Attributes
+#### Role Attributes
 
 Roles organized in hierarchies 
 
@@ -295,7 +295,7 @@ Role attributes
 
   ![Role AttributesExample](image/Role AttributesExample.png)
 
-####System Attributes
+#### System Attributes
 
 Characterize the environment of the system 
 
@@ -303,25 +303,25 @@ Defined by system administrators for the application needs
 
 Available to access control system at all times
 
-####Conditional Roles
+#### Conditional Roles
 
  ![ConditionalRoles](image/ConditionalRoles.png)
 
-####Access Purpose Verification
+#### Access Purpose Verification
 
  ![AccessPurposeVerification](image/AccessPurposeVerification.png)
 
-####Access Decision
+#### Access Decision
 
  ![AccessDecision](image/AccessDecision.png)
 
-####Exercise
+#### Exercise
 
 ![Exercisepurpose](image/Exercisepurpose.png)
 
 ![Exercisepurposesolution](image/Exercisepurposesolution.png) 
 
-##Summary
+## Summary
 
 Access control vs. Privacy 
 
@@ -343,7 +343,7 @@ Purpose-based access control
 * Access purpose determination 
 * No purpose control
 
-##Reference
+## Reference
 
 Rakesh Agrawal, Jerry Kiernan, Ramakrishnan Srikant, YirongXu: Hippocratic Databases. VLDB 2002: 143-154 (obligatory)
 
