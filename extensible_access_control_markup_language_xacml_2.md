@@ -1,8 +1,8 @@
 # eXtensible Access Control Markup Language (XACML) Part 2
 
-##Review
+## Review
 
-###XACML
+### XACML
 
 * OASIS standard
 * Federate administration of policies about the same resource 
@@ -14,15 +14,15 @@
   * policy evaluation process 
   * high-level architecture (PEP, PDP, PIP, PAP, etc.)
 
-###XACML Architecture
+### XACML Architecture
 
 ![XACMLArchitecture](image/XACMLArchitecture.png)
 
-###XACML Policy Model
+### XACML Policy Model
 
  ![XACMLPolicyModel](image/XACMLPolicyModel.png)
 
-###Access Request & Policy Applicability
+### Access Request & Policy Applicability
 
  ![accessrequestpolicyapplicability](image/accessrequestpolicyapplicability.png)
 
@@ -34,7 +34,7 @@
 
 * Rule/Policy/PolicySet is applicable if the attributes in the accessrequest “match” the attributes in the target
 
-###Access Decision
+### Access Decision
 
 * Permit: requested access is permitted 
 * Deny: requested access is denied 
@@ -46,7 +46,7 @@
 * If *MustBePresent* is “False” (default value), then a missing attribute results in “NotApplicable”
 * If *MustBePresent* is “True”, then a missing attribute results in“Indeterminate”
 
-###Extended Indeterminate Set
+### Extended Indeterminate Set
 
 Record potential effect value when errors occur 
 
@@ -56,11 +56,11 @@ Record potential effect value when errors occur
 
 Used by some combining algorithms
 
-###Decision Set Projection
+### Decision Set Projection
 
  ![DecisionSetProjection](image/DecisionSetProjection.png)
 
-###Combining Algorithms
+### Combining Algorithms
 
 * Deny-overrides 
 
@@ -80,7 +80,7 @@ Used by some combining algorithms
 
    ![CombiningAlgorithms](image/CombiningAlgorithms.png)
 
-###Obligations
+### Obligations
 
 * In XACML **post obligations** 
 * A policy or policy set may contain one or more obligations
@@ -90,22 +90,22 @@ Used by some combining algorithms
   * if result is “Indeterminate” or “NotApplicable” 
   * if effect does not match FulfillOn attribute
 
-###Response
+### Response
 
 ![xacmlResponse](image/xacmlResponse.png)
 
 * Access Decision
 * Obligations
 
-##Outline
+## Outline
 
 * RBAC Profile
 * Privacy Profile
 * Exercise
 
-##RBAC Profile
+## RBAC Profile
 
-###RBAC
+### RBAC
 
 ![RBAC](image/RBAC.png)
 
@@ -120,15 +120,15 @@ Facilitate policy specification and management
 * RBAC2 = RBAC0 + Constraints 
 * RBAC3 = RBAC1 + RBAC2
 
-###RBAC0
+### RBAC0
 
  ![RBAC0](image/RBAC0.png)
 
-###RBAC1
+### RBAC1
 
  ![RBAC1](image/RBAC1.png)
 
-###RBAC Profile - Scope
+### RBAC Profile - Scope
 
 RBAC profile answers three types of questions:
 
@@ -141,7 +141,7 @@ NOT supported
 * Separation of Duty
 
 
-###Policies in RBAC Profile
+### Policies in RBAC Profile
 
 **Role**: < PolicySet > that associates permissions with a role 
 
@@ -153,7 +153,7 @@ NOT supported
 
 **HasPrivilegesOfRole**: < Policy > in a Permission< PolicySet > that supports requests asking whether a subject has the privileges associated with a given role
 
-###RBAC0 in XACML
+### RBAC0 in XACML
 
 **User** expressed using XACML Subjects 
 
@@ -173,7 +173,7 @@ NOT supported
 
 **Permissions-Role Assignment** expressed using Role< PolicySet >
 
-###Role < PolicySet >
+### Role < PolicySet >
 
 Determine whether a subject holds a certain role 
 
@@ -183,7 +183,7 @@ Determine whether a subject holds a certain role
 
 ![Role<PolicySet>](image/Role<PolicySet>.png)
 
-###Permission < PolicySet >
+### Permission < PolicySet >
 
 Define the permissions associated to a certain role 
 
@@ -195,7 +195,7 @@ Define the permissions associated to a certain role
   ![Permission<PolicySet>](image/Permission<PolicySet>.png)
 
 
-###Example
+### Example
 
 ![RBACProfileExample](image/RBACProfileExample.png)
 
@@ -204,7 +204,7 @@ Role < PolicySet > for employees
 
 Permission < PolicySet > for employees ![Permission<PolicySet>foremployees](image/Permission<PolicySet>foremployees.png)
 
-###Evaluation
+### Evaluation
 
 Permission < PolicySet > cannot be used as initial policy by PDP 
 
@@ -212,13 +212,13 @@ Permission < PolicySet > MUST be reachable only through the corresponding Role P
 
 * To support inheritance, Permission < PolicySet > must be applicable to any subject
 
-###RBAC1 in XACML
+### RBAC1 in XACML
 
 **Role inheritance** defined by policy structure 
 
 Permissions associated with one role includes permissions associated with more general roles
 
-###Permission < PolicySet >
+### Permission < PolicySet >
 
 Define the permissions associated to a certain role 
 
@@ -229,11 +229,11 @@ Define the permissions associated to a certain role
 * Permission < PolicySet > MAY also contain references to Permission < PolicySet >s associated with other roles that are generalizations of the given role 
   * Inherit all permissions associated with the role of the referenced Permission < PolicySet >
 
-###Example
+### Example
 
  ![RBAC1XACMLExample](image/RBAC1XACMLExample.png)
 
-###Multi-Role Permissions
+### Multi-Role Permissions
 
 A user must hold several roles simultaneously to gain access to a certain permission 
 
@@ -248,7 +248,7 @@ Subjects has the permissions associated with
 * each role individually 
 * multi roles
 
-###HasPrivilegesOfRole < Policy >
+### HasPrivilegesOfRole < Policy >
 
 Used to allow queries asking if a subject “**has the privileges of**” a specific role 
 
@@ -258,18 +258,18 @@ If this type of request is to be supported, then a HasPrivilegesOfRole < Policy 
 
  ![HasPrivilegesOfRole<Policy>](image/HasPrivilegesOfRole<Policy>.png)
 
-###HasPrivilegesOfRole < Policy > for managers
+### HasPrivilegesOfRole < Policy > for managers
 
  ![HasPrivilegesOfRole<Policy>formanagers](image/HasPrivilegesOfRole<Policy>formanagers.png)
 
-###HasPrivilegesOfRole < Request > 
+### HasPrivilegesOfRole < Request > 
 
  ![HasPrivilegesOfRole<Request>](image/HasPrivilegesOfRole<Request>.png)
 
 
-##Privacy Profile
+## Privacy Profile
 
-###Privacy-aware Access Control
+### Privacy-aware Access Control
 
 Access control policies include **Subject** ,**Object** ,**Actions**
 
@@ -279,7 +279,7 @@ Privacy-aware access control policies also include
 * **Obligations**: mandatory requirements to be fulfilled
 * **Conditions**: restrictions under which a policy is applied
 
-###Privacy Profile
+### Privacy Profile
 
 No element for purpose 
 
@@ -292,11 +292,11 @@ Two optional purpose attributes:
 
 No purpose hierarchy
 
-###Matching purpose
+### Matching purpose
 
  ![Matchingpurpose](image/Matchingpurpose.png)
 
-###XSPA Profile
+### XSPA Profile
 
 Cross-Enterprise Security and Privacy Authorization (XSPA) Profile of XACML v2.0 for Healthcare 
 
@@ -311,7 +311,7 @@ Cross-Enterprise Security and Privacy Authorization (XSPA) Profile of XACML v2.0
 
 
 
-##Summary
+## Summary
 
 XACML can be extended to cope with specific issues 
 
@@ -325,11 +325,11 @@ XACML can be extended to cope with specific issues
 
 
 
-##Exercise
+## Exercise
 
 
 
-##References
+## References
 
 eXtensible Access Control Markup Language (XACML) Version3.0 http://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-specos-en.pdf 
 
