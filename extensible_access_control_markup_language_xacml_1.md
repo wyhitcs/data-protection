@@ -1,6 +1,6 @@
 # eXtensible Access Control Markup Language (XACML) Part 1
 
-##What is XACML
+## What is XACML
 
 XACML stands for eXtensible Access Control Markup Language
 
@@ -16,7 +16,7 @@ XACML defines
   * how to evaluate a request against a policy
 * High-level architecture (PEP, PDP, PIP, PAP, etc.)
 
-###History
+### History
 
 * OASIS Standard 
 * XACML 1.0 (February 2003) 
@@ -33,7 +33,7 @@ XACML defines
   * SAFAX (http://security1.win.tue.nl/safax/)
   * Many more at http://www.oasis-open.org/
 
-###XACML Data Flow
+### XACML Data Flow
 
 ![XACMLArchitecture](image/XACMLArchitecture.png)
 
@@ -56,7 +56,7 @@ XACML defines
 5. 策略决策点PDP将授权决策的结果返回给上下文处理器Handler进行处理。
 6. Handler把PDP返回的结果转换成PEP可以识别的格式，PEP根据返回的结果进行相应的处理。
 
-##Outline
+## Outline
 
 * Policy Language 
 * Access Request
@@ -64,12 +64,12 @@ XACML defines
 * Response
 * Exercise
 
-##Policy Language
+## Policy Language
 ![Policy Language](image/Policy Language.png)
 
 How to specify a policy?
 
-###Attribute-Based Access Control (ABAC)
+### Attribute-Based Access Control (ABAC)
 
 Attributes are (name,value) pairs
 
@@ -79,7 +79,7 @@ Associated with **subjects, actions, objects, contexts**
 
 No fundamental difference between subjects, objects, actionsand other contextual information
 
-###XACML Policy Language Model
+### XACML Policy Language Model
 
 ![XACMLPolicyModel](image/XACMLPolicyModel.png)
 
@@ -97,7 +97,7 @@ No fundamental difference between subjects, objects, actionsand other contextual
 
  ![policySetzhcn](image/policySetzhcn.png)
 
-###⟨Target⟩, ⟨AnyOf⟩, ⟨AllOf⟩, ⟨Match⟩
+### ⟨Target⟩, ⟨AnyOf⟩, ⟨AllOf⟩, ⟨Match⟩
 
 **⟨Target⟩** contains a conjunctive sequence of ⟨AnyOf⟩ elements
 
@@ -111,11 +111,11 @@ No fundamental difference between subjects, objects, actionsand other contextual
 
 * Determine which attributes should be provided in a request in order for the request to be applicable
 
-###Attributes, Data Types, Functions
+### Attributes, Data Types, Functions
 
 ![AttributesDataTypesFunctions](image/AttributesDataTypesFunctions.png)
 
-###⟨Rules⟩
+### ⟨Rules⟩
 
 * RuleId [Required] 
   * A string identifying this rule.
@@ -132,7 +132,7 @@ No fundamental difference between subjects, objects, actionsand other contextual
 * ⟨AdviceExpressions⟩ [Optional]
   * A conjunctive sequence of advice expressions which MUST be evaluated into advice by the PDP.
 
-###⟨Policy⟩
+### ⟨Policy⟩
 
 Smallest entity that SHALL be presented to the PDP for evaluation
 
@@ -152,7 +152,7 @@ Smallest entity that SHALL be presented to the PDP for evaluation
 * ⟨AdviceExpressions⟩ [Optional] 
   * A conjunctive sequence of advice expressions which MUST be evaluated into advices by the PDP.
 
-###⟨PolicySet⟩
+### ⟨PolicySet⟩
 
 * PolicySetId [Required] 
   * Policy set identifier
@@ -173,7 +173,7 @@ Smallest entity that SHALL be presented to the PDP for evaluation
 * ⟨AdviceExpressions⟩ [Optional] 
   * A conjunctive sequence of advice expressions which MUST evaluated into advices by the PDP
 
-###Example
+### Example
 
 In a company, the staff can access the printer.
 
@@ -183,33 +183,33 @@ Attributes:
 * Group: staff, intern,. . .
 * Resources: printer, scanner,. . .
 
-####Example:< Match >
+#### Example:< Match >
 
 The ⟨Match⟩ element identifies a particular value for an attribute:
 
 ![Example⟨Match⟩](image/Example⟨Match⟩.png)
 
-####Example: < Target >
+#### Example: < Target >
 
 The ⟨Target⟩ element defines which requests are applicable: 
 
 ![Example<Target>](image/Example<Target>.png)
 
-####Example: Policy
+#### Example: Policy
 
 Access is permitted to the printer for members of the staff.
 ![ExamplePolicy](image/ExamplePolicy.png)
 
-###Policy Hierarchy
+### Policy Hierarchy
 
 ![PolicyHierarchy](image/PolicyHierarchy.png)
 
-##Access Request 
+## Access Request 
 ![AccessRequest](image/AccessRequest.png)
 
 How to specify access request?
 
-###⟨Request⟩
+### ⟨Request⟩
 
 ReturnPolicyIdList [Required]
 
@@ -219,15 +219,15 @@ ReturnPolicyIdList [Required]
 
 * Specifies information about attributes of the request context by listing a sequence of ⟨Attribute⟩ elements associated with an attribute category. One or more ⟨Attributes⟩ elements are allowed. Different ⟨Attributes⟩ elements with different categories are used to represent information about the subject, resource, action,environment or other categories of the access request.
 
-####Example: Request 
+#### Example: Request 
 ![ExampleRequest](image/ExampleRequest.png)
 
 Alice, a staff member, wants to access the printer.
 
-##Policy Evaluation 
+## Policy Evaluation 
 ![Policy Evaluation](image/Policy Evaluation.png)
 
-###Policy Applicability
+### Policy Applicability
 
 * A Rule/Policy/PolicySet has a target 
 
@@ -244,17 +244,17 @@ Alice, a staff member, wants to access the printer.
 * If *MustBePresent* is “True”, then a missing attribute results in“Indeterminate”
 
 
-###Target evaluation
+### Target evaluation
 
 ![Targetevaluation](image/Targetevaluation.png)
 
-####Example: Target evaluation
+#### Example: Target evaluation
 
 ![ExampleTargetevaluation1](image/ExampleTargetevaluation1.png)
 
 ![ExampleTargetevaluation2](image/ExampleTargetevaluation2.png)
 
-###Access Decision Set
+### Access Decision Set
 
 * Permit (P)
   *  requested access is permitted
@@ -266,7 +266,7 @@ Alice, a staff member, wants to access the printer.
 * NotApplicable (NA) 
   * PDP does not have any policy that applies to the request
 
-###Extended Indeterminate Set
+### Extended Indeterminate Set
 
 Record potential effect value when errors occur 
 
@@ -276,15 +276,15 @@ Record potential effect value when errors occur
 
 Used by some combining algorithms
 
-###Decision Set Projection
+### Decision Set Projection
 
 ![DecisionSetProjection](image/DecisionSetProjection.png)
 
-###Rule evaluation
+### Rule evaluation
 
 ![Rule Evaluation](image/Ruleevaluation.png)
 
-####Example: Target evaluation
+#### Example: Target evaluation
 
 ![ExampleTargetevaluation3](image/ExampleTargetevaluation3.png)
 
@@ -294,7 +294,7 @@ Used by some combining algorithms
 
 Different rules and policies can be applicable!!
 
-###Combining Algorithms
+### Combining Algorithms
 
 * Deny-overrides
 * Ordered-deny-overrides 
@@ -305,24 +305,24 @@ Different rules and policies can be applicable!!
 * First-applicable
 * Only-one-applicable (only PolicyCombiningAlgorithm)
 
-###Deny Overrides (Defined over D6)
+### Deny Overrides (Defined over D6)
 ![Deny Overrides (Defined over D6)](image/DenyOverridesDefinedoverD6.png)
 
-###Permit Overrides (Defined over D6)
+### Permit Overrides (Defined over D6)
 
 ![Permit Overrides (Defined over D6)](image/PermitOverridesDefinedoverD6.png)
 
-###First Applicable (Defined over D4)
+### First Applicable (Defined over D4)
 
 ![First Applicable (Defined over D4)](image/FirstApplicableDefinedoverD4.png)
 
 
-###Only One Applicable (Defined over D4) only for Policies
+### Only One Applicable (Defined over D4) only for Policies
 
 ![Only One Applicable (Defined over D4) only for Policies](image/OnlyOneApplicableDefinedoverD4onlyforPolicies.png)
 
 
-###Other combining algorithms
+### Other combining algorithms
 
 * Ordered-deny-overrides
   * Identical to Deny-overrides combining algorithms
@@ -333,7 +333,7 @@ Different rules and policies can be applicable!!
 * Permit-unless-deny 
 * To be studied: **XACML specification (pages 135-147)**
 
-###Combining Algorithms: Example
+### Combining Algorithms: Example
 
  ![CombiningAlgorithmsExample](image/CombiningAlgorithmsExample.png)
 
@@ -343,7 +343,7 @@ Different rules and policies can be applicable!!
 
 看课件
 
-###Obligations
+### Obligations
 
 
 In XACML **post obligations** 
@@ -373,7 +373,7 @@ When nondeterminism is unacceptable, use deterministic combining algorithms
 
  ![Obligations(Cont.)](image/ObligationsCont.png)
 
-###Obligations: Example
+### Obligations: Example
 
  ![ObligationsExample](image/ObligationsExample.png)
 
@@ -386,7 +386,7 @@ When nondeterminism is unacceptable, use deterministic combining algorithms
 
  ![ObligationsExample4](image/ObligationsExample4.png)
 
-##Response
+## Response
 
 * Specification of policies 
 * Applicability of policies 
@@ -394,7 +394,7 @@ When nondeterminism is unacceptable, use deterministic combining algorithms
 * Combining algorithms 
 * Obligations
 
-###⟨Result⟩
+### ⟨Result⟩
 
 Represent authorization decision 
 
@@ -418,7 +418,7 @@ Represent authorization decision
 
 * If the ReturnPolicyIdList attribute in the ⟨Request⟩ is true, PDP MUST return a list of all policies which were found to be fully applicable. That is, all policies where both the ⟨Target⟩ matched and the ⟨Condition⟩ evaluated to true, whether or not the ⟨Effect⟩ was the same or different from the ⟨Decision⟩.
 
-###⟨Response⟩
+### ⟨Response⟩
 
 Encapsulate authorization decision made by PDP
 
@@ -429,11 +429,11 @@ Include a sequence of one or more resultsI
 * authorization decision 
 * one ⟨Result⟩ element per requested resource
 
-##Exercise
+## Exercise
 
 Exercise (Text is in the repository)
 
-###Hints
+### Hints
 
 * Build policy hierarchy 
 * Annotate it with relevant information
@@ -443,7 +443,7 @@ Exercise (Text is in the repository)
 * Match target with request context 
 * Response = decision + set of obligations
 
-###Solution
+### Solution
 Access request
 * Subject
   * Alice
@@ -458,7 +458,7 @@ Access request
 
 ![XACML1Solution](image/xacml1solution.png)
 
-##Reference
+## Reference
 
 
 eXtensible Access Control Markup Language (XACML) Version3.0, OASIS Standard, January 2013. http://docs.oasisopen.org/xacml/3.0/xacml-3.0-core-spec-os-en.pdf

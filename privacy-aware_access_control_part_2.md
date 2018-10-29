@@ -1,6 +1,6 @@
-#Privacy-aware Access Control II
+# Privacy-aware Access Control II
 
-##Outline
+## Outline
 
 * Hippocratic Databases (Agrawal, 2002)
 * Purpose-based Access Control (Byun and Li, 2008)
@@ -10,7 +10,7 @@
   * Policy Enforcement
   * Policy Management
 
-##EPAL: Overview
+## EPAL: Overview
 
 Enterprise Privacy Authorization Language 
 
@@ -22,7 +22,7 @@ Submitted to W3C for standardization (November 2003)
 
 * no action so far
 
-###Privacy Issues in Enterprises
+### Privacy Issues in Enterprises
 
 Enterprises store a large amount of personal data
 
@@ -32,7 +32,7 @@ Enterprises may not know the consent a customer has given nor the legal regulati
 
 Enterprises that process or store data collected by another enterprise are unable to enforce privacy consistently on behalf ofthe collecting enterprise
 
-###Privacy-enabled Data Management
+### Privacy-enabled Data Management
 
 Current situation: 
 
@@ -47,17 +47,17 @@ Enterprises need to
 * Only use data for consented purposes 
 * Enable customers to retain control over their data
 
-###EPAL Goals (and Non-Goals)
+### EPAL Goals (and Non-Goals)
 
  ![EPALGoalsandNon-Goals](image/EPALGoalsandNon-Goals.png)
 
-###EPAL Framework
+### EPAL Framework
 
  ![EPALFramework](image/EPALFramework.png)
 
-##EPAL: Privacy Policy Specification
+## EPAL: Privacy Policy Specification
 
-###Privacy Policies
+### Privacy Policies
 
 * Who: user identities or roles 
 * What: resources or data
@@ -66,7 +66,7 @@ Enterprises need to
 * Conditions: under which the access is granted/denied 
 * Obligations: mandatory requirements to be fulfilled
 
-###The Sticky Policy Paradigm
+### The Sticky Policy Paradigm
 
 Traditional access control 
 
@@ -78,7 +78,7 @@ Sticky policy paradigm
 * “Check if marketing has been consented by the customer...”
 * “If not, ask for consent first”
 
-###Enterprise Privacy Policies
+### Enterprise Privacy Policies
 
  ![EnterprisePrivacyPolicies](image/EnterprisePrivacyPolicies.png)
 
@@ -88,11 +88,11 @@ EPAL defines policy terminology and authorization rules
 
 Rules allow/deny privacy relevant actions, depending on purpose
 
-###EPAL Policy Model
+### EPAL Policy Model
 
  ![EPALPolicyModel](image/EPALPolicyModel.png)
 
-###Hierarchy
+### Hierarchy
 
 Definition:  A hierarchy is a pair (H, >)
 
@@ -109,11 +109,11 @@ employee > manager
 
 employee > clerk
 
-###Obligation Model
+### Obligation Model
 
  ![ObligationModel](image/ObligationModel.png)
 
-###EPAL Privacy Policies
+### EPAL Privacy Policies
 
 **Vocabulary** defines scope of policy:
 
@@ -133,7 +133,7 @@ default obligation
 
 global condition
 
-####Vocabulary
+#### Vocabulary
 
 A vocabulary is a tuple (UH, DH, PH, AH, Var, OM) 
 
@@ -144,15 +144,15 @@ A vocabulary is a tuple (UH, DH, PH, AH, Var, OM)
 * Var is a conditional vocabulary
 * OM is an obligation model
 
-####Ruleset
+#### Ruleset
 
  ![Ruleset](image/Ruleset.png)
 
-####Privacy Policy
+#### Privacy Policy
 
  ![PrivacyPolicyDef](image/PrivacyPolicyDef.png)
 
-####Access request
+#### Access request
 
 Definition: A request is a tuple (u, d, p, a) 
 
@@ -163,11 +163,11 @@ Definition: A request is a tuple (u, d, p, a)
 
 Remark: A request is **valid** for a vocabulary Voc if u, d, p, a ∈ Voc
 
-##EPAL: Policy Enforcement
+## EPAL: Policy Enforcement
 
  ![EPALPolicyEnforcement](image/EPALPolicyEnforcement.png)
 
-###EPAL Semantics
+### EPAL Semantics
 
 Inheritance 
 
@@ -184,11 +184,11 @@ Decision
 
 * first applicable **allow or deny** rule
 
-###Matching Rules
+### Matching Rules
 
  ![MatchingRules](image/MatchingRules.png)
 
-####Example
+#### Example
 
  ![ExampleMatchingrule](image/ExampleMatchingrule.png)
 
@@ -198,7 +198,7 @@ Which rules (if any) apply to the following authorization requests?
 * (u2; d1; p; a) None
 * (u3; d2; p; a) R3
 
-###Policy Evaluation
+### Policy Evaluation
 
 Check rules in given order for applicability 
 
@@ -211,11 +211,11 @@ Decision
 
   ![PolicyEvaluation](image/PolicyEvaluation.png)
 
-####Example
+#### Example
 
  ![examplePolicyEvaluation](image/examplePolicyEvaluation.png)
 
-##EPAL: Policy Management
+## EPAL: Policy Management
 
 Policy refinement
 
@@ -227,14 +227,14 @@ Policy composition
 * Notion of constructively combining two policies 
 * Provide operators to construct policies
 
-####Policy Refinement
+#### Policy Refinement
 
 Refinement means adding details to an existing policy while preserving the original privacy statements:
 
 * **Ruling**: Whenever the original policy allows (denies) a request, the refined policy also allows (denies) the request 
 * **Obligation**: Fulfillment of the refined obligations implies fulfillmentof the original obligations for every request
 
-#####Policy Refinement: Ruling
+##### Policy Refinement: Ruling
 
 What does it mean that r1 refines r2 (r1 < r2) ? 
 
@@ -243,11 +243,11 @@ What does it mean that r1 refines r2 (r1 < r2) ?
 * If r2 = out-of -scope then r1 can be arbitrary 
 * If r2 = don’t care then r1 ∈ {deny, allow, don’t care}
 
-#####Policy Refinement: Obligation
+##### Policy Refinement: Obligation
 
  ![PolicyRefinementObligation](image/PolicyRefinementObligation.png)
 
-#####Exercise: Policy Refinement (1)
+##### Exercise: Policy Refinement (1)
 
  ![ExercisePolicyRefinement1](image/ExercisePolicyRefinement1.png)
 
@@ -259,7 +259,7 @@ No, consider default ruling.
 ![ExercisePolicyRefinement2](image/ExercisePolicyRefinement2.png)
 No, u5 + or -
 
-#####Policy Refinement: Algorithm
+##### Policy Refinement: Algorithm
 
 Evaluate both policies for any request and any assignment, and compare results 
 
@@ -286,7 +286,7 @@ Comparison of extended rule-lists
 
 See details and example on the paper (see reference at the end)
 
-#####Scope-based expansion
+##### Scope-based expansion
 
  ![Scope-basedexpansion](image/Scope-basedexpansion.png)
 
@@ -294,15 +294,15 @@ See details and example on the paper (see reference at the end)
 
  ![Scope-basedexpansion3](image/Scope-basedexpansion3.png)
 
-#####Normalization of qualifier sequences
+##### Normalization of qualifier sequences
 
  ![Normalizationofqualifiersequences](image/Normalizationofqualifiersequences.png)
 
-#####Comparison
+##### Comparison
 
  ![Comparison](image/Comparison.png)
 
-##Summary
+## Summary
 
 Access control vs. Privacy 
 
@@ -324,7 +324,7 @@ Purpose-Based Access Control
 
 Enterprise Privacy Authorization Language
 
-##References
+## References
 
 Michael Backes, Gunter Karjoth, Walid Bagga, and MatthiasSchunter. Efficient comparison of enterprise privacy policies. In Proceedings of the 2004 ACM Symposium on Applied Computing (SAC ’04), 375-382. ACM, 2004. (obligatory)
 

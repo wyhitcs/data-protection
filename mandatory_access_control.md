@@ -4,7 +4,7 @@
 - Access rights entirely determined by the system
 - Used in highly classified and confidential environments. e.g., military
 
-##Outline
+## Outline
 - Multi-Level Security(MLS)
   - Bell-Lapadula(BLP) Model
   - Biba Model
@@ -12,7 +12,7 @@
   - Chinese Wall
 - Covert Channels
 
-##Multi-Level Security(MLS)
+## Multi-Level Security(MLS)
 
 Access based on security classifications or security levels -
 
@@ -30,7 +30,7 @@ Dominance: Top Secret > Secret > Confidential > Unclassified
 
 Security goal: ensure that information does not flow to those not cleared for that level
 
-####Security Classification
+#### Security Classification
 
 Security class usually formed by two components: 
 
@@ -43,15 +43,15 @@ The combination of the two introduces a partial order on security classes, calle
 
 ​	(L1,C1) >= (L2;C2) => L1 >= L2 ∧ C1 ⊇ C2
 
-####Security Lattice
+#### Security Lattice
 
  自反性；传递性；反对称性![SecurityLattice](image/SecurityLattice.png)
 
-#####Security Lattice: Example
+##### Security Lattice: Example
 
  ![SecurityLatticeExample](image/SecurityLatticeExample.png)
 
-####Semantics
+#### Semantics
 
 **Security level** 
 
@@ -65,7 +65,7 @@ Evaluation
 * Assign a security class to each subject and object 
 * Match between clearance of subject and classification of object to determine when access should be granted
 
-###Bell-Lapadula(BLP) Model
+### Bell-Lapadula(BLP) Model
 
 Proposed by David Bell and Len LaPadula in 1973 
 
@@ -78,11 +78,11 @@ Air Force was concerned with security in time-sharing systems
 
 Security goal (confidentiality): Prevent information flow to lower or incomparable security classes
 
-####Hierarchy of Security Levels
+#### Hierarchy of Security Levels
 
  ![HierarchyofSecurityLevels](image/HierarchyofSecurityLevels.png)
 
-####BLP Information Flow
+#### BLP Information Flow
 
 Prevent information flow to lower or incomparable security classes
 
@@ -90,7 +90,7 @@ Prevent information flow to lower or incomparable security classes
 
 Information flow is bottom up
 
-####Example
+#### Example
 
  ![exampleBLPInformationFlow](image/exampleBLPInformationFlow.png)
 
@@ -106,7 +106,7 @@ Which files can David read? And which files can he write?
 
 * David can only read Telephone Lists; he can write all files
 
-####Approach of BLP
+#### Approach of BLP
 
 Use state-transition systems to describe computer systems
 
@@ -114,29 +114,29 @@ Define a system as secure iff every reachable state satisfies 3 properties: simp
 
 Basic Security Theorem (BST): check that all state transitions starting in a ‘secure’ state yield a‘secure’ state
 
-####The BLP Security Model
+#### The BLP Security Model
 
  ![TheBLPSecurityModel](image/TheBLPSecurityModel.png)
 
-####The BLP Security Policy
+#### The BLP Security Policy
 
  ![TheBLPSecurityPolicy](image/TheBLPSecurityPolicy.png)
 
-####From BLP to Access Matrix: Exercise
+#### From BLP to Access Matrix: Exercise
 
  ![FromBLPtoAccessMatrixExercise](image/FromBLPtoAccessMatrixExercise.png)
 
-####Problem
+#### Problem
 
  ![BLPproblem1](image/BLPproblem1.png)
 
  ![BLPproblem2](image/BLPproblem2.png)
 
-####Max/Current Level
+#### Max/Current Level
 
  ![MaxCurrentLevel](image/MaxCurrentLevel.png)
 
-####Example
+#### Example
 
 Colonel has (Secret,{Nuc, Navy}) clearance 
 
@@ -154,7 +154,7 @@ Now ℷ(Major)>=  ℷc(Colonel)
 * Colonel is trusted to not disclose Nuc information 
 * Security class fixed within a session
 
-####Observations
+#### Observations
 
 BLP applies to subjects not to users 
 
@@ -164,7 +164,7 @@ Subjects are not trusted because they may have Trojan Horses embedded in the cod
 
 simple-security property and *-property prevent leakage ofinformation
 
-####Limitations
+#### Limitations
 
 Only concern confidentiality 
 
@@ -179,7 +179,7 @@ Assume fixed rights
 
 Vulnerable to covert channels
 
-####System Z
+#### System Z
 
 Suppose that transitions can change security level of subjects and objects
 
@@ -189,7 +189,7 @@ Consequence? Access is granted for every request
 
 Is the system secure? It satisfies BLP security properties!
 
-####Tranquility
+#### Tranquility
 
 Suppose that security levels of objects can be changed 
 
@@ -200,13 +200,13 @@ Both situations violate fundamental restrictions
 
 The principle of tranquility states that subjects and objects may not change their security levels
 
-#####Types of Tranquility
+##### Types of Tranquility
 
 **Strong Tranquility Property**: Subjects and objects do not change labels during the lifetime of the system.
 
 **Weak Tranquility Property**: Subjects and objects do not change labels in a way that violates the “spirit” of the security policy
 
-#####BLP & Tranquility
+##### BLP & Tranquility
 
 BLP assumes strong tranquility property (Static model) 
 
@@ -215,9 +215,9 @@ This may be too restrictive
 * Not all changes of level leak information (e.g., upgrading is ok)
 * Data may need to be downgraded (e.g., data can be made public after some time)
 
-###Biba Model
+### Biba Model
 
-####BLP
+#### BLP
 
 Information Flow:
 
@@ -231,7 +231,7 @@ Policies for secrecy prevent improper leakage of information
 
 They do NOT safeguard integrity!
 
-####Biba Model
+#### Biba Model
 
 Define mandatory policies for integrity
 
@@ -242,11 +242,11 @@ Assign integrity classes to:
 * subjects: reflect subject’s trustworthiness not to improperly modify the information
 * objects: reflect the potential damage that could result from improper modification
 
-####Biba Information Flow
+#### Biba Information Flow
 
  ![BibaInformationFlow](image/BibaInformationFlow.png)
 
-####Biba Model: Properties
+#### Biba Model: Properties
 
 Integrity policies dual to secrecy policies 
 
@@ -258,11 +258,11 @@ NO READ DOWN
 
 NO WRITE UP
 
-####Biba: Alternative policies
+#### Biba: Alternative policies
 
  ![BibaAlternativepolicies](image/BibaAlternativepolicies.png)
 
-###Combining Biba and BLP
+### Combining Biba and BLP
 
 Secrecy and integrity policies can coexist but… need independent labels 
 
@@ -276,19 +276,19 @@ Combined access rules are
 * subject s can **read** object o only if ℷS(s) >= ℷS(o) and ℷI(s) <=  ℷI(o)
 * subject s can **write** object o only if ℷS(s) <=ℷ S(o) and ℷI(s) >= ℷI(o)
 
-###BLP+Biba: Exercise
+### BLP+Biba: Exercise
 
 ![BLPBibaExercise](image/BLPBibaExercise.png)
 ![BLPBibaExercise2](image/BLPBibaExercise2.png) 
 ![BLPBibaExercise3](image/BLPBibaExercise3.png) 
 
-##Multilateral Security
+## Multilateral Security
 
 Protect information from leakages between compartments on the same level 
 
 Also known as compartmentalization
 
-####Conflicts of Interest
+#### Conflicts of Interest
 
 Consultancy business: clients can be competitor companies 
 
@@ -298,7 +298,7 @@ Information must not leak from one client to its competitors
 
   ![exampleConflictsofInterest](image/exampleConflictsofInterest.png)
 
-###Chinese Wall
+### Chinese Wall
 
 **Goal**: prevent information flows which cause conflict of interests for individual consultants 
 
@@ -318,7 +318,7 @@ Company information is organized hierarchically in 3 levels:
 
   ![chinesewall](image/chinesewall.png)
 
-#####Simple property:
+##### Simple property:
 
 Subject s can read object o only if: 
 
@@ -327,7 +327,7 @@ Subject s can read object o only if:
 
   ![ChineseWallExample](image/ChineseWallExample.png)
 
-#####Problem solved?
+##### Problem solved?
 
  ![ChinesewallProblemsolved](image/ChinesewallProblemsolved.png)
 
@@ -336,14 +336,14 @@ If Alice could write to ARCO’s CD, Bob can read it
 Hence, indirectly, Bob can read information from CitiBank’s CD,
 leading to conflict of interest
 
-#####Chinese Wall: *-property
+##### Chinese Wall: *-property
 
 Subject s can write object o only if: 
 
 * access is permitted by the simple property 
 * no object can be read by s which is in a different company dataset to the one for which write access is requested
 
-#####Chinese Wall: Sanitization
+##### Chinese Wall: Sanitization
 
 Chinese Wall model may be too restrictive 
 
@@ -353,14 +353,14 @@ Chinese Wall model may be too restrictive
 
 **Sanitization:** disguising a corporate information, preventing the discovery of its identity
 
-#####Chinese Wall: *-property
+##### Chinese Wall: *-property
 
 Subject s can **write** object o only if: 
 
 * access is permitted by the simple property 
 * no object can be read by s which (i) is in a different company dataset to the one for which write access is requested and (ii)contains unsanitized information
 
-###BPL VS. Chinese Wall
+### BPL VS. Chinese Wall
 
 Bell-LaPadula 
 
@@ -374,7 +374,7 @@ Chinese Wall
 * Notion of past accesses 
 * Access constraints change over time
 
-##Covert Channels
+## Covert Channels
 
 Mandatory policy controls only flow through **legitimate** channels
 
@@ -384,7 +384,7 @@ Covert channels are channels not intended for transmitting information but can b
 
 Every resource or system process observable at different levels can be exploited to create a covert channel
 
-####Example
+#### Example
 
 * Timing channels: measuring how long a computation took can reveal something about the data it was operating 
 * Power channels: measuring the power consumption of a CPU can be used to infer the bits being computed.
@@ -392,7 +392,7 @@ Every resource or system process observable at different levels can be exploited
 
 Covert channels can be reduced but it is very difficult to avoid themcompletely
 
-####Resource Exhaustion Channel
+#### Resource Exhaustion Channel
 
 Given 5MB of dynamically allocated memory
 
@@ -408,7 +408,7 @@ request 5MB of memory
 
 if allocated then bit = 0 otherwise bit = 1
 
-####Load Sensing Channel
+#### Load Sensing Channel
 
 HIGH PROCESS
 
@@ -422,7 +422,7 @@ perform a task with known computational load
 
 if completed quickly then bit = 0 otherwise bit = 1
 
-##Summary
+## Summary
 
 * Security Lattice: partial order of security classes
 * BLP: prevent information flow to lower or incomparable classes 
@@ -437,7 +437,7 @@ if completed quickly then bit = 0 otherwise bit = 1
   * No flexible
   * Covert channels
 
-##Reference
+## Reference
 
 Ravi S. Sandhu. 1993. Lattice-Based Access Control Models.Computer 26(11):9-19. (obligatory) 
 

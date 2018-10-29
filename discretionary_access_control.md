@@ -2,15 +2,15 @@
 
 
 
-##Outline
+## Outline
 - Access Control
 - Discretionary Access Control
 - Safety Problem
 - DAC weaknesses
 
-##Access Control
+## Access Control
 
-###Computer Security Objectives
+### Computer Security Objectives
 - Confidentiality
   - Information disclosed only to principals authorized to know it
   - Privacy:
@@ -21,7 +21,7 @@
   - Information modified only by authorized principals and in the authorized ways
 - Availability
   - Information accessible when it is needed (No denial of service)
-###Access Control
+### Access Control
 - Goal: Protect confidentiality and integrity of information
 - Control what a subject can do to prevent damage to the system
 - Regulate the **operations** that can be executed by a **subject** on **data and resources**
@@ -30,7 +30,7 @@
 - The basic idea of access control is that there is an _active_ subject requiring access to a _passive_ object to perform some specific access operation
 - A _reference monitor_ grants or denies access
 
-###Subjects
+### Subjects
 - Active entity performing operations in the system
 - Subjects can be classified into:
   - users: single individuals connecting to the system
@@ -39,13 +39,13 @@
   - processes: executing programs on behalf of users
 - Relations may exist among the various types of subject
 
-###Objects
+### Objects
 - Any system resource (file, printer, etc.)
 - _Protection objects_: objects controlled by access control system
 - Note: not all resources managed by a system need to be protected
 - **Advanced Objects: subjects**
 
-###Access Rights
+### Access Rights
 - Operations that a subject can execute on protection objects
 - Each type of operation corresponds(相符合, 相一致;相当, 相类似;通信) to an _access_ right
   - access control must be able to control the specific type of operation
@@ -56,7 +56,7 @@
   - execute, select, insert, update, delete, etc.
 - Advanced Rights: ownership, delegate(代表, 代表团成员;vt. 任命或委派…为代表;托付), remove
 
-###Subjects, Objects, Access Rights in Unix
+### Subjects, Objects, Access Rights in Unix
 Subjects: users, groups
 Objects: files, directories
 Access rights: read, write, execute
@@ -70,7 +70,7 @@ Access rights: read, write, execute
   - write: create, rename, or delete files within the directory
   - execute: enter the directory
 
-###Access Control vs. Authentication
+### Access Control vs. Authentication
 Completely different things
 
 Authentication: Establishing who you are(whether a user possesses a certain pseudonym/attribute or not)
@@ -79,7 +79,7 @@ Access Control: Establishing if a user has the right of doing a certain operatio
 
 Authentication is necessary for access control
 
-###Policies, Models, Mechanisms
+### Policies, Models, Mechanisms
 
 **Policy**: define (high-level) guidelines and rules describing the accesses to be authorized by the system
 
@@ -88,7 +88,7 @@ Authentication is necessary for access control
 **Mechanism**: implement the policies via low level (software and hardware) functions
 
 
-###Separation between policies and mechanisms
+### Separation between policies and mechanisms
 
 Discuss access requirements **independently** from their implementation
 
@@ -96,7 +96,7 @@ Discuss access requirements **independently** from their implementation
 
 Design mechanisms able to **enforce multiple policies**
 
-###Security policies
+### Security policies
 - Access control policies: define who can access a resource
   - Discretionary(DAC)
   - Mandatory(MAC)
@@ -105,7 +105,7 @@ Design mechanisms able to **enforce multiple policies**
 - Administrative policies: define who can specify access control policies
   - Usually coupled with DAC, RBAC and ABAC
 
-##Discretionary Access Control (DAC)
+## Discretionary Access Control (DAC)
 - Intuitions:
   - The owner of a resource decides who can access it
   - Access rights can be delegated to other users
@@ -125,7 +125,7 @@ Design mechanisms able to **enforce multiple policies**
     - users can grant rights they have, to others
     - users that have control can remove rights
 
-###DAC Models
+### DAC Models
 - Take-grant model
 - **Lampson(1974)**
 - Graham-Denning(1972)
@@ -133,7 +133,7 @@ Design mechanisms able to **enforce multiple policies**
 - Griffiths-Wade(1976)
 - Originator control(1989)
 
-###Lampson: Access Matrix
+### Lampson: Access Matrix
 - Set of **subjects** S
 - Set of **objects** O
   - subjects can be considered as objects, i.e., S ⊆ O
@@ -143,13 +143,13 @@ Design mechanisms able to **enforce multiple policies**
     - administration rights: own, control
     - delegation rights: flags"*" and "+"
 
-####Sample Access Matrix 
+#### Sample Access Matrix 
 
 - “own” can add any rights
 - “control” is the right to remove rights from a subject (in Lampson’s work, in other models ownership includes control)
 - “*” flag can delegate rights to other subjects
 
-####Q&A 
+#### Q&A 
 ![Q&A](image/DACQ&A.png)
 control: S1 can remove any right of S2
 
@@ -157,7 +157,7 @@ control: S1 can remove any right of S2
 
 own: S3 can give any right on F2 to every subject
 
-####Access Matrix: Implementation
+#### Access Matrix: Implementation
 - Matrix is generally **large** and **sparse**
   - Storing the entire matrix is waste of memory space
 - Alternative approaches
@@ -165,10 +165,10 @@ own: S3 can give any right on F2 to every subject
   - **Access control lists(ACLs)**: Stored by column
   - **Capability lists**: Stored by row
 
-####Authorization table
+#### Authorization table
 ![###Authorization table](image/BA93262851EF6CEA620C3A82825B6BC2.png)
 
-####Access control lists vs. Capability lists
+#### Access control lists vs. Capability lists
 ![Access control lists vs. Capability lists](image/53E04535F20C42DBBAE2EC9F376F4526.png)
 Access control lists 
 - Objects are the starting point (per-object basis)
@@ -181,7 +181,7 @@ Access control lists
   The per-object basis usually more convenient
   Most systems based on ACLs
 
-###Harrison-Ruzzo-Ullman (HRU) Model
+### Harrison-Ruzzo-Ullman (HRU) Model
 
 Define authorization system
 - State(S,O,A)
@@ -197,29 +197,29 @@ Define authorization system
   - **enter** _r_ into A[s,o], **delete** _r_ from A[s, o], **create subject** s<sup>'</sup> ,
     **destroy subject** s<sup>'</sup> , **create object** o<sup>'</sup> , **destroy object** o<sup>'</sup>
 
-###Primitive operations
+### Primitive operations
 ![Primitive operations1](image/847AF5E6E879C86E215C4E6986FCFEC7.png)
 ![Primitive operations2](image/7E70E2B5F93928A7FA9D9FAF431BAD7A.png)
 
-###Commands
+### Commands
 Changes to the system state modeled by commands of the form
 ![commands](image/E15316BADEC9EBFA3092E53DF56B6178.png)
 with r<sub>1</sub>,...,r<sub>m</sub> rights and op<sub>1</sub>,...,op<sub>n</sub> primitive operations
 Examples:
 ![command examples](image/C87FD6FC8CBF9434DA7F3F05EEBD3850.png)
 
-###Transfer of privileges
+### Transfer of privileges
 Delegation of authority by attaching flags to privileges(e.g.,* copy flag, + transfer-only flag)
 - copy flag(*): subject can transfer privilege to others
   ![flag](image/56B57524F092898516163CD89498C15E.png)
 - transfer-only flag(+): subject can transfer privilege to others (and the flag on it), but he loses the privilege
   ![+flag](image/2094561D9AE4E0F8EEFF2D56FCB856DF.png)
 
-###State transitions
+### State transitions
 
 ![State transitions](image/Statetransitions.png)
 
-###Exercise 
+### Exercise 
 
 Write a command which allows a process p to create a new process q. where parent and child processes can signal (read/write) each other.
 
@@ -241,14 +241,14 @@ Write a command which allows a process p to create a new process q. where parent
 
 
 
-##Safety Problem
+## Safety Problem
 
-###Fundamental Questions
+### Fundamental Questions
 - How can we determine whether a system is secure? 
   - Need to define what we mean by a system being “secure”
 - Is there a generic algorithm that allows us to determine whether a computer system is secure?
 
-###Safety and Liveness
+### Safety and Liveness
 
 **Safety property**: nothing bad happens
 - the program will never produce a wrong result (“partial correctness”)
@@ -256,7 +256,7 @@ Write a command which allows a process p to create a new process q. where parent
 **Liveness property**: something good eventually happens
 - the program will produce a result (“termination”)
 
-###Examples: 
+### Examples: 
 
 C1: Whenever process P1 wants to enter the critical session, provided process P2 never stays in the critical session forever, P1 gets to enter eventually.
 
@@ -266,7 +266,7 @@ C2: It cannot happen that both processes are in their critical sessions simultan
 
 **Safety**
 
-###When is a systme secure?
+### When is a systme secure?
 
 A simple definition
 - A system is secure if it does not allow violations of security policies
@@ -274,18 +274,18 @@ A simple definition
 Alternative definition based on distribution of rights
 - No leakage of rights
 
-###Waht is a secure system?
+### What is a secure system?
 ![What is a secure system](image/Whatisasecuresystem.png)
 
-###Exercise 
+### Exercise 
 
 ![](image/WhatisasecuresystemQ.png)
 ![](image/WhatisasecuresystemA.png)
 
-###HRU: Safety Problem
+### HRU: Safety Problem
 Safety problem: Given an initial state (S,O,A) and a right r , is there any sequence of commands leaking r?
 
-###HRU and Safety: "Desired" leaks
+### HRU and Safety: "Desired" leaks
 
 Leaks are not necessarily bad
 - A system that allows sharing will of course have many leaks
@@ -294,13 +294,13 @@ Leaks are not necessarily bad
 Security for r can be considered by ignoring all trustworthy subjects (i.e., ignoring “desired” leaks)
 
 
-###Exercise 
+### Exercise 
 
 
 ![Exercise](image/leakexercise.png)
 ![](image/leakexerciseA.png)
 
-###Safety problem: Decidability
+### Safety problem: Decidability
 
 **Safety problem**: Given an initial state (S,O,A) and a right r , is there any sequence of commands leaking r?
 
@@ -309,13 +309,13 @@ Or does transfer of r violate security policies of the system?
 
 Is there a generic algorithm that allows us to determine whether a computer system is secure?
 
-###Safety problem: Some bad news
+### Safety problem: Some bad news
 
 Theorem: Verifying the security of an access matrix A with respect to a right r is undecidable.
 
 The problem can be reduced to the halting problem of a Turing machine
 
-###Safety problem: Good news?
+### Safety problem: Good news?
 A **mono-operational system** is a system in which every command consists of a single operation
 每个系统请求仅含一个操作的单操作请求系统
 **Theorem:** Verifying the security of an access matrix A with respect to a right r is decidable in a mono-operational system.
@@ -327,7 +327,7 @@ Bad news
 
 **Remark:** Decidability can also be proved for systems with a finite number of subjects and objects, or for systems where it is not possible to create new subjects and objects.
 
-##DAC weaknesses
+## DAC weaknesses
 
 DAC imposes constraints only on **direct** access
 
@@ -336,12 +336,12 @@ No control on the information once released
 - exploiting access privileges of calling subject
 
 **Trojan horses**: a program (apparently harmless) which contains malicious or harmful code
-###Trojan horses – Example
+### Trojan horses – Example
 
 ![Trojan horses – Example](image/TrojanhorsesExample.png)
 
 
-##Summary
+## Summary
 
 **Access control**: regulates the operations that can be executed on data and resources to be protected
 
@@ -353,7 +353,7 @@ No control on the information once released
 
 **DAC vulnerabilities**: Trojan horses
 
-##References
+## References
 
 B. Lampson. Protection. Proc. 5th Princeton Conf. on Information Sciences and Systems, Princeton, 1971. Reprinted in ACM Operating Systems Rev. 8(1):18–24. 1974. (obligatory)
 
